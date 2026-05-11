@@ -1,0 +1,411 @@
+{
+  "section_id": "phone_skills",
+  "title": {
+    "ar": "مهارات الهاتف",
+    "fr": "Compétences téléphone"
+  },
+  "description": {
+    "ar": "تعلّمي استخدام هاتفك بثقة — من الأساسيات إلى واتساب ويوتيوب",
+    "fr": "Apprenez à utiliser votre téléphone avec confiance — des bases à WhatsApp et YouTube"
+  },
+
+  "module_1_basics": {
+    "title": { "ar": "أساسيات الهاتف", "fr": "Les bases du téléphone" },
+    "lessons": [
+      {
+        "id": "turn_on_off",
+        "title": { "ar": "تشغيل وإطفاء الهاتف", "fr": "Allumer et éteindre le téléphone" },
+        "steps": [
+          {
+            "step": 1,
+            "instruction": { "ar": "الزر الطويل على الجانب — اضغطي عليه مطوّلاً 3 ثواني", "fr": "Le bouton long sur le côté — appuyez dessus 3 secondes" },
+            "icon": "power",
+            "tip": { "ar": "الزر عادة على اليمين أو أعلى الهاتف", "fr": "Le bouton est généralement à droite ou en haut" }
+          },
+          {
+            "step": 2,
+            "instruction": { "ar": "ستظهر شاشة ملونة — انتظري حتى يظهر القفل", "fr": "Un écran coloré apparaît — attendez que le verrou s'affiche" },
+            "icon": "screen",
+            "tip": { "ar": "لا تضغطي على أي شيء أثناء التشغيل", "fr": "Ne touchez à rien pendant le démarrage" }
+          },
+          {
+            "step": 3,
+            "instruction": { "ar": "لإطفاء الهاتف: اضغطي نفس الزر مطوّلاً ثم اختاري إطفاء", "fr": "Pour éteindre : appuyez longtemps sur le même bouton puis choisissez 'Éteindre'" },
+            "icon": "power_off"
+          }
+        ]
+      },
+      {
+        "id": "lock_unlock",
+        "title": { "ar": "قفل وفتح الشاشة", "fr": "Verrouiller et déverrouiller l'écran" },
+        "steps": [
+          {
+            "step": 1,
+            "instruction": { "ar": "لقفل الشاشة: اضغطي الزر الجانبي ضغطة سريعة", "fr": "Pour verrouiller : appuyez brièvement sur le bouton latéral" },
+            "icon": "lock"
+          },
+          {
+            "step": 2,
+            "instruction": { "ar": "لفتح الشاشة: اضغطي نفس الزر ثم مرّري للأعلى", "fr": "Pour déverrouiller : appuyez sur le bouton puis glissez vers le haut" },
+            "icon": "unlock"
+          },
+          {
+            "step": 3,
+            "instruction": { "ar": "أدخلي الرمز السري — 4 أرقام تختارينها أنتِ", "fr": "Entrez le code secret — 4 chiffres que vous choisissez" },
+            "icon": "pin",
+            "tip": { "ar": "اختاري رقماً تتذكرينه مثل تاريخ ميلادك — لكن لا تخبري به أحداً", "fr": "Choisissez un numéro facile à retenir — mais ne le partagez avec personne" }
+          }
+        ]
+      },
+      {
+        "id": "touch_gestures",
+        "title": { "ar": "حركات اللمس", "fr": "Les gestes tactiles" },
+        "gestures": [
+          {
+            "name": { "ar": "الضغط", "fr": "Appuyer (Tap)" },
+            "description": { "ar": "لمسة سريعة بإصبع واحد — مثل اختيار تطبيق", "fr": "Un toucher rapide avec un doigt — pour ouvrir une app" },
+            "icon": "tap"
+          },
+          {
+            "name": { "ar": "الضغط المطوّل", "fr": "Appuyer longtemps (Long press)" },
+            "description": { "ar": "ضعي إصبعك واتركيه ثانيتين — لظهور خيارات إضافية", "fr": "Posez votre doigt 2 secondes — pour voir plus d'options" },
+            "icon": "long_press"
+          },
+          {
+            "name": { "ar": "التمرير", "fr": "Glisser (Scroll)" },
+            "description": { "ar": "حرّكي إصبعك للأعلى أو الأسفل — لرؤية المزيد", "fr": "Déplacez votre doigt vers le haut ou le bas — pour voir plus" },
+            "icon": "scroll"
+          },
+          {
+            "name": { "ar": "التكبير", "fr": "Zoomer (Pinch)" },
+            "description": { "ar": "ضعي إصبعين وباعدي بينهما — لتكبير الصورة أو الكتابة", "fr": "Posez deux doigts et écartez-les — pour agrandir" },
+            "icon": "pinch_zoom"
+          }
+        ]
+      },
+      {
+        "id": "volume_brightness",
+        "title": { "ar": "الصوت والإضاءة", "fr": "Volume et luminosité" },
+        "controls": [
+          {
+            "control": { "ar": "رفع الصوت", "fr": "Augmenter le volume" },
+            "instruction": { "ar": "اضغطي الزر العلوي على الجانب الأيسر", "fr": "Appuyez sur le bouton haut à gauche" },
+            "icon": "volume_up"
+          },
+          {
+            "control": { "ar": "خفض الصوت", "fr": "Baisser le volume" },
+            "instruction": { "ar": "اضغطي الزر السفلي على الجانب الأيسر", "fr": "Appuyez sur le bouton bas à gauche" },
+            "icon": "volume_down"
+          },
+          {
+            "control": { "ar": "الوضع الصامت", "fr": "Mode silencieux" },
+            "instruction": { "ar": "اخفضي الصوت للنهاية أو اسحبي من الأعلى واضغطي رمز الجرس", "fr": "Baissez le volume au minimum ou tirez depuis le haut et appuyez sur l'icône cloche" },
+            "icon": "silent"
+          },
+          {
+            "control": { "ar": "إضاءة الشاشة", "fr": "Luminosité de l'écran" },
+            "instruction": { "ar": "اسحبي من أعلى الشاشة — حرّكي شريط الشمس يميناً (أكثر) أو يساراً (أقل)", "fr": "Tirez depuis le haut — déplacez la barre soleil à droite (plus) ou gauche (moins)" },
+            "icon": "brightness"
+          }
+        ]
+      },
+      {
+        "id": "battery_charging",
+        "title": { "ar": "البطارية والشحن", "fr": "Batterie et charge" },
+        "info": [
+          {
+            "topic": { "ar": "معرفة مستوى البطارية", "fr": "Voir le niveau de batterie" },
+            "instruction": { "ar": "انظري أعلى يمين الشاشة — الرمز يشبه العمود", "fr": "Regardez en haut à droite — l'icône ressemble à une pile" },
+            "icon": "battery"
+          },
+          {
+            "topic": { "ar": "شحن الهاتف", "fr": "Charger le téléphone" },
+            "instruction": { "ar": "أدخلي الشاحن في الفتحة السفلية — يظهر رمز البرق", "fr": "Insérez le chargeur dans le port en bas — l'icône éclair apparaît" },
+            "icon": "charging"
+          },
+          {
+            "topic": { "ar": "نصائح البطارية", "fr": "Conseils batterie" },
+            "tips": [
+              { "ar": "اشحني الهاتف قبل ما يوصل لـ 0%", "fr": "Chargez avant que ça atteigne 0%" },
+              { "ar": "لا تتركيه يشحن طول الليل كل يوم", "fr": "Ne le laissez pas charger toute la nuit chaque jour" },
+              { "ar": "أغلقي التطبيقات التي لا تستعملينها", "fr": "Fermez les apps que vous n'utilisez pas" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "module_2_calls_contacts": {
+    "title": { "ar": "المكالمات وجهات الاتصال", "fr": "Appels et contacts" },
+    "lessons": [
+      {
+        "id": "make_call",
+        "title": { "ar": "إجراء مكالمة", "fr": "Passer un appel" },
+        "steps": [
+          { "step": 1, "instruction": { "ar": "اضغطي على رمز الهاتف (الأخضر)", "fr": "Appuyez sur l'icône téléphone (verte)" }, "icon": "phone_green" },
+          { "step": 2, "instruction": { "ar": "اضغطي على لوحة الأرقام", "fr": "Appuyez sur le clavier numérique" }, "icon": "dialpad" },
+          { "step": 3, "instruction": { "ar": "أدخلي الرقم ثم اضغطي الزر الأخضر", "fr": "Composez le numéro puis appuyez sur le bouton vert" }, "icon": "call_button" },
+          { "step": 4, "instruction": { "ar": "لإنهاء المكالمة: اضغطي الزر الأحمر", "fr": "Pour raccrocher : appuyez sur le bouton rouge" }, "icon": "hangup" }
+        ]
+      },
+      {
+        "id": "answer_call",
+        "title": { "ar": "الرد على مكالمة", "fr": "Répondre à un appel" },
+        "steps": [
+          { "step": 1, "instruction": { "ar": "عندما يرن الهاتف، ستظهر شاشة خضراء وحمراء", "fr": "Quand le téléphone sonne, un écran vert et rouge apparaît" }, "icon": "incoming_call" },
+          { "step": 2, "instruction": { "ar": "للرد: اسحبي الزر الأخضر أو اضغطي عليه", "fr": "Pour répondre : glissez le bouton vert ou appuyez dessus" }, "icon": "answer" },
+          { "step": 3, "instruction": { "ar": "للرفض: اسحبي الزر الأحمر", "fr": "Pour refuser : glissez le bouton rouge" }, "icon": "decline" }
+        ]
+      },
+      {
+        "id": "save_contact",
+        "title": { "ar": "حفظ رقم في جهات الاتصال", "fr": "Enregistrer un contact" },
+        "steps": [
+          { "step": 1, "instruction": { "ar": "افتحي تطبيق جهات الاتصال (رمز الشخص)", "fr": "Ouvrez l'app Contacts (icône personne)" }, "icon": "contacts" },
+          { "step": 2, "instruction": { "ar": "اضغطي على + (إضافة جديد)", "fr": "Appuyez sur + (ajouter nouveau)" }, "icon": "add" },
+          { "step": 3, "instruction": { "ar": "اكتبي الاسم — يمكن حتى بالدارجة: 'مول الحانوت'، 'الطبيب'", "fr": "Écrivez le nom — même en darija : 'moul l7anout', 'tbib'" }, "icon": "name_field" },
+          { "step": 4, "instruction": { "ar": "أدخلي الرقم ثم اضغطي حفظ ✓", "fr": "Entrez le numéro puis appuyez sur Enregistrer ✓" }, "icon": "save" }
+        ],
+        "tip": { "ar": "💡 احفظي الأرقام المهمة: الطبيب، المدرسة، الجيران، الطوارئ 150/15", "fr": "💡 Enregistrez les numéros importants : médecin, école, voisins, urgences 150/15" }
+      },
+      {
+        "id": "important_numbers",
+        "title": { "ar": "أرقام مهمة في المغرب", "fr": "Numéros importants au Maroc" },
+        "numbers": [
+          { "name": { "ar": "الشرطة", "fr": "Police" }, "number": "19", "icon": "police" },
+          { "name": { "ar": "الدرك الملكي", "fr": "Gendarmerie Royale" }, "number": "177", "icon": "gendarmerie" },
+          { "name": { "ar": "الإسعاف", "fr": "Ambulance / SAMU" }, "number": "150", "icon": "ambulance" },
+          { "name": { "ar": "الوقاية المدنية (حريق)", "fr": "Pompiers" }, "number": "15", "icon": "fire" },
+          { "name": { "ar": "معلومات", "fr": "Renseignements" }, "number": "160", "icon": "info" },
+          { "name": { "ar": "حماية المستهلك", "fr": "Protection du consommateur" }, "number": "0801 00 09 09", "icon": "consumer" }
+        ]
+      }
+    ]
+  },
+
+  "module_3_whatsapp": {
+    "title": { "ar": "واتساب", "fr": "WhatsApp" },
+    "intro": {
+      "ar": "واتساب هو أكثر تطبيق يستعمله المغاربة للتواصل — مجاني ويحتاج فقط الإنترنت",
+      "fr": "WhatsApp est l'app la plus utilisée par les Marocains — gratuite, elle ne nécessite qu'internet"
+    },
+    "lessons": [
+      {
+        "id": "wa_send_message",
+        "title": { "ar": "إرسال رسالة", "fr": "Envoyer un message" },
+        "steps": [
+          { "step": 1, "instruction": { "ar": "افتحي واتساب (الأيقونة الخضراء مع الهاتف الأبيض)", "fr": "Ouvrez WhatsApp (icône verte avec téléphone blanc)" }, "icon": "whatsapp" },
+          { "step": 2, "instruction": { "ar": "اختاري اسم الشخص من القائمة", "fr": "Choisissez le nom de la personne dans la liste" }, "icon": "contact_list" },
+          { "step": 3, "instruction": { "ar": "اضغطي على المستطيل الأبيض في الأسفل", "fr": "Appuyez sur le rectangle blanc en bas" }, "icon": "text_field" },
+          { "step": 4, "instruction": { "ar": "اكتبي رسالتك ثم اضغطي السهم الأخضر ←", "fr": "Écrivez votre message puis appuyez sur la flèche verte ←" }, "icon": "send" }
+        ]
+      },
+      {
+        "id": "wa_voice_message",
+        "title": { "ar": "إرسال رسالة صوتية", "fr": "Envoyer un message vocal" },
+        "steps": [
+          { "step": 1, "instruction": { "ar": "افتحي المحادثة مع الشخص", "fr": "Ouvrez la conversation avec la personne" }, "icon": "chat" },
+          { "step": 2, "instruction": { "ar": "اضغطي مطوّلاً على رمز المايكروفون 🎤", "fr": "Appuyez longuement sur l'icône microphone 🎤" }, "icon": "mic" },
+          { "step": 3, "instruction": { "ar": "تكلّمي — إصبعك لازم يبقى ضاغط", "fr": "Parlez — gardez votre doigt appuyé" }, "icon": "recording" },
+          { "step": 4, "instruction": { "ar": "ارفعي إصبعك لإرسال — أو اسحبي يساراً لإلغاء", "fr": "Levez votre doigt pour envoyer — glissez à gauche pour annuler" }, "icon": "send_voice" }
+        ],
+        "tip": { "ar": "💡 الرسالة الصوتية أسهل من الكتابة — استعمليها بحرية!", "fr": "💡 Le message vocal est plus facile que l'écriture — utilisez-le librement !" }
+      },
+      {
+        "id": "wa_send_photo",
+        "title": { "ar": "إرسال صورة", "fr": "Envoyer une photo" },
+        "steps": [
+          { "step": 1, "instruction": { "ar": "في المحادثة، اضغطي على رمز المشبك 📎", "fr": "Dans la conversation, appuyez sur l'icône trombone 📎" }, "icon": "attach" },
+          { "step": 2, "instruction": { "ar": "اختاري 'الكاميرا' لصورة جديدة أو 'المعرض' لصورة موجودة", "fr": "Choisissez 'Appareil photo' pour une nouvelle photo ou 'Galerie' pour une existante" }, "icon": "camera_gallery" },
+          { "step": 3, "instruction": { "ar": "اختاري الصورة ثم اضغطي السهم الأخضر ←", "fr": "Choisissez la photo puis appuyez sur la flèche verte ←" }, "icon": "send_photo" }
+        ]
+      },
+      {
+        "id": "wa_video_call",
+        "title": { "ar": "مكالمة فيديو", "fr": "Appel vidéo" },
+        "steps": [
+          { "step": 1, "instruction": { "ar": "افتحي محادثة الشخص", "fr": "Ouvrez la conversation de la personne" }, "icon": "chat" },
+          { "step": 2, "instruction": { "ar": "اضغطي على رمز الكاميرا 📹 في الأعلى", "fr": "Appuyez sur l'icône caméra 📹 en haut" }, "icon": "video_call" },
+          { "step": 3, "instruction": { "ar": "انتظري حتى يردّ الشخص الآخر", "fr": "Attendez que l'autre personne réponde" }, "icon": "ringing" }
+        ],
+        "tip": { "ar": "💡 تأكدي من اتصالك بالواي فاي لأن مكالمات الفيديو تستهلك الإنترنت", "fr": "💡 Assurez-vous d'être en Wi-Fi car les appels vidéo consomment beaucoup d'internet" }
+      },
+      {
+        "id": "wa_group",
+        "title": { "ar": "المجموعات", "fr": "Les groupes" },
+        "info": {
+          "ar": "المجموعات تجمع عدة أشخاص في محادثة واحدة — مفيدة للعائلة أو الجيران",
+          "fr": "Les groupes réunissent plusieurs personnes dans une conversation — utile pour la famille ou les voisins"
+        },
+        "tips": [
+          { "ar": "يمكنك كتم المجموعات المزعجة: اضغطي مطوّلاً على المجموعة ← كتم", "fr": "Vous pouvez mettre en sourdine les groupes gênants : appui long sur le groupe → Muet" },
+          { "ar": "احذري من الروابط المشبوهة في المجموعات — لا تضغطي عليها", "fr": "Méfiez-vous des liens suspects dans les groupes — ne cliquez pas dessus" },
+          { "ar": "لا تشاركي معلوماتك الشخصية (رقم البطاقة، العنوان) في المجموعات", "fr": "Ne partagez pas vos infos personnelles (numéro de carte, adresse) dans les groupes" }
+        ]
+      },
+      {
+        "id": "wa_status",
+        "title": { "ar": "الحالة (الستاتي)", "fr": "Le statut" },
+        "steps": [
+          { "step": 1, "instruction": { "ar": "اضغطي على 'الحالة' في الأسفل", "fr": "Appuyez sur 'Statut' en bas" }, "icon": "status_tab" },
+          { "step": 2, "instruction": { "ar": "اضغطي على + أو رمز القلم أو الكاميرا", "fr": "Appuyez sur + ou l'icône stylo ou appareil photo" }, "icon": "add_status" },
+          { "step": 3, "instruction": { "ar": "اختاري صورة أو اكتبي نصاً ثم اضغطي إرسال", "fr": "Choisissez une photo ou écrivez un texte puis envoyez" }, "icon": "post_status" }
+        ],
+        "tip": { "ar": "💡 الحالة تختفي بعد 24 ساعة — لن تبقى للأبد", "fr": "💡 Le statut disparaît après 24h — il ne reste pas pour toujours" }
+      }
+    ]
+  },
+
+  "module_4_youtube": {
+    "title": { "ar": "يوتيوب", "fr": "YouTube" },
+    "intro": {
+      "ar": "يوتيوب فيه فيديوهات لكل شيء: طبخ، دين، صحة، تعلّم — ومجاني",
+      "fr": "YouTube a des vidéos sur tout : cuisine, religion, santé, apprentissage — et c'est gratuit"
+    },
+    "lessons": [
+      {
+        "id": "yt_search",
+        "title": { "ar": "البحث عن فيديو", "fr": "Chercher une vidéo" },
+        "steps": [
+          { "step": 1, "instruction": { "ar": "افتحي يوتيوب (المثلث الأحمر والأبيض)", "fr": "Ouvrez YouTube (triangle rouge et blanc)" }, "icon": "youtube" },
+          { "step": 2, "instruction": { "ar": "اضغطي على 🔍 في الأعلى", "fr": "Appuyez sur 🔍 en haut" }, "icon": "search" },
+          { "step": 3, "instruction": { "ar": "اكتبي ما تبحثين عنه أو اضغطي 🎤 وتكلّمي بالدارجة", "fr": "Écrivez ce que vous cherchez ou appuyez sur 🎤 et parlez en darija" }, "icon": "voice_search" },
+          { "step": 4, "instruction": { "ar": "اضغطي على الفيديو الذي يعجبك", "fr": "Appuyez sur la vidéo qui vous plaît" }, "icon": "play" }
+        ],
+        "tip": { "ar": "💡 البحث الصوتي يفهم الدارجة! جرّبي: 'طريقة الرفيسة' أو 'وصفة البسطيلة'", "fr": "💡 La recherche vocale comprend le darija ! Essayez : 'tri9at rfissa' ou 'wasafat bastilla'" }
+      },
+      {
+        "id": "yt_suggested_searches",
+        "title": { "ar": "بحث مقترح مفيد", "fr": "Recherches utiles suggérées" },
+        "searches": [
+          { "ar": "طبخ مغربي", "fr": "Cuisine marocaine", "query": "طبخ مغربي سهل" },
+          { "ar": "القرآن الكريم", "fr": "Coran", "query": "القرآن الكريم بصوت جميل" },
+          { "ar": "تمارين رياضية للنساء", "fr": "Exercices pour femmes", "query": "تمارين رياضية في البيت" },
+          { "ar": "تعليم القراءة", "fr": "Apprendre à lire", "query": "تعليم القراءة والكتابة للكبار" },
+          { "ar": "خياطة", "fr": "Couture", "query": "تعليم الخياطة للمبتدئين" },
+          { "ar": "نصائح صحية", "fr": "Conseils santé", "query": "نصائح صحية للمرأة" }
+        ]
+      }
+    ]
+  },
+
+  "module_5_google_maps": {
+    "title": { "ar": "خرائط جوجل", "fr": "Google Maps" },
+    "intro": {
+      "ar": "خرائط جوجل تساعدك توصلي لأي مكان بدون ما تتوهّي",
+      "fr": "Google Maps vous aide à trouver n'importe quel endroit sans vous perdre"
+    },
+    "lessons": [
+      {
+        "id": "maps_find_place",
+        "title": { "ar": "البحث عن مكان", "fr": "Chercher un lieu" },
+        "steps": [
+          { "step": 1, "instruction": { "ar": "افتحي خرائط جوجل (الرمز الملون)", "fr": "Ouvrez Google Maps (icône colorée)" }, "icon": "maps" },
+          { "step": 2, "instruction": { "ar": "اضغطي على شريط البحث في الأعلى", "fr": "Appuyez sur la barre de recherche en haut" }, "icon": "search_bar" },
+          { "step": 3, "instruction": { "ar": "اكتبي أو قولي اسم المكان: 'أقرب صيدلية'، 'مستشفى'", "fr": "Écrivez ou dites le nom du lieu : 'pharmacie la plus proche', 'hôpital'" }, "icon": "search_place" },
+          { "step": 4, "instruction": { "ar": "اضغطي 'الاتجاهات' للحصول على الطريق", "fr": "Appuyez sur 'Itinéraire' pour obtenir le chemin" }, "icon": "directions" }
+        ]
+      },
+      {
+        "id": "maps_useful_searches",
+        "title": { "ar": "بحث مفيد في الخريطة", "fr": "Recherches utiles sur la carte" },
+        "searches": [
+          { "ar": "أقرب صيدلية", "fr": "Pharmacie la plus proche" },
+          { "ar": "أقرب مستوصف", "fr": "Dispensaire le plus proche" },
+          { "ar": "أقرب مدرسة", "fr": "École la plus proche" },
+          { "ar": "المقاطعة / البلدية", "fr": "Arrondissement / Commune" },
+          { "ar": "أقرب بنك", "fr": "Banque la plus proche" },
+          { "ar": "سوق الخضر", "fr": "Marché de légumes" }
+        ]
+      },
+      {
+        "id": "maps_share_location",
+        "title": { "ar": "مشاركة موقعك (مهم للطوارئ)", "fr": "Partager votre position (important pour les urgences)" },
+        "steps": [
+          { "step": 1, "instruction": { "ar": "افتحي واتساب ← محادثة الشخص", "fr": "Ouvrez WhatsApp → conversation de la personne" }, "icon": "whatsapp" },
+          { "step": 2, "instruction": { "ar": "اضغطي على المشبك 📎 ← الموقع 📍", "fr": "Appuyez sur le trombone 📎 → Position 📍" }, "icon": "location_share" },
+          { "step": 3, "instruction": { "ar": "اختاري 'إرسال موقعك الحالي'", "fr": "Choisissez 'Envoyer votre position actuelle'" }, "icon": "send_location" }
+        ],
+        "tip": { "ar": "💡 مفيد جداً في حالة الطوارئ — أرسلي موقعك للإسعاف أو لأهلك", "fr": "💡 Très utile en urgence — envoyez votre position aux secours ou à votre famille" }
+      }
+    ]
+  },
+
+  "module_6_moroccan_apps": {
+    "title": { "ar": "تطبيقات مغربية مفيدة", "fr": "Applications marocaines utiles" },
+    "apps": [
+      {
+        "name": "Inwi Money / Orange Money",
+        "category": { "ar": "تحويل الأموال", "fr": "Transfert d'argent" },
+        "description": { "ar": "أرسلي واستقبلي الفلوس من الهاتف — بدون ما تمشي للبنك", "fr": "Envoyez et recevez de l'argent depuis votre téléphone — sans aller à la banque" },
+        "icon": "money_transfer"
+      },
+      {
+        "name": "Jumia / Hmizate",
+        "category": { "ar": "التسوق عبر الإنترنت", "fr": "Shopping en ligne" },
+        "description": { "ar": "اشتري حوائجك من الهاتف — توصلك للدار", "fr": "Achetez depuis votre téléphone — livraison à domicile" },
+        "icon": "shopping",
+        "warning": { "ar": "⚠️ احذري من العروض الوهمية — اشتري فقط من المواقع المعروفة", "fr": "⚠️ Méfiez-vous des fausses offres — achetez uniquement sur les sites connus" }
+      },
+      {
+        "name": "Jawaz",
+        "category": { "ar": "الطريق السيار", "fr": "Autoroute" },
+        "description": { "ar": "لمعرفة رصيدك في الطريق السيار", "fr": "Pour consulter votre solde autoroute" },
+        "icon": "highway"
+      },
+      {
+        "name": "RAMED / AMO",
+        "category": { "ar": "التأمين الصحي", "fr": "Assurance maladie" },
+        "description": { "ar": "تتبعي ملفك في التغطية الصحية", "fr": "Suivez votre dossier d'assurance maladie" },
+        "icon": "health_insurance"
+      },
+      {
+        "name": "Mon Compte Lydec / ONEE",
+        "category": { "ar": "فواتير الماء والكهرباء", "fr": "Factures eau et électricité" },
+        "description": { "ar": "شوفي الفاتورة وخلصيها من الهاتف", "fr": "Consultez et payez vos factures depuis le téléphone" },
+        "icon": "utilities"
+      },
+      {
+        "name": "Rendez-vous.ma",
+        "category": { "ar": "حجز موعد مع الطبيب", "fr": "Rendez-vous médecin" },
+        "description": { "ar": "حجزي موعد عند الطبيب من الهاتف — بدون ما تتصلي", "fr": "Prenez rendez-vous chez le médecin depuis votre téléphone" },
+        "icon": "doctor_appointment"
+      }
+    ]
+  },
+
+  "module_7_wifi_internet": {
+    "title": { "ar": "الواي فاي والإنترنت", "fr": "Wi-Fi et Internet" },
+    "lessons": [
+      {
+        "id": "connect_wifi",
+        "title": { "ar": "الاتصال بالواي فاي", "fr": "Se connecter au Wi-Fi" },
+        "steps": [
+          { "step": 1, "instruction": { "ar": "افتحي الإعدادات (رمز الترس ⚙️)", "fr": "Ouvrez les Paramètres (icône engrenage ⚙️)" }, "icon": "settings" },
+          { "step": 2, "instruction": { "ar": "اضغطي على 'واي فاي' أو 'Wi-Fi'", "fr": "Appuyez sur 'Wi-Fi'" }, "icon": "wifi" },
+          { "step": 3, "instruction": { "ar": "فعّلي الواي فاي بالزر", "fr": "Activez le Wi-Fi avec le bouton" }, "icon": "toggle_on" },
+          { "step": 4, "instruction": { "ar": "اختاري اسم شبكة بيتكم من القائمة", "fr": "Choisissez le nom de votre réseau dans la liste" }, "icon": "network_list" },
+          { "step": 5, "instruction": { "ar": "أدخلي كلمة السر (مكتوبة عادة خلف الروتور)", "fr": "Entrez le mot de passe (écrit souvent derrière le routeur)" }, "icon": "password" }
+        ],
+        "tip": { "ar": "💡 كلمة سر الواي فاي مكتوبة غالباً وراء علبة الروتور — الجهاز اللي فيه الأضواء الخضراء", "fr": "💡 Le mot de passe Wi-Fi est souvent écrit derrière le routeur — la box avec les lumières vertes" }
+      },
+      {
+        "id": "wifi_vs_data",
+        "title": { "ar": "الفرق بين الواي فاي والبيانات", "fr": "Différence entre Wi-Fi et données mobiles" },
+        "comparison": [
+          {
+            "type": "Wi-Fi",
+            "description": { "ar": "إنترنت البيت — مجاني (بعد ما تخلصي الاشتراك الشهري)", "fr": "Internet de la maison — gratuit (après l'abonnement mensuel)" },
+            "when_to_use": { "ar": "في البيت — للفيديو والمكالمات والتحميل", "fr": "À la maison — pour les vidéos, appels et téléchargements" }
+          },
+          {
+            "type": { "ar": "البيانات (الفورفي)", "fr": "Données mobiles (forfait)" },
+            "description": { "ar": "إنترنت من الشريحة — تخلص بحسب الاستعمال", "fr": "Internet depuis la carte SIM — se consomme selon l'utilisation" },
+            "when_to_use": { "ar": "برّا — للرسائل ومكالمات قصيرة فقط", "fr": "Dehors — pour les messages et appels courts seulement" }
+          }
+        ]
+      }
+    ]
+  }
+}

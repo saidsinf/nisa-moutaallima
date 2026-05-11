@@ -1,0 +1,564 @@
+{
+  "section_id": "life_skills",
+  "title": {
+    "ar": "مهارات الحياة اليومية",
+    "fr": "Compétences de la vie quotidienne"
+  },
+  "description": {
+    "ar": "تعلمي كيفاش تدبّري الفلوس، الصحة، التغذية، والدار",
+    "fr": "Apprenez à gérer l'argent, la santé, la nutrition et la maison"
+  },
+  "icon": "home",
+
+  "module_1_budget": {
+    "title": { "ar": "تدبير الميزانية", "fr": "Gestion du budget" },
+    "icon": "wallet",
+    "intro": {
+      "ar": "الفلوس اللي كتدخل خاصها تكفي الشهر كامل. تعلمي كيفاش تنظميها",
+      "fr": "L'argent qui rentre doit suffire pour tout le mois. Apprenez à l'organiser"
+    },
+    "envelope_method": {
+      "title": { "ar": "طريقة الأظرفة", "fr": "La méthode des enveloppes" },
+      "description": {
+        "ar": "قسّمي الفلوس ديال الشهر في أظرفة — كل ظرف لحاجة وحدة",
+        "fr": "Divisez l'argent du mois dans des enveloppes — chaque enveloppe pour une dépense"
+      },
+      "envelopes": [
+        {
+          "name": { "ar": "المأكل", "fr": "Alimentation" },
+          "percentage": 40,
+          "color": "#4CAF50",
+          "tips": {
+            "ar": "اشري اللحم والخضرة بالجملة مرة في الأسبوع. دخّلي للكوجينة قبل ما تمشي للسوق",
+            "fr": "Achetez la viande et les légumes en gros une fois par semaine. Planifiez les repas avant d'aller au marché"
+          }
+        },
+        {
+          "name": { "ar": "الدار (الكراء، الما، الضو)", "fr": "Maison (loyer, eau, électricité)" },
+          "percentage": 25,
+          "color": "#2196F3",
+          "tips": {
+            "ar": "خلّصي الكراء والفاكتورات أول حاجة ملي تجيك الفلوس",
+            "fr": "Payez le loyer et les factures en premier dès que l'argent arrive"
+          }
+        },
+        {
+          "name": { "ar": "المدرسة والأولاد", "fr": "École et enfants" },
+          "percentage": 15,
+          "color": "#FF9800",
+          "tips": {
+            "ar": "شري الأدوات المدرسية قبل الدخول بشهر — الأثمنة كتكون أرخص",
+            "fr": "Achetez les fournitures scolaires un mois avant la rentrée — les prix sont moins chers"
+          }
+        },
+        {
+          "name": { "ar": "الصحة والطوارئ", "fr": "Santé et urgences" },
+          "percentage": 10,
+          "color": "#F44336",
+          "tips": {
+            "ar": "حتى إلا ما وقع والو، خبّي هاد الفلوس. غادي تحتاجيهم شي نهار",
+            "fr": "Même s'il ne se passe rien, gardez cet argent. Vous en aurez besoin un jour"
+          }
+        },
+        {
+          "name": { "ar": "حاجيات شخصية", "fr": "Besoins personnels" },
+          "percentage": 10,
+          "color": "#9C27B0",
+          "tips": {
+            "ar": "هاد الفلوس ديالك نت — ما تحشميش تصرفيهم على راسك",
+            "fr": "Cet argent est pour vous — n'ayez pas honte de le dépenser pour vous"
+          }
+        }
+      ]
+    },
+    "saving_tips": [
+      {
+        "tip": { "ar": "ديري ليسطة قبل ما تمشي للسوق", "fr": "Faites une liste avant d'aller au marché" },
+        "saving": { "ar": "كتوفّري 20% تقريبا", "fr": "Vous économisez environ 20%" }
+      },
+      {
+        "tip": { "ar": "شري الخضرة والفاكية ديال الموسم", "fr": "Achetez les fruits et légumes de saison" },
+        "saving": { "ar": "أرخص ب 50% من اللي ماشي ديال الموسم", "fr": "50% moins cher que hors saison" }
+      },
+      {
+        "tip": { "ar": "طيّبي فالدار بدل ما تشري ماكلة جاهزة", "fr": "Cuisinez à la maison au lieu d'acheter de la nourriture toute prête" },
+        "saving": { "ar": "كتوفّري 3 مرات الثمن", "fr": "Vous économisez 3 fois le prix" }
+      },
+      {
+        "tip": { "ar": "قارني الأثمنة بين حانوتين قبل ما تشري", "fr": "Comparez les prix entre deux magasins avant d'acheter" },
+        "saving": { "ar": "الفرق ممكن يوصل 30%", "fr": "La différence peut aller jusqu'à 30%" }
+      },
+      {
+        "tip": { "ar": "خبّي 50 درهم كل شهر في بلاصة سرية", "fr": "Cachez 50 DH chaque mois dans un endroit secret" },
+        "saving": { "ar": "600 درهم في العام — تقدري تستعمليهم في الطوارئ", "fr": "600 DH par an — pour les urgences" }
+      }
+    ],
+    "expense_tracker": {
+      "title": { "ar": "دفتر المصاريف ديالي", "fr": "Mon carnet de dépenses" },
+      "description": {
+        "ar": "كل يوم كتبي شحال صرفتي وعلى شنو. في آخر الأسبوع شوفي فين مشاو الفلوس",
+        "fr": "Chaque jour notez combien vous avez dépensé et pour quoi. En fin de semaine voyez où est parti l'argent"
+      },
+      "columns": [
+        { "ar": "النهار", "fr": "Jour" },
+        { "ar": "شنو شريت", "fr": "Quoi" },
+        { "ar": "شحال", "fr": "Combien" },
+        { "ar": "ضروري ولا لا", "fr": "Nécessaire ou non" }
+      ]
+    }
+  },
+
+  "module_2_nutrition": {
+    "title": { "ar": "التغذية الصحية", "fr": "Nutrition saine" },
+    "icon": "apple",
+    "intro": {
+      "ar": "الماكلة الصحية ما خاصهاش تكون غالية. تعلمي كيفاش تطيّبي ماكلة مفيدة بثمن معقول",
+      "fr": "Une alimentation saine ne doit pas être chère. Apprenez à préparer des repas nutritifs à prix raisonnable"
+    },
+    "food_groups": [
+      {
+        "group": { "ar": "الخضرة والفاكية", "fr": "Fruits et légumes" },
+        "color": "#4CAF50",
+        "daily_amount": { "ar": "5 حصص في النهار", "fr": "5 portions par jour" },
+        "cheap_options": {
+          "ar": ["البصلة", "الجزر", "الباطاطا", "القرعة", "البرتقال", "الموز", "التفاح"],
+          "fr": ["Oignon", "Carotte", "Pomme de terre", "Courgette", "Orange", "Banane", "Pomme"]
+        },
+        "tip": {
+          "ar": "الخضرة المجمدة عندها نفس الفيتامينات وأرخص",
+          "fr": "Les légumes surgelés ont les mêmes vitamines et sont moins chers"
+        }
+      },
+      {
+        "group": { "ar": "الحبوب والنشويات", "fr": "Céréales et féculents" },
+        "color": "#FF9800",
+        "daily_amount": { "ar": "في كل وجبة", "fr": "À chaque repas" },
+        "cheap_options": {
+          "ar": ["الخبز البلدي", "الشعير (البركوكش)", "العدس", "الأرز", "السميدة"],
+          "fr": ["Pain complet", "Orge (berkoukes)", "Lentilles", "Riz", "Semoule"]
+        },
+        "tip": {
+          "ar": "الخبز البلدي أحسن من الخبز الأبيض — فيه الألياف",
+          "fr": "Le pain complet est meilleur que le pain blanc — il contient des fibres"
+        }
+      },
+      {
+        "group": { "ar": "البروتينات", "fr": "Protéines" },
+        "color": "#F44336",
+        "daily_amount": { "ar": "مرتين في النهار", "fr": "2 fois par jour" },
+        "cheap_options": {
+          "ar": ["العدس", "الحمص", "اللوبيا", "البيض", "السردين", "الدجاج"],
+          "fr": ["Lentilles", "Pois chiches", "Haricots", "Œufs", "Sardines", "Poulet"]
+        },
+        "tip": {
+          "ar": "العدس والحمص فيهم بروتين بحال اللحم وأرخص بزاف",
+          "fr": "Les lentilles et pois chiches contiennent autant de protéines que la viande et sont beaucoup moins chers"
+        }
+      },
+      {
+        "group": { "ar": "الحليب ومشتقاته", "fr": "Produits laitiers" },
+        "color": "#2196F3",
+        "daily_amount": { "ar": "2-3 مرات في النهار", "fr": "2-3 fois par jour" },
+        "cheap_options": {
+          "ar": ["الحليب", "اللبن (الرايب)", "الجبن الطري"],
+          "fr": ["Lait", "Lait fermenté (raïb)", "Fromage frais"]
+        },
+        "tip": {
+          "ar": "الحليب المجفف أرخص وفيه نفس الكالسيوم",
+          "fr": "Le lait en poudre est moins cher et contient le même calcium"
+        }
+      }
+    ],
+    "weekly_meal_plan": {
+      "title": { "ar": "برنامج الأسبوع ديال الماكلة", "fr": "Menu de la semaine" },
+      "description": {
+        "ar": "مثال ديال أسبوع كامل بثمن معقول",
+        "fr": "Exemple d'une semaine complète à prix raisonnable"
+      },
+      "days": [
+        {
+          "day": { "ar": "الإثنين", "fr": "Lundi" },
+          "lunch": { "ar": "عدس مع الخبز البلدي وسلاطة", "fr": "Lentilles avec pain complet et salade" },
+          "dinner": { "ar": "عجة (أومليت) مع خضرة", "fr": "Omelette avec légumes" }
+        },
+        {
+          "day": { "ar": "الثلاثاء", "fr": "Mardi" },
+          "lunch": { "ar": "دجاج مشوي مع الأرز والجزر", "fr": "Poulet grillé avec riz et carottes" },
+          "dinner": { "ar": "حريرة خفيفة", "fr": "Harira légère" }
+        },
+        {
+          "day": { "ar": "الأربعاء", "fr": "Mercredi" },
+          "lunch": { "ar": "سردين مقلي مع البطاطا والسلاطة", "fr": "Sardines frites avec pommes de terre et salade" },
+          "dinner": { "ar": "شوربة خضرة مع الخبز", "fr": "Soupe de légumes avec pain" }
+        },
+        {
+          "day": { "ar": "الخميس", "fr": "Jeudi" },
+          "lunch": { "ar": "كسكس بالخضرة والحمص", "fr": "Couscous aux légumes et pois chiches" },
+          "dinner": { "ar": "بيض مسلوق مع سلاطة", "fr": "Œufs durs avec salade" }
+        },
+        {
+          "day": { "ar": "الجمعة", "fr": "Vendredi" },
+          "lunch": { "ar": "كسكس بالدجاج (تقليدي)", "fr": "Couscous au poulet (traditionnel)" },
+          "dinner": { "ar": "حريرة مع التمر والشباكية", "fr": "Harira avec dattes et chebakia" }
+        },
+        {
+          "day": { "ar": "السبت", "fr": "Samedi" },
+          "lunch": { "ar": "طاجين اللوبيا مع اللحم", "fr": "Tajine de haricots avec viande" },
+          "dinner": { "ar": "ملاوي مع الجبن والعسل", "fr": "Msemen avec fromage et miel" }
+        },
+        {
+          "day": { "ar": "الأحد", "fr": "Dimanche" },
+          "lunch": { "ar": "بركوكش بالخضرة", "fr": "Berkoukes aux légumes" },
+          "dinner": { "ar": "رغيفات مع الحساء", "fr": "Rghaïf avec soupe" }
+        }
+      ]
+    },
+    "children_nutrition": {
+      "title": { "ar": "تغذية الأطفال", "fr": "Nutrition des enfants" },
+      "tips": [
+        {
+          "age": "0-6 months",
+          "ar": "الرضاعة الطبيعية فقط — ما تعطيهش الما أو شي حاجة أخرى",
+          "fr": "Allaitement maternel uniquement — ne donnez ni eau ni autre chose"
+        },
+        {
+          "age": "6-12 months",
+          "ar": "ابدائي بالخضرة المهروسة — الجزر، القرعة، البطاطا — مع الرضاعة",
+          "fr": "Commencez par les purées de légumes — carottes, courgettes, pommes de terre — avec l'allaitement"
+        },
+        {
+          "age": "1-5 years",
+          "ar": "3 وجبات + 2 كوتي. فاكية بدل الحلويات والشيبس",
+          "fr": "3 repas + 2 goûters. Fruits au lieu de bonbons et chips"
+        },
+        {
+          "age": "6-12 years",
+          "ar": "الفطور ضروري قبل المدرسة — ما تبعتيهش بلا فطور أبدا",
+          "fr": "Le petit-déjeuner est obligatoire avant l'école — ne l'envoyez jamais sans petit-déjeuner"
+        }
+      ],
+      "avoid": [
+        { "ar": "المشروبات الغازية (كوكا، فانطا...)", "fr": "Boissons gazeuses (Coca, Fanta...)", "why": { "ar": "سكر بزاف — كيخسر السنان", "fr": "Trop de sucre — abîme les dents" } },
+        { "ar": "الشيبس والبسكوي المملح", "fr": "Chips et biscuits salés", "why": { "ar": "ملح ودهون بزاف", "fr": "Trop de sel et de graisse" } },
+        { "ar": "الحلويات الصناعية", "fr": "Sucreries industrielles", "why": { "ar": "سكر ومواد كيميائية", "fr": "Sucre et produits chimiques" } },
+        { "ar": "القهوة والأتاي بزاف", "fr": "Trop de café et de thé", "why": { "ar": "كيأثر على النوم والنمو", "fr": "Affecte le sommeil et la croissance" } }
+      ]
+    }
+  },
+
+  "module_3_health": {
+    "title": { "ar": "الصحة", "fr": "Santé" },
+    "icon": "heart-pulse",
+    "intro": {
+      "ar": "صحتك هي أغلى حاجة عندك. تعلمي كيفاش تهتمي بصحتك وصحة عائلتك",
+      "fr": "Votre santé est ce que vous avez de plus précieux. Apprenez à prendre soin de vous et de votre famille"
+    },
+    "preventive_health": {
+      "title": { "ar": "الوقاية خير من العلاج", "fr": "Mieux vaut prévenir que guérir" },
+      "checkups": [
+        {
+          "what": { "ar": "فحص الضغط", "fr": "Contrôle de la tension" },
+          "when": { "ar": "مرة في العام", "fr": "Une fois par an" },
+          "where": { "ar": "المركز الصحي — مجانا", "fr": "Centre de santé — gratuit" }
+        },
+        {
+          "what": { "ar": "فحص السكر", "fr": "Contrôle du diabète" },
+          "when": { "ar": "مرة في العام فوق 40 سنة", "fr": "Une fois par an après 40 ans" },
+          "where": { "ar": "المركز الصحي أو الصيدلية", "fr": "Centre de santé ou pharmacie" }
+        },
+        {
+          "what": { "ar": "فحص سرطان الثدي", "fr": "Dépistage cancer du sein" },
+          "when": { "ar": "مرة في العام فوق 45 سنة — الفحص الذاتي كل شهر", "fr": "Une fois par an après 45 ans — auto-examen chaque mois" },
+          "where": { "ar": "المستشفى أو المركز الصحي — مجانا", "fr": "Hôpital ou centre de santé — gratuit" }
+        },
+        {
+          "what": { "ar": "فحص الأسنان", "fr": "Contrôle dentaire" },
+          "when": { "ar": "مرة في العام", "fr": "Une fois par an" },
+          "where": { "ar": "طبيب الأسنان", "fr": "Dentiste" }
+        },
+        {
+          "what": { "ar": "فحص العينين", "fr": "Contrôle des yeux" },
+          "when": { "ar": "مرة كل سنتين — أو إلا بدات تشوفي غبشة", "fr": "Tous les 2 ans — ou si vous commencez à voir flou" },
+          "where": { "ar": "طبيب العيون", "fr": "Ophtalmologue" }
+        }
+      ]
+    },
+    "vaccination_children": {
+      "title": { "ar": "تلقيح الأطفال", "fr": "Vaccination des enfants" },
+      "description": {
+        "ar": "التلقيح مجاني وضروري — كيحمي ولدك من أمراض خطيرة",
+        "fr": "La vaccination est gratuite et obligatoire — elle protège votre enfant des maladies graves"
+      },
+      "schedule": [
+        { "age": { "ar": "عند الولادة", "fr": "À la naissance" }, "vaccines": ["BCG", "Hépatite B"] },
+        { "age": { "ar": "شهرين", "fr": "2 mois" }, "vaccines": ["DTC", "Polio", "Hib", "Hépatite B"] },
+        { "age": { "ar": "3 أشهر", "fr": "3 mois" }, "vaccines": ["DTC", "Polio", "Hib"] },
+        { "age": { "ar": "4 أشهر", "fr": "4 mois" }, "vaccines": ["DTC", "Polio", "Hib", "Hépatite B"] },
+        { "age": { "ar": "9 أشهر", "fr": "9 mois" }, "vaccines": ["Rougeole", "Rubéole"] },
+        { "age": { "ar": "18 شهر", "fr": "18 mois" }, "vaccines": ["DTC Rappel", "Polio Rappel", "ROR"] },
+        { "age": { "ar": "6 سنوات", "fr": "6 ans" }, "vaccines": ["DT Rappel", "Polio Rappel"] }
+      ],
+      "important": {
+        "ar": "ديري الكارنيه ديال التلقيح في بلاصة آمنة — غادي تحتاجيه للمدرسة",
+        "fr": "Gardez le carnet de vaccination en lieu sûr — vous en aurez besoin pour l'école"
+      }
+    },
+    "first_aid_basics": {
+      "title": { "ar": "الإسعافات الأولية", "fr": "Premiers secours" },
+      "situations": [
+        {
+          "situation": { "ar": "حرقة (بالما السخون أو الزيت)", "fr": "Brûlure (eau chaude ou huile)" },
+          "do": { "ar": "ديري الما البارد على البلاصة 10 دقائق. ما تحطّيش دنديرمة أو زبدة!", "fr": "Mettez de l'eau froide sur la zone pendant 10 minutes. Ne mettez pas de dentifrice ou de beurre !" },
+          "dont": { "ar": "ما تفرقعيش الفقاعات", "fr": "Ne percez pas les cloques" }
+        },
+        {
+          "situation": { "ar": "جرح صغير", "fr": "Petite coupure" },
+          "do": { "ar": "اغسلي بالما والصابون. حطّي البيتادين. غطّي بالبانسمان", "fr": "Lavez à l'eau et au savon. Mettez de la Bétadine. Couvrez avec un pansement" },
+          "dont": { "ar": "ما تحطّيش العسل أو التراب", "fr": "Ne mettez pas de miel ou de terre" }
+        },
+        {
+          "situation": { "ar": "حمّى عند الطفل", "fr": "Fièvre chez l'enfant" },
+          "do": { "ar": "عطيه الدوليبران حسب العمر. حيّدي عليه الحوايج الثقيلة. عطيه الما بزاف", "fr": "Donnez du Doliprane selon l'âge. Enlevez les vêtements lourds. Donnez beaucoup d'eau" },
+          "dont": { "ar": "ما تعطيهش الأسبيرين وما تغطّيهش بالبطانية", "fr": "Ne donnez pas d'aspirine et ne le couvrez pas avec une couverture" },
+          "when_to_go_hospital": { "ar": "إلا الحرارة فوق 39 أو دامت أكثر من 3 أيام", "fr": "Si la température dépasse 39° ou dure plus de 3 jours" }
+        },
+        {
+          "situation": { "ar": "الطفل بلع شي حاجة", "fr": "L'enfant a avalé quelque chose" },
+          "do": { "ar": "عيطي للإسعاف 150 فورا. ما تحاوليش تقيّئيه", "fr": "Appelez les urgences 150 immédiatement. N'essayez pas de le faire vomir" },
+          "dont": { "ar": "ما تعطيهش الحليب أو الما", "fr": "Ne lui donnez pas de lait ou d'eau" }
+        }
+      ]
+    },
+    "ramed_guide": {
+      "title": { "ar": "الراميد (التغطية الصحية)", "fr": "RAMED (couverture santé)" },
+      "description": {
+        "ar": "الراميد كيعطيك العلاج مجانا في المستشفيات العمومية",
+        "fr": "Le RAMED vous donne accès aux soins gratuits dans les hôpitaux publics"
+      },
+      "who_can_get_it": {
+        "ar": "العائلات اللي الدخل ديالها ضعيف",
+        "fr": "Les familles à faible revenu"
+      },
+      "documents_needed": {
+        "ar": ["البطاقة الوطنية", "شهادة السكنى", "شهادة الاحتياج من القائد", "صورة شمسية"],
+        "fr": ["Carte d'identité nationale", "Certificat de résidence", "Attestation d'indigence du Caïd", "Photo d'identité"]
+      },
+      "where_to_apply": {
+        "ar": "القيادة أو الملحقة الإدارية ديال الحي",
+        "fr": "Le Caïdat ou l'annexe administrative du quartier"
+      }
+    }
+  },
+
+  "module_4_basic_math": {
+    "title": { "ar": "الحساب الأساسي", "fr": "Calcul de base" },
+    "icon": "calculator",
+    "intro": {
+      "ar": "ما خاصكش تكوني عالمة باش تعرفي الحساب. هاد الأشياء البسيطة كتساعدك كل يوم",
+      "fr": "Pas besoin d'être une scientifique pour connaître le calcul. Ces choses simples vous aident chaque jour"
+    },
+    "numbers_recognition": {
+      "title": { "ar": "قراءة الأرقام", "fr": "Lire les nombres" },
+      "levels": [
+        {
+          "level": 1,
+          "title": { "ar": "الأرقام من 0 لـ 9", "fr": "Les chiffres de 0 à 9" },
+          "items": [
+            { "number": 0, "ar": "صفر", "fr": "zéro" },
+            { "number": 1, "ar": "واحد", "fr": "un" },
+            { "number": 2, "ar": "جوج", "fr": "deux" },
+            { "number": 3, "ar": "تلاتة", "fr": "trois" },
+            { "number": 4, "ar": "ربعة", "fr": "quatre" },
+            { "number": 5, "ar": "خمسة", "fr": "cinq" },
+            { "number": 6, "ar": "ستة", "fr": "six" },
+            { "number": 7, "ar": "سبعة", "fr": "sept" },
+            { "number": 8, "ar": "تمنية", "fr": "huit" },
+            { "number": 9, "ar": "تسعود", "fr": "neuf" }
+          ]
+        },
+        {
+          "level": 2,
+          "title": { "ar": "العشرات", "fr": "Les dizaines" },
+          "items": [
+            { "number": 10, "ar": "عشرة", "fr": "dix" },
+            { "number": 20, "ar": "عشرين", "fr": "vingt" },
+            { "number": 30, "ar": "تلاتين", "fr": "trente" },
+            { "number": 40, "ar": "ربعين", "fr": "quarante" },
+            { "number": 50, "ar": "خمسين", "fr": "cinquante" },
+            { "number": 60, "ar": "ستين", "fr": "soixante" },
+            { "number": 70, "ar": "سبعين", "fr": "soixante-dix" },
+            { "number": 80, "ar": "تمنين", "fr": "quatre-vingts" },
+            { "number": 90, "ar": "تسعين", "fr": "quatre-vingt-dix" },
+            { "number": 100, "ar": "مية", "fr": "cent" }
+          ]
+        },
+        {
+          "level": 3,
+          "title": { "ar": "الأرقام الكبيرة", "fr": "Les grands nombres" },
+          "items": [
+            { "number": 500, "ar": "خمس مية", "fr": "cinq cents" },
+            { "number": 1000, "ar": "ألف", "fr": "mille" },
+            { "number": 5000, "ar": "خمسة ديال لاف", "fr": "cinq mille" },
+            { "number": 10000, "ar": "عشرة ديال لاف", "fr": "dix mille" }
+          ]
+        }
+      ]
+    },
+    "practical_math": {
+      "title": { "ar": "الحساب في الحياة", "fr": "Le calcul dans la vie" },
+      "exercises": [
+        {
+          "context": { "ar": "في السوق", "fr": "Au marché" },
+          "problems": [
+            {
+              "question": { "ar": "شريتي كيلو طماطم بـ 8 دراهم وكيلو بصلة بـ 5 دراهم. شحال المجموع؟", "fr": "Vous avez acheté 1 kg de tomates à 8 DH et 1 kg d'oignons à 5 DH. Combien au total ?" },
+              "answer": 13,
+              "unit": "DH",
+              "hint": { "ar": "8 + 5 = ?", "fr": "8 + 5 = ?" }
+            },
+            {
+              "question": { "ar": "عطيتي 50 درهم والماكلة بـ 37 درهم. شحال الصرف (الباقي)؟", "fr": "Vous avez donné 50 DH et la nourriture coûte 37 DH. Combien de monnaie ?" },
+              "answer": 13,
+              "unit": "DH",
+              "hint": { "ar": "50 - 37 = ?", "fr": "50 - 37 = ?" }
+            }
+          ]
+        },
+        {
+          "context": { "ar": "الفاكتورات", "fr": "Les factures" },
+          "problems": [
+            {
+              "question": { "ar": "فاكتورة الما 120 درهم وفاكتورة الضو 180 درهم. شحال خاصك تخلصي المجموع؟", "fr": "La facture d'eau est de 120 DH et l'électricité 180 DH. Combien devez-vous payer au total ?" },
+              "answer": 300,
+              "unit": "DH",
+              "hint": { "ar": "120 + 180 = ?", "fr": "120 + 180 = ?" }
+            }
+          ]
+        },
+        {
+          "context": { "ar": "الطبخ", "fr": "La cuisine" },
+          "problems": [
+            {
+              "question": { "ar": "الوصفة كتقول 2 كيسان دقيق لـ 4 ديال الناس. عندك 8 ديال الناس. شحال من كاس؟", "fr": "La recette dit 2 tasses de farine pour 4 personnes. Vous avez 8 personnes. Combien de tasses ?" },
+              "answer": 4,
+              "unit": { "ar": "كيسان", "fr": "tasses" },
+              "hint": { "ar": "8 هي الضعف ديال 4. إذن الضعف ديال 2 = ?", "fr": "8 est le double de 4. Donc le double de 2 = ?" }
+            }
+          ]
+        }
+      ]
+    },
+    "money_skills": {
+      "title": { "ar": "التعامل مع الفلوس", "fr": "Manipuler l'argent" },
+      "moroccan_currency": [
+        { "value": 0.5, "type": "coin", "ar": "نص درهم", "fr": "50 centimes", "image_keyword": "moroccan_50_centimes" },
+        { "value": 1, "type": "coin", "ar": "درهم", "fr": "1 dirham", "image_keyword": "moroccan_1_dirham" },
+        { "value": 2, "type": "coin", "ar": "جوج دراهم", "fr": "2 dirhams", "image_keyword": "moroccan_2_dirhams" },
+        { "value": 5, "type": "coin", "ar": "خمسة دراهم", "fr": "5 dirhams", "image_keyword": "moroccan_5_dirhams" },
+        { "value": 10, "type": "coin", "ar": "عشرة دراهم", "fr": "10 dirhams", "image_keyword": "moroccan_10_dirhams" },
+        { "value": 20, "type": "bill", "ar": "عشرين درهم", "fr": "20 dirhams", "image_keyword": "moroccan_20_bill" },
+        { "value": 50, "type": "bill", "ar": "خمسين درهم", "fr": "50 dirhams", "image_keyword": "moroccan_50_bill" },
+        { "value": 100, "type": "bill", "ar": "مية درهم", "fr": "100 dirhams", "image_keyword": "moroccan_100_bill" },
+        { "value": 200, "type": "bill", "ar": "ميتين درهم", "fr": "200 dirhams", "image_keyword": "moroccan_200_bill" }
+      ],
+      "making_change_exercises": [
+        {
+          "question": { "ar": "شريتي بـ 73 درهم وعطيتي 100 درهم. شحال الصرف؟", "fr": "Vous achetez pour 73 DH et donnez 100 DH. Combien de monnaie ?" },
+          "answer": 27,
+          "breakdown": { "ar": "ورقة ديال 20 + 5 دراهم + 2 درهم", "fr": "Billet de 20 + 5 DH + 2 DH" }
+        }
+      ]
+    }
+  },
+
+  "module_5_parenting": {
+    "title": { "ar": "التربية الإيجابية", "fr": "Éducation positive" },
+    "icon": "users",
+    "intro": {
+      "ar": "ولادك محتاجين الحب والحدود بالمعقول. التربية الإيجابية كتعطي نتائج أحسن من الضرب والصياح",
+      "fr": "Vos enfants ont besoin d'amour et de limites raisonnables. L'éducation positive donne de meilleurs résultats que frapper ou crier"
+    },
+    "principles": [
+      {
+        "principle": { "ar": "هضري مع ولدك بدل ما تصيحي عليه", "fr": "Parlez à votre enfant au lieu de crier" },
+        "instead_of": { "ar": "\"واش نت حمق؟! مالك كتكسر كلشي!\"", "fr": "\"Tu es bête ou quoi ? Pourquoi tu casses tout !\"" },
+        "say_this": { "ar": "\"هاد الحاجة تكسرات. المرة الجاية خاصك تكون حذر. أجي نصلحوها مع بعض\"", "fr": "\"Cette chose est cassée. La prochaine fois, fais attention. Viens, on la répare ensemble\"" }
+      },
+      {
+        "principle": { "ar": "امدحي السلوك الزين ماشي غير عاقبي الخايب", "fr": "Félicitez le bon comportement, ne punissez pas seulement le mauvais" },
+        "instead_of": { "ar": "تتجاهلي ملي كيدير شي حاجة زينة", "fr": "Ignorer quand il fait quelque chose de bien" },
+        "say_this": { "ar": "\"شفت كيفاش رتّبتي الحوايج ديالك — عجبني بزاف!\"", "fr": "\"J'ai vu que tu as rangé tes affaires — j'aime beaucoup ça !\"" }
+      },
+      {
+        "principle": { "ar": "حطّي قواعد واضحة وما تبدليهمش", "fr": "Fixez des règles claires et ne changez pas" },
+        "example": { "ar": "\"الخدمة ديال المدرسة أول حاجة، ومن بعد اللعب\" — كل يوم نفس الشي", "fr": "\"Les devoirs d'abord, puis le jeu\" — chaque jour la même chose" }
+      },
+      {
+        "principle": { "ar": "خلّي ولدك يحس بالأمان باش يهضر معاك", "fr": "Que votre enfant se sente en sécurité pour vous parler" },
+        "how": { "ar": "ملي يجي يقول ليك شي حاجة، ما تزعفيش فورا. سمعي وبعدها هضري", "fr": "Quand il vient vous dire quelque chose, ne vous fâchez pas immédiatement. Écoutez d'abord, puis parlez" }
+      },
+      {
+        "principle": { "ar": "عاقبي بالحرمان ماشي بالضرب", "fr": "Punissez par la privation, pas par les coups" },
+        "example": { "ar": "\"ما سمعتيش، إذن ما غاديش تلعب بالتيليفون اليوم\" — أحسن من الضربة", "fr": "\"Tu n'as pas écouté, donc pas de téléphone aujourd'hui\" — mieux qu'une gifle" }
+      }
+    ],
+    "homework_help": {
+      "title": { "ar": "كيفاش تساعدي ولدك في القراية حتى إلا ما تعرفي تقراي", "fr": "Comment aider votre enfant à étudier même si vous ne savez pas lire" },
+      "tips": [
+        {
+          "ar": "حطّي ليه بلاصة هادئة للقراية — بعيد على التلفازة",
+          "fr": "Donnez-lui un endroit calme pour étudier — loin de la télé"
+        },
+        {
+          "ar": "حطّي وقت محدد كل يوم — 30 دقيقة بعد العشا مثلا",
+          "fr": "Fixez un horaire chaque jour — 30 minutes après le dîner par exemple"
+        },
+        {
+          "ar": "سوليه يقرا ليك شنو دار اليوم في المدرسة",
+          "fr": "Demandez-lui de vous raconter ce qu'il a fait à l'école aujourd'hui"
+        },
+        {
+          "ar": "إلا ما فهمتيش الخدمة ديالو، سوليه هو يشرح ليك — هادشي كيساعدو يفهم أحسن",
+          "fr": "Si vous ne comprenez pas ses devoirs, demandez-lui de vous expliquer — ça l'aide à mieux comprendre"
+        },
+        {
+          "ar": "روحي للمدرسة كل شهر وسولي المعلم على ولدك",
+          "fr": "Allez à l'école chaque mois et demandez au professeur des nouvelles de votre enfant"
+        }
+      ]
+    }
+  },
+
+  "module_6_home_organization": {
+    "title": { "ar": "تنظيم الدار", "fr": "Organisation de la maison" },
+    "icon": "layout-grid",
+    "weekly_schedule": {
+      "title": { "ar": "برنامج الأسبوع", "fr": "Programme de la semaine" },
+      "days": [
+        { "day": { "ar": "الإثنين", "fr": "Lundi" }, "task": { "ar": "غسيل الحوايج", "fr": "Lessive" } },
+        { "day": { "ar": "الثلاثاء", "fr": "Mardi" }, "task": { "ar": "تنظيف البيت (الصالون والبيوت)", "fr": "Ménage (salon et chambres)" } },
+        { "day": { "ar": "الأربعاء", "fr": "Mercredi" }, "task": { "ar": "السوق + تحضير الماكلة ديال الأسبوع", "fr": "Marché + préparation des repas de la semaine" } },
+        { "day": { "ar": "الخميس", "fr": "Jeudi" }, "task": { "ar": "الكواء + ترتيب الخزانة", "fr": "Repassage + rangement du placard" } },
+        { "day": { "ar": "الجمعة", "fr": "Vendredi" }, "task": { "ar": "تنظيف الكوجينة والحمام بالتفصيل", "fr": "Nettoyage cuisine et salle de bain en détail" } },
+        { "day": { "ar": "السبت", "fr": "Samedi" }, "task": { "ar": "تنظيف خفيف + وقت مع العائلة", "fr": "Ménage léger + temps en famille" } },
+        { "day": { "ar": "الأحد", "fr": "Dimanche" }, "task": { "ar": "راحة + تحضير الأسبوع الجاي", "fr": "Repos + préparation de la semaine prochaine" } }
+      ]
+    },
+    "cleaning_tips": [
+      {
+        "tip": { "ar": "الخل الأبيض كينظف كلشي تقريبا — أرخص من المنظفات", "fr": "Le vinaigre blanc nettoie presque tout — moins cher que les produits ménagers" },
+        "uses": {
+          "ar": ["تنظيف الزاج", "إزالة الكلكير", "تنظيف الأرض", "إزالة الروائح"],
+          "fr": ["Nettoyer les vitres", "Enlever le calcaire", "Nettoyer le sol", "Éliminer les odeurs"]
+        }
+      },
+      {
+        "tip": { "ar": "البيكاربونات كتزيل الروائح والبقع", "fr": "Le bicarbonate de soude enlève les odeurs et les taches" },
+        "uses": {
+          "ar": ["تنظيف الفرن", "إزالة البقع من الحوايج", "تنظيف المرحاض"],
+          "fr": ["Nettoyer le four", "Enlever les taches des vêtements", "Nettoyer les toilettes"]
+        }
+      }
+    ]
+  }
+}

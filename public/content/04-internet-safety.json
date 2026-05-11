@@ -1,0 +1,215 @@
+{
+  "section_id": "internet_safety",
+  "title": {
+    "ar": "السلامة على الإنترنت",
+    "fr": "Sécurité sur Internet"
+  },
+  "description": {
+    "ar": "حمي نفسك وعائلتك من مخاطر الإنترنت",
+    "fr": "Protégez-vous et votre famille des dangers d'Internet"
+  },
+
+  "module_1_scams": {
+    "title": { "ar": "الاحتيال والنصب", "fr": "Arnaques et fraudes" },
+    "intro": {
+      "ar": "كاينين ناس خبثاء على الإنترنت — هاد الدرس غادي يعلّمك كيفاش تعرفيهم وتحمي راسك",
+      "fr": "Il y a des gens malveillants sur Internet — cette leçon vous apprend à les reconnaître"
+    },
+    "scam_types": [
+      {
+        "id": "fake_prize",
+        "name": { "ar": "🎁 جائزة وهمية", "fr": "🎁 Faux prix" },
+        "description": { "ar": "رسالة تقول لك 'ربحتِ هاتف!' أو 'ربحتِ مليون!' — هذا نصب", "fr": "Un message dit 'Vous avez gagné un téléphone !' ou 'Vous avez gagné un million !' — c'est une arnaque" },
+        "example_message": "🎉 مبروك! ربحتِ Samsung Galaxy! اضغطي هنا لاستلام جائزتك: [رابط مشبوه]",
+        "red_flags": [
+          { "ar": "لم تشاركي في أي مسابقة", "fr": "Vous n'avez participé à aucun concours" },
+          { "ar": "يطلبون منك معلومات شخصية أو رقم البطاقة", "fr": "Ils demandent vos informations personnelles ou numéro de carte" },
+          { "ar": "الرابط غريب وطويل", "fr": "Le lien est bizarre et long" }
+        ],
+        "what_to_do": { "ar": "❌ لا تضغطي على الرابط — امسحي الرسالة فوراً", "fr": "❌ Ne cliquez pas sur le lien — supprimez le message immédiatement" }
+      },
+      {
+        "id": "fake_bank",
+        "name": { "ar": "🏦 بنك مزيف", "fr": "🏦 Fausse banque" },
+        "description": { "ar": "رسالة تقول إنها من البنك وتطلب رقم حسابك أو كلمة السر", "fr": "Un message prétend venir de la banque et demande votre numéro de compte ou mot de passe" },
+        "example_message": "🏦 بنكك: تم حظر حسابك. أدخلي معلوماتك هنا لإعادة التفعيل: [رابط]",
+        "red_flags": [
+          { "ar": "البنك الحقيقي لا يطلب كلمة السر عبر الرسائل أبداً", "fr": "La vraie banque ne demande JAMAIS le mot de passe par message" },
+          { "ar": "الرسالة فيها أخطاء لغوية", "fr": "Le message contient des fautes de langue" },
+          { "ar": "يخوّفونك: 'حسابك سيُغلق!'", "fr": "Ils vous font peur : 'Votre compte sera fermé !'" }
+        ],
+        "what_to_do": { "ar": "❌ لا تعطي أي معلومة — روحي للبنك بنفسك واسألي", "fr": "❌ Ne donnez aucune info — allez à la banque en personne pour vérifier" }
+      },
+      {
+        "id": "fake_charity",
+        "name": { "ar": "🤲 صدقة وهمية", "fr": "🤲 Fausse charité" },
+        "description": { "ar": "ناس يطلبون فلوس باسم الصدقة أو مساعدة مريض — بعضهم نصّابين", "fr": "Des gens demandent de l'argent au nom de la charité — certains sont des arnaqueurs" },
+        "red_flags": [
+          { "ar": "لا توجد معلومات حقيقية عن المريض أو الجمعية", "fr": "Pas d'informations vérifiables sur le malade ou l'association" },
+          { "ar": "الحساب البنكي شخصي وليس باسم جمعية", "fr": "Le compte bancaire est personnel, pas au nom d'une association" },
+          { "ar": "نفس الصورة تتداول منذ سنوات", "fr": "La même photo circule depuis des années" }
+        ],
+        "what_to_do": { "ar": "✅ تصدّقي من خلال جمعيات معروفة أو مباشرة للشخص المحتاج", "fr": "✅ Faites vos dons via des associations connues ou directement à la personne" }
+      },
+      {
+        "id": "romance_scam",
+        "name": { "ar": "💔 النصب العاطفي", "fr": "💔 Arnaque sentimentale" },
+        "description": { "ar": "شخص غريب يكلّمك بلطف ويقول إنه يحبك ثم يطلب فلوس", "fr": "Un inconnu vous parle gentiment, dit qu'il vous aime, puis demande de l'argent" },
+        "red_flags": [
+          { "ar": "شخص لم تلتقي به أبداً يعبّر عن حب كبير", "fr": "Quelqu'un que vous n'avez jamais rencontré exprime un grand amour" },
+          { "ar": "يرفض مكالمة الفيديو دائماً", "fr": "Il refuse toujours les appels vidéo" },
+          { "ar": "يطلب فلوس: 'أنا في مشكلة'، 'أريد أجي للمغرب'", "fr": "Il demande de l'argent : 'J'ai un problème', 'Je veux venir au Maroc'" }
+        ],
+        "what_to_do": { "ar": "❌ لا ترسلي فلوس أبداً لشخص لم تلتقي به — وبلّغي عنه", "fr": "❌ N'envoyez JAMAIS d'argent à quelqu'un que vous n'avez pas rencontré — signalez-le" }
+      },
+      {
+        "id": "fake_job",
+        "name": { "ar": "💼 عمل وهمي", "fr": "💼 Faux emploi" },
+        "description": { "ar": "إعلان يعرض عمل سهل بمبلغ كبير — ويطلب منك أن تدفعي أولاً", "fr": "Une annonce propose un travail facile avec un gros salaire — et demande de payer d'abord" },
+        "red_flags": [
+          { "ar": "'اربحي 5000 درهم يومياً من البيت!' — مستحيل", "fr": "'Gagnez 5000 DH par jour depuis chez vous !' — impossible" },
+          { "ar": "يطلبون منك أن تدفعي للتسجيل", "fr": "Ils demandent de payer pour s'inscrire" },
+          { "ar": "لا يوجد اسم شركة حقيقي", "fr": "Pas de nom d'entreprise réel" }
+        ],
+        "what_to_do": { "ar": "❌ العمل الحقيقي لا يطلب منك دفع المال — ابحثي عن العمل في ANAPEC", "fr": "❌ Un vrai travail ne demande pas de payer — cherchez via ANAPEC" }
+      }
+    ],
+
+    "golden_rules": [
+      { "ar": "🔑 لا تعطي كلمة السر لأي شخص — حتى العائلة", "fr": "🔑 Ne donnez votre mot de passe à personne — même la famille" },
+      { "ar": "🔑 لا تضغطي على روابط غريبة", "fr": "🔑 Ne cliquez jamais sur des liens suspects" },
+      { "ar": "🔑 لا ترسلي فلوس لشخص لا تعرفينه", "fr": "🔑 N'envoyez jamais d'argent à un inconnu" },
+      { "ar": "🔑 لا تصوّري بطاقتك البنكية وترسليها", "fr": "🔑 Ne photographiez jamais votre carte bancaire" },
+      { "ar": "🔑 إذا شككتِ — اسألي شخصاً تثقين به", "fr": "🔑 En cas de doute — demandez à quelqu'un de confiance" }
+    ]
+  },
+
+  "module_2_privacy": {
+    "title": { "ar": "حماية الخصوصية", "fr": "Protection de la vie privée" },
+    "lessons": [
+      {
+        "id": "what_to_share",
+        "title": { "ar": "ما يمكن مشاركته وما لا يمكن", "fr": "Ce qu'on peut partager et ce qu'on ne doit pas" },
+        "never_share": [
+          { "item": { "ar": "رقم البطاقة الوطنية", "fr": "Numéro de la CIN" }, "icon": "id_card", "reason": { "ar": "يمكن استعماله لفتح حسابات باسمك", "fr": "Peut être utilisé pour ouvrir des comptes à votre nom" } },
+          { "item": { "ar": "رقم البطاقة البنكية", "fr": "Numéro de carte bancaire" }, "icon": "credit_card", "reason": { "ar": "يمكن سرقة فلوسك", "fr": "On peut voler votre argent" } },
+          { "item": { "ar": "كلمات السر", "fr": "Mots de passe" }, "icon": "password", "reason": { "ar": "يمكن الدخول لحساباتك", "fr": "On peut accéder à vos comptes" } },
+          { "item": { "ar": "عنوان البيت بالتفصيل", "fr": "Adresse exacte du domicile" }, "icon": "home", "reason": { "ar": "لحمايتك وحماية عائلتك", "fr": "Pour votre sécurité et celle de votre famille" } },
+          { "item": { "ar": "صور أطفالك مع معلومات المدرسة", "fr": "Photos de vos enfants avec infos de l'école" }, "icon": "children", "reason": { "ar": "لحماية أطفالك", "fr": "Pour protéger vos enfants" } }
+        ],
+        "ok_to_share": [
+          { "item": { "ar": "اسمك الأول فقط", "fr": "Votre prénom seulement" }, "icon": "name" },
+          { "item": { "ar": "المدينة (بدون العنوان الدقيق)", "fr": "La ville (sans l'adresse exacte)" }, "icon": "city" },
+          { "item": { "ar": "صور الطبخ والمناظر", "fr": "Photos de cuisine et paysages" }, "icon": "food_photo" }
+        ]
+      },
+      {
+        "id": "photo_privacy",
+        "title": { "ar": "صور — ما ينفع وما ما ينفعش", "fr": "Photos — ce qui est OK et ce qui ne l'est pas" },
+        "rules": [
+          { "ar": "لا تنشري صور أطفال الناس بدون إذن", "fr": "Ne publiez pas les photos des enfants d'autrui sans permission" },
+          { "ar": "لا تنشري صور وثائق رسمية", "fr": "Ne publiez pas de photos de documents officiels" },
+          { "ar": "فكّري قبل ما تنشري: هل تقبلين أن يراها الجميع؟", "fr": "Réfléchissez avant de publier : acceptez-vous que tout le monde la voie ?" },
+          { "ar": "لا تنشري صوراً تظهر فيها ممتلكات ثمينة (ذهب، فلوس)", "fr": "Ne publiez pas de photos montrant des objets de valeur (or, argent)" }
+        ]
+      }
+    ]
+  },
+
+  "module_3_passwords": {
+    "title": { "ar": "كلمات السر", "fr": "Les mots de passe" },
+    "lessons": [
+      {
+        "id": "good_password",
+        "title": { "ar": "كيف تختارين كلمة سر قوية", "fr": "Comment choisir un bon mot de passe" },
+        "bad_passwords": [
+          { "password": "123456", "reason": { "ar": "أول شيء يجرّبه النصّاب", "fr": "La première chose qu'un arnaqueur essaie" } },
+          { "password": "000000", "reason": { "ar": "سهل جداً", "fr": "Trop facile" } },
+          { "password": "اسمك + تاريخ ميلادك", "reason": { "ar": "أي شخص يعرفك يقدر يدخل", "fr": "Toute personne qui vous connaît peut deviner" } }
+        ],
+        "good_password_tips": [
+          { "ar": "استعملي 6 أرقام على الأقل", "fr": "Utilisez au moins 6 chiffres" },
+          { "ar": "امزجي أرقاماً مختلفة: مثلاً رقم بيتكم القديم + سنة زواجك", "fr": "Mélangez des chiffres différents : par ex. numéro de votre ancienne maison + année de mariage" },
+          { "ar": "لا تستعملي نفس كلمة السر لكل شيء", "fr": "N'utilisez pas le même mot de passe pour tout" },
+          { "ar": "اكتبيها في ورقة واحفظيها في مكان آمن بالبيت", "fr": "Écrivez-le sur un papier et gardez-le en lieu sûr à la maison" }
+        ]
+      },
+      {
+        "id": "phone_lock",
+        "title": { "ar": "قفل الهاتف", "fr": "Verrouillage du téléphone" },
+        "options": [
+          { "type": { "ar": "رمز PIN (أرقام)", "fr": "Code PIN (chiffres)" }, "security_level": 3, "ease_level": 4, "recommended": true },
+          { "type": { "ar": "البصمة", "fr": "Empreinte digitale" }, "security_level": 5, "ease_level": 5, "recommended": true },
+          { "type": { "ar": "النمط (الرسمة)", "fr": "Schéma (dessin)" }, "security_level": 2, "ease_level": 5, "recommended": false, "warning": { "ar": "سهل يتشاف من اللي حداك", "fr": "Facile à voir par quelqu'un à côté de vous" } },
+          { "type": { "ar": "التعرف على الوجه", "fr": "Reconnaissance faciale" }, "security_level": 4, "ease_level": 5, "recommended": true }
+        ]
+      }
+    ]
+  },
+
+  "module_4_children_safety": {
+    "title": { "ar": "حماية الأطفال على الإنترنت", "fr": "Protection des enfants sur Internet" },
+    "intro": {
+      "ar": "أطفالك يستعملون الهاتف والتابلت — لازم تحميهم من المحتوى الخطير",
+      "fr": "Vos enfants utilisent le téléphone et la tablette — il faut les protéger du contenu dangereux"
+    },
+    "dangers": [
+      {
+        "danger": { "ar": "محتوى غير مناسب (عنف، كلام بذيء)", "fr": "Contenu inapproprié (violence, langage vulgaire)" },
+        "solution": { "ar": "فعّلي 'الوضع المقيّد' في يوتيوب — أو حمّلي يوتيوب للأطفال (YouTube Kids)", "fr": "Activez le 'Mode restreint' sur YouTube — ou installez YouTube Kids" }
+      },
+      {
+        "danger": { "ar": "أشخاص غرباء يتواصلون مع أطفالك", "fr": "Des inconnus qui contactent vos enfants" },
+        "solution": { "ar": "علّمي أطفالك: 'لا تردّ على أي شخص غريب — وقولي لماما'", "fr": "Apprenez à vos enfants : 'Ne réponds à aucun inconnu — dis-le à maman'" }
+      },
+      {
+        "danger": { "ar": "إدمان الشاشات — الطفل يقعد ساعات طويلة", "fr": "Addiction aux écrans — l'enfant reste des heures" },
+        "solution": { "ar": "حدّدي وقت الشاشة: ساعة واحدة للصغار، ساعتين للكبار", "fr": "Limitez le temps d'écran : 1h pour les petits, 2h pour les grands" }
+      },
+      {
+        "danger": { "ar": "ألعاب تطلب فلوس (شراء داخل اللعبة)", "fr": "Jeux qui demandent de l'argent (achats in-app)" },
+        "solution": { "ar": "أطفئي خاصية الشراء داخل التطبيقات من الإعدادات", "fr": "Désactivez les achats in-app dans les paramètres" }
+      }
+    ],
+    "parental_controls_steps": [
+      {
+        "platform": "YouTube",
+        "steps": [
+          { "ar": "افتحي يوتيوب ← الصورة الشخصية ← الإعدادات ← عام ← الوضع المقيد: تشغيل", "fr": "Ouvrez YouTube → Photo de profil → Paramètres → Général → Mode restreint : Activé" }
+        ]
+      },
+      {
+        "platform": "Google Play Store",
+        "steps": [
+          { "ar": "افتحي Play Store ← الإعدادات ← العائلة ← المراقبة الأبوية ← تشغيل", "fr": "Ouvrez Play Store → Paramètres → Famille → Contrôle parental → Activer" }
+        ]
+      }
+    ],
+    "conversation_starters": [
+      { "ar": "مع من كنتِ تهدري في الهاتف اليوم؟", "fr": "Avec qui tu parlais au téléphone aujourd'hui ?" },
+      { "ar": "شنو شفتِ في يوتيوب؟ وريني", "fr": "Qu'est-ce que tu as regardé sur YouTube ? Montre-moi" },
+      { "ar": "إلا شي حد غريب كلّمك، جي قولي لي عافاك", "fr": "Si un inconnu te contacte, viens me le dire s'il te plaît" },
+      { "ar": "ما تعطي لحتّا واحد اسمك الكامل ولا فين ساكنين", "fr": "Ne donne à personne ton nom complet ni où on habite" }
+    ]
+  },
+
+  "module_5_fake_news": {
+    "title": { "ar": "الأخبار الكاذبة", "fr": "Les fausses nouvelles (Fake news)" },
+    "intro": {
+      "ar": "ماشي كل شي تقرايه في الإنترنت صحيح — تعلّمي كيف تفرّقي بين الصح والكذب",
+      "fr": "Tout ce qu'on lit sur Internet n'est pas vrai — apprenez à distinguer le vrai du faux"
+    },
+    "how_to_spot": [
+      { "sign": { "ar": "العنوان مبالغ فيه: 'صدمة!'، 'لن تصدّقي!'", "fr": "Titre exagéré : 'Choc !', 'Vous n'allez pas y croire !'" }, "icon": "exclamation" },
+      { "sign": { "ar": "لا يوجد مصدر معروف (لا اسم صحيفة ولا قناة)", "fr": "Pas de source connue (pas de journal ni de chaîne)" }, "icon": "no_source" },
+      { "sign": { "ar": "الصور قديمة أو من بلد آخر", "fr": "Les photos sont anciennes ou d'un autre pays" }, "icon": "old_photo" },
+      { "sign": { "ar": "فيها أخطاء كثيرة", "fr": "Beaucoup de fautes" }, "icon": "errors" },
+      { "sign": { "ar": "تثير الغضب أو الخوف بشكل كبير", "fr": "Provoque une forte colère ou peur" }, "icon": "anger" }
+    ],
+    "what_to_do": [
+      { "ar": "قبل ما تشاركي خبر، تأكّدي منه في موقع معروف مثل Hespress أو 2M", "fr": "Avant de partager une info, vérifiez-la sur un site connu comme Hespress ou 2M" },
+      { "ar": "إذا شككتِ، لا تشاركيه — الكذبة تمشي بسرعة", "fr": "En cas de doute, ne partagez pas — les mensonges circulent vite" },
+      { "ar": "خبّري عائلتك: 'ما تشاركوش بلا ما تتأكدوا'", "fr": "Dites à votre famille : 'Ne partagez pas sans vérifier'" }
+    ]
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "section_id": "civic_knowledge",
+  "title": {
+    "ar": "المعرفة المدنية",
+    "fr": "Connaissances civiques"
+  },
+  "description": {
+    "ar": "اعرفي حقوقك ووثائقك والإدارات المغربية",
+    "fr": "Connaissez vos droits, vos documents et les administrations marocaines"
+  },
+
+  "module_1_morocco_basics": {
+    "title": { "ar": "المعلومات الأساسية عن المغرب", "fr": "Informations de base sur le Maroc" },
+    "facts": [
+      { "label": { "ar": "الاسم الرسمي", "fr": "Nom officiel" }, "value": { "ar": "المملكة المغربية", "fr": "Royaume du Maroc" } },
+      { "label": { "ar": "العاصمة", "fr": "Capitale" }, "value": { "ar": "الرباط", "fr": "Rabat" } },
+      { "label": { "ar": "الملك", "fr": "Roi" }, "value": { "ar": "الملك محمد السادس", "fr": "Roi Mohammed VI" } },
+      { "label": { "ar": "اللغات الرسمية", "fr": "Langues officielles" }, "value": { "ar": "العربية والأمازيغية", "fr": "Arabe et Amazighe" } },
+      { "label": { "ar": "العملة", "fr": "Monnaie" }, "value": { "ar": "الدرهم المغربي (MAD)", "fr": "Dirham marocain (MAD)" } },
+      { "label": { "ar": "العيد الوطني", "fr": "Fête nationale" }, "value": { "ar": "30 يوليوز — عيد العرش", "fr": "30 juillet — Fête du Trône" } },
+      { "label": { "ar": "النشيد الوطني", "fr": "Hymne national" }, "value": { "ar": "منبت الأحرار", "fr": "Manbita al-Ahrar (Source des hommes libres)" } }
+    ],
+    "regions_major_cities": [
+      { "city": { "ar": "الدار البيضاء", "fr": "Casablanca" }, "known_for": { "ar": "العاصمة الاقتصادية", "fr": "Capitale économique" } },
+      { "city": { "ar": "الرباط", "fr": "Rabat" }, "known_for": { "ar": "العاصمة السياسية", "fr": "Capitale politique" } },
+      { "city": { "ar": "فاس", "fr": "Fès" }, "known_for": { "ar": "العاصمة العلمية والروحية", "fr": "Capitale scientifique et spirituelle" } },
+      { "city": { "ar": "مراكش", "fr": "Marrakech" }, "known_for": { "ar": "العاصمة السياحية", "fr": "Capitale touristique" } },
+      { "city": { "ar": "طنجة", "fr": "Tanger" }, "known_for": { "ar": "بوابة أوروبا", "fr": "Porte de l'Europe" } },
+      { "city": { "ar": "أكادير", "fr": "Agadir" }, "known_for": { "ar": "عاصمة سوس", "fr": "Capitale du Souss" } }
+    ]
+  },
+
+  "module_2_government": {
+    "title": { "ar": "كيف يُحكم المغرب", "fr": "Comment le Maroc est gouverné" },
+    "structure": [
+      {
+        "institution": { "ar": "👑 الملك", "fr": "👑 Le Roi" },
+        "role": { "ar": "أمير المؤمنين ورئيس الدولة — يسهر على احترام الدستور وحماية حقوق المواطنين", "fr": "Commandeur des croyants et chef de l'État — veille au respect de la Constitution et protège les droits des citoyens" }
+      },
+      {
+        "institution": { "ar": "🏛️ الحكومة (رئيس الحكومة والوزراء)", "fr": "🏛️ Le Gouvernement (Chef du gouvernement et ministres)" },
+        "role": { "ar": "تدبير الشؤون اليومية: التعليم، الصحة، الأمن...", "fr": "Gestion des affaires quotidiennes : éducation, santé, sécurité..." }
+      },
+      {
+        "institution": { "ar": "🏢 البرلمان", "fr": "🏢 Le Parlement" },
+        "role": { "ar": "يصوّت على القوانين — يراقب الحكومة — منتخب من الشعب", "fr": "Vote les lois — contrôle le gouvernement — élu par le peuple" }
+      },
+      {
+        "institution": { "ar": "⚖️ القضاء", "fr": "⚖️ La Justice" },
+        "role": { "ar": "يحكم بين الناس بالعدل — مستقل عن الحكومة", "fr": "Rend la justice entre les gens — indépendant du gouvernement" }
+      },
+      {
+        "institution": { "ar": "🏘️ الجماعة المحلية (البلدية / المقاطعة)", "fr": "🏘️ La Commune (Mairie / Arrondissement)" },
+        "role": { "ar": "أقرب إدارة ليك — الحالة المدنية، التعمير، النظافة", "fr": "L'administration la plus proche — état civil, urbanisme, propreté" }
+      }
+    ]
+  },
+
+  "module_3_documents": {
+    "title": { "ar": "الوثائق الأساسية", "fr": "Les documents essentiels" },
+    "documents": [
+      {
+        "id": "cin",
+        "name": { "ar": "البطاقة الوطنية (CIN)", "fr": "Carte d'Identité Nationale (CIN)" },
+        "darija": "لاكارط / لكارطة",
+        "importance": { "ar": "أهم وثيقة — ضرورية لكل الإدارات", "fr": "Le document le plus important — nécessaire partout" },
+        "where_to_get": { "ar": "مركز الشرطة أو الدرك أو عبر rendez-vous.ma", "fr": "Commissariat de police, Gendarmerie ou via rendez-vous.ma" },
+        "required_docs": [
+          { "ar": "رسم الولادة (أقل من 3 أشهر)", "fr": "Acte de naissance (moins de 3 mois)" },
+          { "ar": "شهادة السكنى", "fr": "Certificat de résidence" },
+          { "ar": "صورتان", "fr": "2 photos d'identité" },
+          { "ar": "طابع مالي (75 درهم)", "fr": "Timbre fiscal (75 DH)" }
+        ],
+        "age": { "ar": "من سن 18 سنة", "fr": "À partir de 18 ans" },
+        "renewal": { "ar": "كل 10 سنوات — أو عند الضياع أو التلف", "fr": "Tous les 10 ans — ou en cas de perte ou détérioration" }
+      },
+      {
+        "id": "birth_certificate",
+        "name": { "ar": "رسم الولادة", "fr": "Acte de naissance" },
+        "darija": "رسم لولادة / ليكسترا",
+        "importance": { "ar": "ضرورية لتسجيل المدرسة والبطاقة والجواز", "fr": "Nécessaire pour l'école, la CIN et le passeport" },
+        "where_to_get": { "ar": "مكتب الحالة المدنية بالجماعة / البلدية", "fr": "Bureau de l'état civil à la Commune" },
+        "required_docs": [
+          { "ar": "رقم الحالة المدنية أو البطاقة الوطنية", "fr": "Numéro d'état civil ou CIN" }
+        ],
+        "cost": { "ar": "مجاني", "fr": "Gratuit" }
+      },
+      {
+        "id": "residence_certificate",
+        "name": { "ar": "شهادة السكنى", "fr": "Certificat de résidence" },
+        "darija": "شهادة السكنى",
+        "where_to_get": { "ar": "المقدّم (مول الحومة) ← المقاطعة / القيادة", "fr": "Le Moqaddem → l'Arrondissement / le Caïdat" },
+        "required_docs": [
+          { "ar": "البطاقة الوطنية", "fr": "CIN" },
+          { "ar": "شهادة المقدّم", "fr": "Attestation du Moqaddem" }
+        ],
+        "cost": { "ar": "مجاني", "fr": "Gratuit" }
+      },
+      {
+        "id": "family_booklet",
+        "name": { "ar": "دفتر الحالة المدنية (الليفري)", "fr": "Livret de famille" },
+        "darija": "الليفري / ليفري دو فامي",
+        "importance": { "ar": "يجمع معلومات الزوج والزوجة والأطفال — ضروري للمدرسة والتأمين", "fr": "Regroupe les infos des époux et enfants — nécessaire pour l'école et l'assurance" },
+        "where_to_get": { "ar": "مكتب الحالة المدنية عند الزواج", "fr": "Bureau de l'état civil lors du mariage" }
+      },
+      {
+        "id": "passport",
+        "name": { "ar": "جواز السفر", "fr": "Passeport" },
+        "darija": "الباسبور",
+        "where_to_get": { "ar": "المقاطعة أو الباشوية أو عبر الإنترنت", "fr": "L'Arrondissement, la Pachalik ou en ligne" },
+        "required_docs": [
+          { "ar": "البطاقة الوطنية + نسخة", "fr": "CIN + copie" },
+          { "ar": "رسم الولادة", "fr": "Acte de naissance" },
+          { "ar": "صورتان", "fr": "2 photos" },
+          { "ar": "طابع مالي (300 درهم)", "fr": "Timbre fiscal (300 DH)" }
+        ]
+      },
+      {
+        "id": "ramed_amo",
+        "name": { "ar": "بطاقة التأمين الصحي (AMO / RAMed)", "fr": "Carte d'assurance maladie (AMO / RAMed)" },
+        "darija": "راميد / لامو",
+        "importance": { "ar": "للاستفادة من العلاج المجاني أو بثمن مخفض في المستشفيات العمومية", "fr": "Pour bénéficier de soins gratuits ou à tarif réduit dans les hôpitaux publics" },
+        "where_to_get": { "ar": "المقاطعة / القيادة", "fr": "L'Arrondissement / le Caïdat" },
+        "note": { "ar": "💡 منذ 2022 أصبح AMO إجبارياً لكل المغاربة", "fr": "💡 Depuis 2022, l'AMO est obligatoire pour tous les Marocains" }
+      }
+    ]
+  },
+
+  "module_4_administrations_guide": {
+    "title": { "ar": "دليل الإدارات — فين نمشي؟", "fr": "Guide des administrations — Où aller ?" },
+    "guide": [
+      {
+        "need": { "ar": "رسم الولادة", "fr": "Acte de naissance" },
+        "go_to": { "ar": "مكتب الحالة المدنية بالجماعة", "fr": "Bureau de l'état civil à la Commune" },
+        "darija": "مكتب لحالة لمدنية",
+        "icon": "birth"
+      },
+      {
+        "need": { "ar": "البطاقة الوطنية", "fr": "CIN" },
+        "go_to": { "ar": "مركز الشرطة أو الدرك", "fr": "Commissariat ou Gendarmerie" },
+        "darija": "لكوميسارية / لجندرمة",
+        "icon": "id"
+      },
+      {
+        "need": { "ar": "شهادة السكنى", "fr": "Certificat de résidence" },
+        "go_to": { "ar": "المقدّم ثم المقاطعة", "fr": "Le Moqaddem puis l'Arrondissement" },
+        "darija": "عند المقدم ← لمقاطعة",
+        "icon": "home"
+      },
+      {
+        "need": { "ar": "تصحيح الإمضاء", "fr": "Légalisation de signature" },
+        "go_to": { "ar": "المقاطعة / الجماعة", "fr": "L'Arrondissement / la Commune" },
+        "darija": "لمقاطعة",
+        "icon": "signature"
+      },
+      {
+        "need": { "ar": "تسجيل الأطفال في المدرسة", "fr": "Inscription des enfants à l'école" },
+        "go_to": { "ar": "المدرسة مباشرة + المقاطعة للوثائق", "fr": "L'école directement + Arrondissement pour les documents" },
+        "darija": "لمدراسة",
+        "icon": "school"
+      },
+      {
+        "need": { "ar": "تقديم شكاية", "fr": "Déposer une plainte" },
+        "go_to": { "ar": "مركز الشرطة أو الدرك الملكي", "fr": "Commissariat ou Gendarmerie Royale" },
+        "darija": "لكوميسارية",
+        "icon": "complaint"
+      },
+      {
+        "need": { "ar": "التأمين الصحي AMO", "fr": "Assurance maladie AMO" },
+        "go_to": { "ar": "المقاطعة أو CNSS أو عبر watiqa.ma", "fr": "Arrondissement ou CNSS ou via watiqa.ma" },
+        "darija": "لمقاطعة / CNSS",
+        "icon": "health"
+      },
+      {
+        "need": { "ar": "الطلاق / النفقة / حضانة الأطفال", "fr": "Divorce / pension / garde des enfants" },
+        "go_to": { "ar": "محكمة الأسرة (قسم قضاء الأسرة)", "fr": "Tribunal de la famille" },
+        "darija": "المحكمة ديال لوسرة",
+        "icon": "family_court"
+      },
+      {
+        "need": { "ar": "العنف الأسري — طلب المساعدة", "fr": "Violence domestique — demander de l'aide" },
+        "go_to": { "ar": "خلية الاستقبال بالمحكمة أو الشرطة أو الخط 8350", "fr": "Cellule d'accueil au tribunal ou police ou ligne 8350" },
+        "darija": "خلية لاستقبال ف المحكمة / لبوليس / 8350",
+        "icon": "help"
+      }
+    ]
+  },
+
+  "module_5_womens_rights": {
+    "title": { "ar": "حقوق المرأة في المغرب", "fr": "Droits de la femme au Maroc" },
+    "intro": {
+      "ar": "القانون المغربي يحمي حقوقك — اعرفيها باش تحميها",
+      "fr": "La loi marocaine protège vos droits — connaissez-les pour les défendre"
+    },
+    "rights": [
+      {
+        "category": { "ar": "🏠 الزواج والأسرة", "fr": "🏠 Mariage et famille" },
+        "rights_list": [
+          { "ar": "السن القانوني للزواج هو 18 سنة", "fr": "L'âge légal du mariage est 18 ans" },
+          { "ar": "لا يجوز الزواج بدون موافقتك — الإجبار ممنوع قانونياً", "fr": "Le mariage sans votre consentement est interdit par la loi" },
+          { "ar": "من حقك الاحتفاظ باسمك العائلي بعد الزواج", "fr": "Vous avez le droit de garder votre nom de famille après le mariage" },
+          { "ar": "مدونة الأسرة تعطيك الحق في الطلاق", "fr": "Le Code de la famille vous donne le droit au divorce" },
+          { "ar": "النفقة واجبة على الزوج حتى بعد الطلاق", "fr": "La pension alimentaire est obligatoire même après le divorce" },
+          { "ar": "حضانة الأطفال من حقك بعد الطلاق (مع شروط)", "fr": "La garde des enfants vous revient après le divorce (sous conditions)" }
+        ]
+      },
+      {
+        "category": { "ar": "💼 العمل", "fr": "💼 Le travail" },
+        "rights_list": [
+          { "ar": "من حقك العمل بدون إذن زوجك", "fr": "Vous avez le droit de travailler sans l'autorisation de votre mari" },
+          { "ar": "الأجر المتساوي — نفس العمل = نفس الأجر", "fr": "Salaire égal — même travail = même salaire" },
+          { "ar": "إجازة الأمومة: 14 أسبوع مدفوعة", "fr": "Congé maternité : 14 semaines payées" },
+          { "ar": "ممنوع الطرد بسبب الحمل", "fr": "Interdit de licencier à cause de la grossesse" }
+        ]
+      },
+      {
+        "category": { "ar": "⚖️ الحماية من العنف", "fr": "⚖️ Protection contre la violence" },
+        "rights_list": [
+          { "ar": "قانون 103.13 يجرّم العنف ضد المرأة", "fr": "La loi 103.13 criminalise la violence contre les femmes" },
+          { "ar": "العنف الجسدي والنفسي والاقتصادي والجنسي كلها مجرّمة", "fr": "La violence physique, psychologique, économique et sexuelle sont toutes criminalisées" },
+          { "ar": "التحرش في الشارع أو العمل مجرّم قانونياً", "fr": "Le harcèlement dans la rue ou au travail est puni par la loi" },
+          { "ar": "من حقك تقديم شكاية وطلب الحماية", "fr": "Vous avez le droit de porter plainte et demander protection" }
+        ]
+      },
+      {
+        "category": { "ar": "📚 التعليم والصحة", "fr": "📚 Éducation et santé" },
+        "rights_list": [
+          { "ar": "التعليم حق — ويمكنك الالتحاق ببرامج محو الأمية مجاناً", "fr": "L'éducation est un droit — vous pouvez rejoindre des programmes d'alphabétisation gratuits" },
+          { "ar": "الرعاية الصحية من حقك — خاصة أثناء الحمل والولادة", "fr": "Les soins de santé sont votre droit — surtout pendant la grossesse et l'accouchement" },
+          { "ar": "التلقيح مجاني لجميع الأطفال", "fr": "La vaccination est gratuite pour tous les enfants" }
+        ]
+      }
+    ],
+    "help_resources": [
+      { "name": { "ar": "خط الاستماع للنساء ضحايا العنف", "fr": "Ligne d'écoute femmes victimes de violence" }, "contact": "8350", "type": "phone" },
+      { "name": { "ar": "المجلس الوطني لحقوق الإنسان", "fr": "Conseil National des Droits de l'Homme" }, "contact": "0537 54 00 00", "type": "phone" },
+      { "name": { "ar": "جمعية التحدي للمساواة والمواطنة", "fr": "Association Tahadi pour l'égalité et la citoyenneté" }, "type": "association" },
+      { "name": { "ar": "مراكز الاستماع بالمحاكم", "fr": "Centres d'écoute dans les tribunaux" }, "type": "in_person" }
+    ]
+  },
+
+  "module_6_elections": {
+    "title": { "ar": "الانتخابات والتصويت", "fr": "Élections et vote" },
+    "info": [
+      {
+        "question": { "ar": "من يحق له التصويت؟", "fr": "Qui peut voter ?" },
+        "answer": { "ar": "كل مغربي(ة) عمره 18 سنة فما فوق ومسجّل(ة) في اللوائح الانتخابية", "fr": "Tout(e) Marocain(e) de 18 ans et plus inscrit(e) sur les listes électorales" }
+      },
+      {
+        "question": { "ar": "كيف أسجّل؟", "fr": "Comment s'inscrire ?" },
+        "answer": { "ar": "في المقاطعة / الجماعة — خذي معك البطاقة الوطنية", "fr": "À l'Arrondissement / la Commune — apportez votre CIN" }
+      },
+      {
+        "question": { "ar": "كيف نصوّت؟", "fr": "Comment voter ?" },
+        "answer": { "ar": "تدخلي المعزل — تختاري المرشح(ة) — تضعي ورقة التصويت في الصندوق — سرّي!", "fr": "Entrez dans l'isoloir — choisissez le/la candidat(e) — mettez le bulletin dans l'urne — c'est secret !" }
+      },
+      {
+        "question": { "ar": "صوتي سرّي؟", "fr": "Mon vote est secret ?" },
+        "answer": { "ar": "نعم! لا أحد يعرف لمن صوّتِ — حتى زوجك أو عائلتك. وحد ما يقدر يجبرك تصوّتي لشي واحد", "fr": "Oui ! Personne ne sait pour qui vous avez voté — même votre mari ou famille. Personne ne peut vous forcer à voter pour quelqu'un" }
+      }
+    ]
+  }
+}

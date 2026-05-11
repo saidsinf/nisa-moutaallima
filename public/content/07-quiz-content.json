@@ -1,0 +1,499 @@
+{
+  "section_id": "quizzes",
+  "title": {
+    "ar": "اختبري معلوماتك",
+    "fr": "Testez vos connaissances"
+  },
+  "description": {
+    "ar": "أسئلة بسيطة باش تشوفي واش فهمتي مزيان",
+    "fr": "Des questions simples pour vérifier si vous avez bien compris"
+  },
+  "icon": "check-circle",
+  "instructions": {
+    "ar": "اختاري الجواب الصحيح. ما تخافيش من الغلط — الغلط كيعلّم!",
+    "fr": "Choisissez la bonne réponse. N'ayez pas peur de vous tromper — les erreurs font apprendre !"
+  },
+
+  "quiz_arabic_literacy": {
+    "title": { "ar": "القراءة والكتابة بالعربية", "fr": "Lecture et écriture en arabe" },
+    "questions": [
+      {
+        "id": "ar_q1",
+        "type": "image_choice",
+        "question": { "ar": "أشمن حرف هاد؟: ب", "fr": "Quelle est cette lettre ? : ب" },
+        "options": [
+          { "ar": "تاء", "fr": "Ta" },
+          { "ar": "باء", "fr": "Ba" },
+          { "ar": "ثاء", "fr": "Tha" },
+          { "ar": "نون", "fr": "Noun" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "هادي هي الباء — عندها نقطة وحدة من تحت", "fr": "C'est le Ba — il a un seul point en bas" }
+      },
+      {
+        "id": "ar_q2",
+        "type": "multiple_choice",
+        "question": { "ar": "شحال من حرف كاين في الأبجدية العربية؟", "fr": "Combien de lettres y a-t-il dans l'alphabet arabe ?" },
+        "options": [
+          { "ar": "26", "fr": "26" },
+          { "ar": "28", "fr": "28" },
+          { "ar": "30", "fr": "30" },
+          { "ar": "32", "fr": "32" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "الأبجدية العربية فيها 28 حرف", "fr": "L'alphabet arabe contient 28 lettres" }
+      },
+      {
+        "id": "ar_q3",
+        "type": "multiple_choice",
+        "question": { "ar": "العربية كتتكتب من...", "fr": "L'arabe s'écrit de..." },
+        "options": [
+          { "ar": "اليسار لليمين", "fr": "Gauche à droite" },
+          { "ar": "اليمين لليسار", "fr": "Droite à gauche" },
+          { "ar": "فوق لتحت", "fr": "Haut en bas" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "العربية كتتكتب وكتتقرا من اليمين لليسار", "fr": "L'arabe s'écrit et se lit de droite à gauche" }
+      },
+      {
+        "id": "ar_q4",
+        "type": "multiple_choice",
+        "question": { "ar": "الفتحة فوق الحرف كتعطيه صوت...", "fr": "La fatha au-dessus de la lettre donne le son..." },
+        "options": [
+          { "ar": "\"أُ\" (ou)", "fr": "\"ou\"" },
+          { "ar": "\"إِ\" (i)", "fr": "\"i\"" },
+          { "ar": "\"أَ\" (a)", "fr": "\"a\"" }
+        ],
+        "correct": 2,
+        "explanation": { "ar": "الفتحة ( َ ) كتعطي صوت \"أَ\" — بحال في كلمة \"كَتَبَ\"", "fr": "La fatha ( َ ) donne le son \"a\" — comme dans le mot \"kataba\"" }
+      },
+      {
+        "id": "ar_q5",
+        "type": "matching",
+        "question": { "ar": "وصّلي الحرف بالكلمة اللي كتبدا بيه", "fr": "Reliez la lettre au mot qui commence par elle" },
+        "pairs": [
+          { "left": "ب", "right": { "ar": "بيت", "fr": "Maison (bayt)" } },
+          { "left": "س", "right": { "ar": "سمك", "fr": "Poisson (samak)" } },
+          { "left": "ك", "right": { "ar": "كتاب", "fr": "Livre (kitab)" } },
+          { "left": "م", "right": { "ar": "مدرسة", "fr": "École (madrasa)" } }
+        ]
+      },
+      {
+        "id": "ar_q6",
+        "type": "multiple_choice",
+        "question": { "ar": "أشمن كلمة كتعني \"صيدلية\"؟", "fr": "Quel mot signifie \"pharmacie\" ?" },
+        "options": [
+          { "ar": "مدرسة", "fr": "madrasa" },
+          { "ar": "صيدلية", "fr": "saydaliya" },
+          { "ar": "مستشفى", "fr": "mustashfa" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "صيدلية — البلاصة فين كتشري الدوا", "fr": "Saydaliya — l'endroit où on achète les médicaments" }
+      },
+      {
+        "id": "ar_q7",
+        "type": "true_false",
+        "question": { "ar": "الأرقام العربية كتتكتب من اليسار لليمين", "fr": "Les chiffres arabes s'écrivent de gauche à droite" },
+        "correct": true,
+        "explanation": { "ar": "نعم! الأرقام ديما من اليسار لليمين حتى في العربية: 123", "fr": "Oui ! Les chiffres vont toujours de gauche à droite même en arabe : 123" }
+      },
+      {
+        "id": "ar_q8",
+        "type": "multiple_choice",
+        "question": { "ar": "كيفاش كتقولي \"مرحبا\" بالدارجة المغربية؟", "fr": "Comment dit-on \"bonjour\" en darija marocain ?" },
+        "options": [
+          { "ar": "السلام عليكم", "fr": "Essalamu alaykum" },
+          { "ar": "مرحبا", "fr": "Marhaba" },
+          { "ar": "الجوابين صحاح", "fr": "Les deux réponses sont correctes" }
+        ],
+        "correct": 2,
+        "explanation": { "ar": "الجوج صحاح! السلام عليكم أكثر رسمية ومرحبا ودّية", "fr": "Les deux sont corrects ! Essalamu alaykum est plus formel et Marhaba plus amical" }
+      }
+    ]
+  },
+
+  "quiz_french_literacy": {
+    "title": { "ar": "القراءة والكتابة بالفرنسية", "fr": "Lecture et écriture en français" },
+    "questions": [
+      {
+        "id": "fr_q1",
+        "type": "multiple_choice",
+        "question": { "ar": "شحال من حرف في الأبجدية الفرنسية؟", "fr": "Combien de lettres dans l'alphabet français ?" },
+        "options": [
+          { "ar": "24", "fr": "24" },
+          { "ar": "26", "fr": "26" },
+          { "ar": "28", "fr": "28" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "الأبجدية الفرنسية فيها 26 حرف: A إلى Z", "fr": "L'alphabet français a 26 lettres : A à Z" }
+      },
+      {
+        "id": "fr_q2",
+        "type": "multiple_choice",
+        "question": { "ar": "شنو كتعني كلمة \"Pharmacie\" ؟", "fr": "Que signifie le mot \"Pharmacie\" ?" },
+        "options": [
+          { "ar": "سبيطار", "fr": "Hôpital" },
+          { "ar": "صيدلية", "fr": "Pharmacie" },
+          { "ar": "طبيب", "fr": "Médecin" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "Pharmacie = صيدلية — البلاصة فين كتشري الدوا", "fr": "Pharmacie = endroit où on achète les médicaments" }
+      },
+      {
+        "id": "fr_q3",
+        "type": "multiple_choice",
+        "question": { "ar": "كيفاش كتقولي \"شكرا\" بالفرنسية؟", "fr": "Comment dit-on \"merci\" en français ?" },
+        "options": [
+          { "ar": "Bonjour (بونجور)", "fr": "Bonjour" },
+          { "ar": "Merci (ميرسي)", "fr": "Merci" },
+          { "ar": "Pardon (باردون)", "fr": "Pardon" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "Merci (ميرسي) = شكرا", "fr": "Merci = شكرا (choukran)" }
+      },
+      {
+        "id": "fr_q4",
+        "type": "multiple_choice",
+        "question": { "ar": "\"OU\" بالفرنسية كتعطي صوت...", "fr": "\"OU\" en français donne le son..." },
+        "options": [
+          { "ar": "\"أُو\" بحال في loup", "fr": "\"ou\" comme dans loup" },
+          { "ar": "\"أُ\" بحال في tu", "fr": "\"u\" comme dans tu" },
+          { "ar": "\"وا\" بحال في loi", "fr": "\"wa\" comme dans loi" }
+        ],
+        "correct": 0,
+        "explanation": { "ar": "OU كتعطي صوت \"أُو\" — بحال في loup (الديب) أو vous (أنتم)", "fr": "OU donne le son \"ou\" — comme dans loup ou vous" }
+      },
+      {
+        "id": "fr_q5",
+        "type": "multiple_choice",
+        "question": { "ar": "كيفاش كتقولي \"عندي مرض\" بالفرنسية عند الطبيب؟", "fr": "Comment dire \"je suis malade\" en français chez le médecin ?" },
+        "options": [
+          { "ar": "Je suis malade (جو سوي مالاد)", "fr": "Je suis malade" },
+          { "ar": "J'ai faim (جي فام)", "fr": "J'ai faim" },
+          { "ar": "Je suis perdue (جو سوي بيردو)", "fr": "Je suis perdue" }
+        ],
+        "correct": 0,
+        "explanation": { "ar": "Je suis malade = أنا مريضة. كلمة مهمة بزاف عند الطبيب!", "fr": "Je suis malade = أنا مريضة. Un mot très important chez le médecin !" }
+      },
+      {
+        "id": "fr_q6",
+        "type": "matching",
+        "question": { "ar": "وصّلي الرقم بالفرنسية", "fr": "Reliez le chiffre au mot français" },
+        "pairs": [
+          { "left": "1", "right": "Un" },
+          { "left": "5", "right": "Cinq" },
+          { "left": "10", "right": "Dix" },
+          { "left": "20", "right": "Vingt" }
+        ]
+      }
+    ]
+  },
+
+  "quiz_phone_skills": {
+    "title": { "ar": "استعمال التيليفون", "fr": "Utilisation du téléphone" },
+    "questions": [
+      {
+        "id": "ph_q1",
+        "type": "multiple_choice",
+        "question": { "ar": "باش تبعتي رسالة صوتية في الواتساب خاصك...", "fr": "Pour envoyer un message vocal sur WhatsApp, vous devez..." },
+        "options": [
+          { "ar": "تكليكي على الميكرو وتبقاي حابسة عليه وأنت كتهضري", "fr": "Appuyer sur le micro et maintenir en parlant" },
+          { "ar": "تكتبي الرسالة", "fr": "Écrire le message" },
+          { "ar": "تعيطي وتسجلي المكالمة", "fr": "Appeler et enregistrer l'appel" }
+        ],
+        "correct": 0,
+        "explanation": { "ar": "حبسي على الميكرو الأخضر وهضري — ملي تحيّدي صبعك غادي تتبعت الرسالة", "fr": "Maintenez le micro vert et parlez — quand vous relâchez, le message s'envoie" }
+      },
+      {
+        "id": "ph_q2",
+        "type": "multiple_choice",
+        "question": { "ar": "كيفاش تزيدي رقم جديد في التيليفون؟", "fr": "Comment ajouter un nouveau numéro dans le téléphone ?" },
+        "options": [
+          { "ar": "كتمشي لـ Contacts وتكليكي على +", "fr": "Allez dans Contacts et appuyez sur +" },
+          { "ar": "كتبعتي رسالة للرقم", "fr": "Envoyez un message au numéro" },
+          { "ar": "كتصوّري الرقم بالكاميرا", "fr": "Photographiez le numéro avec la caméra" }
+        ],
+        "correct": 0,
+        "explanation": { "ar": "افتحي Contacts — كليكي على + — كتبي الإسم والرقم — كليكي حفظ", "fr": "Ouvrez Contacts — appuyez sur + — tapez le nom et le numéro — appuyez sur Enregistrer" }
+      },
+      {
+        "id": "ph_q3",
+        "type": "true_false",
+        "question": { "ar": "يقدر شي حد يشوف الرسائل ديالك في الواتساب إلا ما كانش عندو التيليفون ديالك", "fr": "Quelqu'un peut voir vos messages WhatsApp sans avoir votre téléphone" },
+        "correct": false,
+        "explanation": { "ar": "لا! الرسائل ديال الواتساب مشفرة. حد ما يقدر يقراهم غير إلا عندو التيليفون ديالك أو ربطتي واتساب ويب في جهاز آخر", "fr": "Non ! Les messages WhatsApp sont chiffrés. Personne ne peut les lire sauf s'il a votre téléphone ou si vous avez connecté WhatsApp Web sur un autre appareil" }
+      },
+      {
+        "id": "ph_q4",
+        "type": "multiple_choice",
+        "question": { "ar": "التيليفون ديالك بطيء بزاف. شنو أول حاجة تديري؟", "fr": "Votre téléphone est très lent. Que faire en premier ?" },
+        "options": [
+          { "ar": "شري تيليفون جديد", "fr": "Acheter un nouveau téléphone" },
+          { "ar": "أطفئيه وشعليه من جديد (Redémarrer)", "fr": "Éteignez-le et rallumez-le (Redémarrer)" },
+          { "ar": "حيّدي البطارية", "fr": "Retirez la batterie" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "إعادة التشغيل (Redémarrer) كتصلح بزاف ديال المشاكل. جربيها ديما قبل ما تقلقي", "fr": "Le redémarrage résout beaucoup de problèmes. Essayez toujours avant de vous inquiéter" }
+      },
+      {
+        "id": "ph_q5",
+        "type": "multiple_choice",
+        "question": { "ar": "كيفاش تكبّري الخط في التيليفون؟", "fr": "Comment agrandir le texte sur le téléphone ?" },
+        "options": [
+          { "ar": "Paramètres > Affichage > Taille du texte", "fr": "Paramètres > Affichage > Taille du texte" },
+          { "ar": "ما يمكنش تكبّري الخط", "fr": "On ne peut pas agrandir le texte" },
+          { "ar": "خاصك تشري تيليفون كبير", "fr": "Il faut acheter un plus grand téléphone" }
+        ],
+        "correct": 0,
+        "explanation": { "ar": "ديما يمكنك تكبّري الخط في الإعدادات. كليكي على Paramètres > Affichage > Taille de la police", "fr": "Vous pouvez toujours agrandir le texte dans les Paramètres > Affichage > Taille de la police" }
+      }
+    ]
+  },
+
+  "quiz_internet_safety": {
+    "title": { "ar": "السلامة على الإنترنت", "fr": "Sécurité sur Internet" },
+    "questions": [
+      {
+        "id": "is_q1",
+        "type": "multiple_choice",
+        "question": { "ar": "جاتك رسالة: \"مبروك ربحتي 50,000 درهم! أرسلي رقم الكارطة ديالك\". شنو تديري؟", "fr": "Vous recevez : \"Félicitations, vous avez gagné 50 000 DH ! Envoyez votre numéro de carte\". Que faites-vous ?" },
+        "options": [
+          { "ar": "نبعت رقم الكارطة — ربحت!", "fr": "J'envoie mon numéro de carte — j'ai gagné !" },
+          { "ar": "نحيّد الرسالة فورا — هادي نصبة", "fr": "Je supprime le message — c'est une arnaque" },
+          { "ar": "نردّ ونسوّل على التفاصيل", "fr": "Je réponds pour demander les détails" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "هادي نصبة 100%! حتى بنك أو شركة ما كتطلب رقم الكارطة في رسالة. حيّدي الرسالة!", "fr": "C'est une arnaque à 100% ! Aucune banque ne demande votre numéro de carte par message. Supprimez !" }
+      },
+      {
+        "id": "is_q2",
+        "type": "multiple_choice",
+        "question": { "ar": "أشمن كلمة سرية هي الأقوى؟", "fr": "Quel mot de passe est le plus fort ?" },
+        "options": [
+          { "ar": "123456", "fr": "123456" },
+          { "ar": "mohammed2024", "fr": "mohammed2024" },
+          { "ar": "Mf7sKn@2", "fr": "Mf7sKn@2" },
+          { "ar": "000000", "fr": "000000" }
+        ],
+        "correct": 2,
+        "explanation": { "ar": "Mf7sKn@2 هي الأقوى — فيها حروف كبيرة وصغيرة وأرقام ورموز", "fr": "Mf7sKn@2 est le plus fort — il contient des majuscules, minuscules, chiffres et symboles" }
+      },
+      {
+        "id": "is_q3",
+        "type": "true_false",
+        "question": { "ar": "يمكنك تستعملي نفس الكلمة السرية لكل الحسابات ديالك", "fr": "Vous pouvez utiliser le même mot de passe pour tous vos comptes" },
+        "correct": false,
+        "explanation": { "ar": "لا! إلا تسرقات كلمة وحدة، كلشي كيتسرق. خاصك كلمة مختلفة لكل حساب", "fr": "Non ! Si un mot de passe est volé, tout est volé. Utilisez un mot de passe différent pour chaque compte" }
+      },
+      {
+        "id": "is_q4",
+        "type": "multiple_choice",
+        "question": { "ar": "جاتك رسالة من رقم ما تعرفوش كيقول \"ماما أنا ولدك، التيليفون تبدل، بغيت فلوس\". شنو تديري؟", "fr": "Un numéro inconnu vous écrit \"Maman c'est ton fils, mon tel a changé, j'ai besoin d'argent\". Que faites-vous ?" },
+        "options": [
+          { "ar": "نبعت الفلوس — ولدي محتاج!", "fr": "J'envoie l'argent — mon fils a besoin !" },
+          { "ar": "نعيط لولدي على الرقم القديم ديالو أولا", "fr": "J'appelle d'abord mon fils sur son ancien numéro" },
+          { "ar": "نسوّلو أسئلة شخصية في الرسالة", "fr": "Je lui pose des questions personnelles par message" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "ديما عيطي على الرقم القديم باش تتأكدي. النصّابة كيقدرو يردّو على الأسئلة!", "fr": "Appelez toujours l'ancien numéro pour vérifier. Les arnaqueurs peuvent répondre aux questions !" }
+      },
+      {
+        "id": "is_q5",
+        "type": "multiple_choice",
+        "question": { "ar": "أشمن حاجة ما خاصكش تنشريها في فايسبوك أبدا؟", "fr": "Que ne devez-vous JAMAIS publier sur Facebook ?" },
+        "options": [
+          { "ar": "صورة ديال طبق الطاجين اللي طيّبتي", "fr": "Une photo du tajine que vous avez cuisiné" },
+          { "ar": "صورة ديال البطاقة الوطنية ديالك", "fr": "Une photo de votre carte d'identité" },
+          { "ar": "صورة ديال المنظر من السطح ديالك", "fr": "Une photo de la vue depuis votre toit" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "ما تنشري أبدا البطاقة الوطنية! الناس يقدرو يستعملوها باش يسرقو الهوية ديالك", "fr": "Ne publiez JAMAIS votre carte d'identité ! Les gens peuvent l'utiliser pour voler votre identité" }
+      },
+      {
+        "id": "is_q6",
+        "type": "multiple_choice",
+        "question": { "ar": "ولدك كيبقى ساعات طويلة في التيليفون. شحال الوقت المناسب لطفل عمرو 8 سنين؟", "fr": "Votre enfant passe des heures sur le téléphone. Quel est le temps approprié pour un enfant de 8 ans ?" },
+        "options": [
+          { "ar": "قد ما بغا", "fr": "Autant qu'il veut" },
+          { "ar": "ساعة في النهار", "fr": "1 heure par jour" },
+          { "ar": "4 ساعات في النهار", "fr": "4 heures par jour" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "الأطفال من 6 لـ 12 سنة خاصهم ساعة وحدة في النهار. الباقي للعب واللقراية والنوم", "fr": "Les enfants de 6 à 12 ans : 1 heure par jour max. Le reste pour jouer, étudier et dormir" }
+      }
+    ]
+  },
+
+  "quiz_civic_knowledge": {
+    "title": { "ar": "المعرفة المدنية", "fr": "Connaissances civiques" },
+    "questions": [
+      {
+        "id": "ck_q1",
+        "type": "multiple_choice",
+        "question": { "ar": "شكون هو رئيس الدولة في المغرب؟", "fr": "Qui est le chef de l'État au Maroc ?" },
+        "options": [
+          { "ar": "رئيس الحكومة", "fr": "Le chef du gouvernement" },
+          { "ar": "الملك", "fr": "Le Roi" },
+          { "ar": "رئيس البرلمان", "fr": "Le président du Parlement" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "المغرب مملكة — الملك محمد السادس هو رئيس الدولة", "fr": "Le Maroc est un royaume — le Roi Mohammed VI est le chef de l'État" }
+      },
+      {
+        "id": "ck_q2",
+        "type": "multiple_choice",
+        "question": { "ar": "فين كتمشي باش تدّيري البطاقة الوطنية؟", "fr": "Où allez-vous pour faire la carte d'identité ?" },
+        "options": [
+          { "ar": "البلدية (الكومين)", "fr": "La commune" },
+          { "ar": "المحكمة", "fr": "Le tribunal" },
+          { "ar": "المقاطعة أو القيادة", "fr": "L'arrondissement ou le Caïdat" }
+        ],
+        "correct": 2,
+        "explanation": { "ar": "البطاقة الوطنية كتّدار في المقاطعة (المدينة) أو القيادة (البادية)", "fr": "La carte d'identité se fait à l'arrondissement (en ville) ou au Caïdat (en zone rurale)" }
+      },
+      {
+        "id": "ck_q3",
+        "type": "multiple_choice",
+        "question": { "ar": "العمر القانوني ديال الزواج في المغرب هو...", "fr": "L'âge légal du mariage au Maroc est..." },
+        "options": [
+          { "ar": "15 سنة", "fr": "15 ans" },
+          { "ar": "18 سنة", "fr": "18 ans" },
+          { "ar": "21 سنة", "fr": "21 ans" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "العمر القانوني ديال الزواج هو 18 سنة حسب مدوّنة الأسرة", "fr": "L'âge légal du mariage est de 18 ans selon le Code de la famille" }
+      },
+      {
+        "id": "ck_q4",
+        "type": "true_false",
+        "question": { "ar": "المرأة المغربية عندها الحق تخدم وتفتح مشروع بلا إذن الراجل", "fr": "La femme marocaine a le droit de travailler et d'ouvrir un projet sans l'autorisation du mari" },
+        "correct": true,
+        "explanation": { "ar": "نعم! القانون المغربي كيعطي المرأة الحق تخدم وتدير تجارة بلا إذن حد", "fr": "Oui ! La loi marocaine donne à la femme le droit de travailler et faire du commerce sans autorisation" }
+      },
+      {
+        "id": "ck_q5",
+        "type": "multiple_choice",
+        "question": { "ar": "رقم تيليفون البوليس في المغرب هو...", "fr": "Le numéro de téléphone de la police au Maroc est..." },
+        "options": [
+          { "ar": "15", "fr": "15" },
+          { "ar": "19", "fr": "19" },
+          { "ar": "112", "fr": "112" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "19 هو رقم البوليس. 150 الوقاية المدنية. 177 الدرك الملكي والخط الأخضر للنساء", "fr": "19 est le numéro de la police. 150 la Protection civile. 177 la Gendarmerie et la ligne verte pour les femmes" }
+      },
+      {
+        "id": "ck_q6",
+        "type": "multiple_choice",
+        "question": { "ar": "الراميد كيعطيك...", "fr": "Le RAMED vous donne..." },
+        "options": [
+          { "ar": "فلوس كل شهر", "fr": "De l'argent chaque mois" },
+          { "ar": "العلاج مجانا في المستشفيات العمومية", "fr": "Des soins gratuits dans les hôpitaux publics" },
+          { "ar": "تخفيض في الضرائب", "fr": "Une réduction d'impôts" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "الراميد = التغطية الصحية للي ما عندهمش. كتعالجي مجانا في السبيطار العمومي", "fr": "Le RAMED = couverture santé pour les plus démunis. Soins gratuits dans les hôpitaux publics" }
+      }
+    ]
+  },
+
+  "quiz_life_skills": {
+    "title": { "ar": "مهارات الحياة", "fr": "Compétences de vie" },
+    "questions": [
+      {
+        "id": "ls_q1",
+        "type": "multiple_choice",
+        "question": { "ar": "أحسن طريقة باش تدبّري الميزانية ديال الشهر؟", "fr": "La meilleure façon de gérer le budget du mois ?" },
+        "options": [
+          { "ar": "تصرفي الفلوس ملي كتجي ومنبعد تشوفي", "fr": "Dépenser l'argent quand il arrive et voir après" },
+          { "ar": "تقسّمي الفلوس في أظرفة — كل ظرف لحاجة وحدة", "fr": "Diviser l'argent en enveloppes — une pour chaque dépense" },
+          { "ar": "تعطي الفلوس كاملة للراجل", "fr": "Donner tout l'argent au mari" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "طريقة الأظرفة أحسن طريقة! كتعرفي بالضبط شحال باقي عندك لكل حاجة", "fr": "La méthode des enveloppes est la meilleure ! Vous savez exactement combien il reste pour chaque chose" }
+      },
+      {
+        "id": "ls_q2",
+        "type": "multiple_choice",
+        "question": { "ar": "شنو أول حاجة تديري ملي تجيك الفلوس ديال الشهر؟", "fr": "Que faire en premier quand l'argent du mois arrive ?" },
+        "options": [
+          { "ar": "تشري حوايج جداد", "fr": "Acheter de nouveaux vêtements" },
+          { "ar": "تخلّصي الكراء والفاكتورات", "fr": "Payer le loyer et les factures" },
+          { "ar": "تمشي للسوق", "fr": "Aller au marché" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "الكراء والفاكتورات أول حاجة! باقي الفلوس قسّميها على الحوائج الأخرى", "fr": "Le loyer et les factures d'abord ! Divisez le reste sur les autres besoins" }
+      },
+      {
+        "id": "ls_q3",
+        "type": "multiple_choice",
+        "question": { "ar": "ولدك عندو الحمّى (السخانة). شنو تديري؟", "fr": "Votre enfant a de la fièvre. Que faites-vous ?" },
+        "options": [
+          { "ar": "نغطّيه بالبطانية باش يعرق", "fr": "Le couvrir avec une couverture pour qu'il transpire" },
+          { "ar": "نعطيه الدوليبران ونحيّد عليه الحوايج الثقيلة", "fr": "Lui donner du Doliprane et enlever les vêtements lourds" },
+          { "ar": "نعطيه الأسبيرين", "fr": "Lui donner de l'aspirine" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "الدوليبران حسب العمر + حيّدي الحوايج الثقيلة + الما بزاف. ما تعطيهش الأسبيرين للأطفال!", "fr": "Doliprane selon l'âge + enlever les vêtements lourds + beaucoup d'eau. Ne donnez PAS d'aspirine aux enfants !" }
+      },
+      {
+        "id": "ls_q4",
+        "type": "multiple_choice",
+        "question": { "ar": "شنو كتعني العدس والحمص في التغذية؟", "fr": "Que représentent les lentilles et les pois chiches en nutrition ?" },
+        "options": [
+          { "ar": "خضرة فقط", "fr": "Juste des légumes" },
+          { "ar": "بروتين نباتي — بحال اللحم", "fr": "Protéines végétales — comme la viande" },
+          { "ar": "حلويات", "fr": "Des sucreries" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "العدس والحمص فيهم بروتين بزاف بحال اللحم! وأرخص بزاف ومفيدين", "fr": "Les lentilles et pois chiches contiennent beaucoup de protéines comme la viande ! Et sont beaucoup moins chers" }
+      },
+      {
+        "id": "ls_q5",
+        "type": "multiple_choice",
+        "question": { "ar": "كيفاش تساعدي ولدك في القراية حتى إلا ما تعرفيش تقراي؟", "fr": "Comment aider votre enfant à étudier même si vous ne savez pas lire ?" },
+        "options": [
+          { "ar": "ما يمكنش — خاصك تعرفي تقراي", "fr": "Impossible — il faut savoir lire" },
+          { "ar": "حطّي ليه بلاصة هادئة ووقت محدد وسوليه يشرح ليك شنو دار", "fr": "Donnez-lui un endroit calme, un horaire fixe et demandez-lui de vous expliquer ce qu'il a fait" },
+          { "ar": "خلّيه يدبّر راسو", "fr": "Laissez-le se débrouiller" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "ما خاصكش تعرفي تقراي باش تساعديه! البيئة الهادئة والاهتمام ديالك أهم حاجة", "fr": "Pas besoin de savoir lire ! Un environnement calme et votre attention sont le plus important" }
+      },
+      {
+        "id": "ls_q6",
+        "type": "multiple_choice",
+        "question": { "ar": "شري كيلو طماطم بـ 8 دراهم و2 كيلو بصلة بـ 5 دراهم الكيلو. شحال المجموع؟", "fr": "1 kg de tomates à 8 DH et 2 kg d'oignons à 5 DH le kilo. Combien au total ?" },
+        "options": [
+          { "ar": "13 درهم", "fr": "13 DH" },
+          { "ar": "18 درهم", "fr": "18 DH" },
+          { "ar": "21 درهم", "fr": "21 DH" }
+        ],
+        "correct": 1,
+        "explanation": { "ar": "طماطم 8 + بصلة (2 × 5 = 10) = 8 + 10 = 18 درهم", "fr": "Tomates 8 + oignons (2 × 5 = 10) = 8 + 10 = 18 DH" }
+      }
+    ]
+  },
+
+  "quiz_settings": {
+    "passing_score": 60,
+    "show_explanation_after_each": true,
+    "allow_retry": true,
+    "celebration_message": {
+      "ar": "مبروك عليك! 🎉 نجحتي في الاختبار!",
+      "fr": "Félicitations ! 🎉 Vous avez réussi le test !"
+    },
+    "encouragement_message": {
+      "ar": "ما تقلقيش! جربي مرة أخرى — التكرار كيعلّم! 💪",
+      "fr": "Ne vous inquiétez pas ! Essayez encore — la répétition fait apprendre ! 💪"
+    },
+    "badges": [
+      { "name": { "ar": "نجمة القراءة", "fr": "Étoile de la lecture" }, "condition": "pass_arabic_and_french", "icon": "star" },
+      { "name": { "ar": "خبيرة التيليفون", "fr": "Experte du téléphone" }, "condition": "pass_phone", "icon": "smartphone" },
+      { "name": { "ar": "حارسة الأمان", "fr": "Gardienne de la sécurité" }, "condition": "pass_safety", "icon": "shield" },
+      { "name": { "ar": "مواطنة واعية", "fr": "Citoyenne avertie" }, "condition": "pass_civic", "icon": "flag" },
+      { "name": { "ar": "سيدة الدار", "fr": "Maîtresse de maison" }, "condition": "pass_life_skills", "icon": "home" },
+      { "name": { "ar": "بطلة المعرفة", "fr": "Championne du savoir" }, "condition": "pass_all", "icon": "trophy" }
+    ]
+  }
+}

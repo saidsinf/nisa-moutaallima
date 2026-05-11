@@ -1,0 +1,264 @@
+{
+  "section_id": "french_literacy",
+  "title": {
+    "ar": "تعلّم القراءة والكتابة بالفرنسية",
+    "fr": "Apprendre à lire et écrire en français"
+  },
+
+  "module_1_alphabet": {
+    "title": { "ar": "الأبجدية الفرنسية", "fr": "L'alphabet français" },
+    "letters": [
+      { "letter": "A a", "sound": "a", "example": "Arbre (شجرة)", "phonetic_ar": "آ" },
+      { "letter": "B b", "sound": "bé", "example": "Bébé (رضيع)", "phonetic_ar": "بي" },
+      { "letter": "C c", "sound": "sé", "example": "Chat (قط)", "phonetic_ar": "سي" },
+      { "letter": "D d", "sound": "dé", "example": "Dent (سن)", "phonetic_ar": "دي" },
+      { "letter": "E e", "sound": "euh", "example": "École (مدرسة)", "phonetic_ar": "أُه" },
+      { "letter": "F f", "sound": "ef", "example": "Fleur (وردة)", "phonetic_ar": "إف" },
+      { "letter": "G g", "sound": "jé", "example": "Gâteau (كعكة)", "phonetic_ar": "جي" },
+      { "letter": "H h", "sound": "ash", "example": "Hôpital (مستشفى)", "phonetic_ar": "آش" },
+      { "letter": "I i", "sound": "i", "example": "Île (جزيرة)", "phonetic_ar": "إي" },
+      { "letter": "J j", "sound": "ji", "example": "Jardin (حديقة)", "phonetic_ar": "جي" },
+      { "letter": "K k", "sound": "ka", "example": "Kilo (كيلو)", "phonetic_ar": "كا" },
+      { "letter": "L l", "sound": "el", "example": "Lait (حليب)", "phonetic_ar": "إل" },
+      { "letter": "M m", "sound": "em", "example": "Maison (بيت)", "phonetic_ar": "إم" },
+      { "letter": "N n", "sound": "en", "example": "Nuit (ليل)", "phonetic_ar": "إن" },
+      { "letter": "O o", "sound": "o", "example": "Orange (برتقال)", "phonetic_ar": "أُو" },
+      { "letter": "P p", "sound": "pé", "example": "Pain (خبز)", "phonetic_ar": "بّي" },
+      { "letter": "Q q", "sound": "ku", "example": "Quatre (أربعة)", "phonetic_ar": "كو" },
+      { "letter": "R r", "sound": "er", "example": "Riz (أرز)", "phonetic_ar": "إغ" },
+      { "letter": "S s", "sound": "es", "example": "Soleil (شمس)", "phonetic_ar": "إس" },
+      { "letter": "T t", "sound": "té", "example": "Table (طاولة)", "phonetic_ar": "تي" },
+      { "letter": "U u", "sound": "u", "example": "Un (واحد)", "phonetic_ar": "أو (ضيقة)" },
+      { "letter": "V v", "sound": "vé", "example": "Voiture (سيارة)", "phonetic_ar": "في" },
+      { "letter": "W w", "sound": "double-vé", "example": "Wifi (واي فاي)", "phonetic_ar": "دوبل في" },
+      { "letter": "X x", "sound": "iks", "example": "Taxi (طاكسي)", "phonetic_ar": "إيكس" },
+      { "letter": "Y y", "sound": "i-grec", "example": "Yaourt (ياغورت)", "phonetic_ar": "إي غريك" },
+      { "letter": "Z z", "sound": "zed", "example": "Zéro (صفر)", "phonetic_ar": "زيد" }
+    ],
+    "special_characters": [
+      { "char": "é", "name": "e accent aigu", "sound": "ي — مثل 'ي' في يد", "example": "école, café, bébé" },
+      { "char": "è", "name": "e accent grave", "sound": "إ — مفتوحة", "example": "mère, frère, père" },
+      { "char": "ê", "name": "e accent circonflexe", "sound": "إ — مفتوحة طويلة", "example": "fête, tête, être" },
+      { "char": "à", "name": "a accent grave", "sound": "آ", "example": "à, là, voilà" },
+      { "char": "ù", "name": "u accent grave", "sound": "او", "example": "où" },
+      { "char": "ç", "name": "c cédille", "sound": "سْ", "example": "ça, français, garçon" },
+      { "char": "ë, ï, ü", "name": "tréma", "sound": "كل حرف ينطق لوحده", "example": "Noël, naïf" }
+    ]
+  },
+
+  "module_2_sounds": {
+    "title": { "ar": "الأصوات الفرنسية الخاصة", "fr": "Les sons spéciaux du français" },
+    "description": {
+      "ar": "في الفرنسية، بعض الحروف تجتمع لتعطي صوتاً واحداً مختلفاً",
+      "fr": "En français, certaines lettres se combinent pour former un seul son différent"
+    },
+    "sounds": [
+      { "combo": "ou", "sound_ar": "او", "example": "jour (يوم), loup (ذئب), soupe (حساء)", "audio_text": "ou comme dans jour" },
+      { "combo": "on / om", "sound_ar": "ون (من الأنف)", "example": "bon (جيد), maison (بيت), nom (اسم)", "audio_text": "on comme dans bon" },
+      { "combo": "an / am / en / em", "sound_ar": "ان (من الأنف)", "example": "enfant (طفل), dans (في), temps (وقت)", "audio_text": "an comme dans enfant" },
+      { "combo": "in / im / ain / ein", "sound_ar": "إن (من الأنف)", "example": "main (يد), pain (خبز), bien (جيد)", "audio_text": "in comme dans main" },
+      { "combo": "oi", "sound_ar": "وا", "example": "moi (أنا), toi (أنت), boire (شرب)", "audio_text": "oi comme dans moi" },
+      { "combo": "au / eau", "sound_ar": "أو", "example": "eau (ماء), beau (جميل), gâteau (كعكة)", "audio_text": "eau comme dans eau" },
+      { "combo": "ai / ei", "sound_ar": "إ", "example": "maison (بيت), neige (ثلج), lait (حليب)", "audio_text": "ai comme dans maison" },
+      { "combo": "ch", "sound_ar": "ش", "example": "chat (قط), chaud (ساخن), chercher (بحث)", "audio_text": "ch comme dans chat" },
+      { "combo": "ph", "sound_ar": "ف", "example": "pharmacie (صيدلية), photo (صورة), téléphone", "audio_text": "ph comme dans pharmacie" },
+      { "combo": "gn", "sound_ar": "نيْ", "example": "montagne (جبل), ligne (خط), signe (علامة)", "audio_text": "gn comme dans montagne" },
+      { "combo": "gu", "sound_ar": "ڭ", "example": "guerre (حرب), guide (دليل), guitare", "audio_text": "gu comme dans guide" },
+      { "combo": "qu", "sound_ar": "ك", "example": "quatre (4), qui (من), quand (متى)", "audio_text": "qu comme dans quatre" },
+      { "combo": "tion", "sound_ar": "سْيون", "example": "station, nation, attention", "audio_text": "tion comme dans attention" },
+      { "combo": "ille", "sound_ar": "إي", "example": "fille (بنت), famille (عائلة), vanille", "audio_text": "ille comme dans fille" }
+    ]
+  },
+
+  "module_3_vocabulary": {
+    "title": { "ar": "كلمات فرنسية أساسية", "fr": "Vocabulaire français essentiel" },
+    "categories": [
+      {
+        "id": "home_fr",
+        "name": { "ar": "🏠 البيت", "fr": "🏠 La Maison" },
+        "words": [
+          { "fr": "La maison", "ar": "البيت / الدار", "phonetic_ar": "لا ميزون" },
+          { "fr": "La cuisine", "ar": "المطبخ", "phonetic_ar": "لا كويزين" },
+          { "fr": "La chambre", "ar": "الغرفة", "phonetic_ar": "لا شومبر" },
+          { "fr": "La salle de bain", "ar": "الحمام", "phonetic_ar": "لا سال دو بان" },
+          { "fr": "La porte", "ar": "الباب", "phonetic_ar": "لا بورت" },
+          { "fr": "La fenêtre", "ar": "النافذة", "phonetic_ar": "لا فونيتر" },
+          { "fr": "Le lit", "ar": "السرير", "phonetic_ar": "لو لي" },
+          { "fr": "La table", "ar": "الطاولة", "phonetic_ar": "لا طابل" },
+          { "fr": "La chaise", "ar": "الكرسي", "phonetic_ar": "لا شيز" },
+          { "fr": "Le frigo", "ar": "الثلاجة", "phonetic_ar": "لو فريڭو" },
+          { "fr": "L'eau", "ar": "الماء", "phonetic_ar": "لو" },
+          { "fr": "Le savon", "ar": "الصابون", "phonetic_ar": "لو سافون" },
+          { "fr": "La clé", "ar": "المفتاح", "phonetic_ar": "لا كلي" },
+          { "fr": "Le balai", "ar": "المكنسة", "phonetic_ar": "لو بالي" }
+        ]
+      },
+      {
+        "id": "food_fr",
+        "name": { "ar": "🍎 الأكل", "fr": "🍎 La Nourriture" },
+        "words": [
+          { "fr": "Le pain", "ar": "الخبز", "phonetic_ar": "لو بان" },
+          { "fr": "Le lait", "ar": "الحليب", "phonetic_ar": "لو لي" },
+          { "fr": "La viande", "ar": "اللحم", "phonetic_ar": "لا فياند" },
+          { "fr": "Le poulet", "ar": "الدجاج", "phonetic_ar": "لو بولي" },
+          { "fr": "Le poisson", "ar": "السمك", "phonetic_ar": "لو بواسون" },
+          { "fr": "Les œufs", "ar": "البيض", "phonetic_ar": "ليز أُو" },
+          { "fr": "Le riz", "ar": "الأرز", "phonetic_ar": "لو ري" },
+          { "fr": "Les légumes", "ar": "الخضر", "phonetic_ar": "لي ليڭوم" },
+          { "fr": "Les fruits", "ar": "الفواكه", "phonetic_ar": "لي فروي" },
+          { "fr": "Le sucre", "ar": "السكر", "phonetic_ar": "لو سوكر" },
+          { "fr": "Le sel", "ar": "الملح", "phonetic_ar": "لو سيل" },
+          { "fr": "L'huile", "ar": "الزيت", "phonetic_ar": "لويل" },
+          { "fr": "La farine", "ar": "الدقيق", "phonetic_ar": "لا فارين" },
+          { "fr": "Le thé", "ar": "الشاي", "phonetic_ar": "لو تي" },
+          { "fr": "Le café", "ar": "القهوة", "phonetic_ar": "لو كافي" }
+        ]
+      },
+      {
+        "id": "body_fr",
+        "name": { "ar": "👤 الجسم", "fr": "👤 Le Corps" },
+        "words": [
+          { "fr": "La tête", "ar": "الرأس", "phonetic_ar": "لا تيت" },
+          { "fr": "Les yeux", "ar": "العيون", "phonetic_ar": "ليز يو" },
+          { "fr": "Le nez", "ar": "الأنف", "phonetic_ar": "لو ني" },
+          { "fr": "La bouche", "ar": "الفم", "phonetic_ar": "لا بوش" },
+          { "fr": "Les oreilles", "ar": "الأذنين", "phonetic_ar": "ليز أوريي" },
+          { "fr": "La main", "ar": "اليد", "phonetic_ar": "لا مان" },
+          { "fr": "Le pied", "ar": "الرجل", "phonetic_ar": "لو بيي" },
+          { "fr": "Le ventre", "ar": "البطن", "phonetic_ar": "لو فونتر" },
+          { "fr": "Le dos", "ar": "الظهر", "phonetic_ar": "لو دو" },
+          { "fr": "Le cœur", "ar": "القلب", "phonetic_ar": "لو كور" },
+          { "fr": "Les dents", "ar": "الأسنان", "phonetic_ar": "لي دون" },
+          { "fr": "Les cheveux", "ar": "الشعر", "phonetic_ar": "لي شوفو" }
+        ]
+      },
+      {
+        "id": "clothes_fr",
+        "name": { "ar": "👗 الملابس", "fr": "👗 Les Vêtements" },
+        "words": [
+          { "fr": "La robe", "ar": "الفستان", "phonetic_ar": "لا روب" },
+          { "fr": "Le pantalon", "ar": "السروال", "phonetic_ar": "لو بونتالون" },
+          { "fr": "La chemise", "ar": "القميص", "phonetic_ar": "لا شوميز" },
+          { "fr": "Le manteau", "ar": "المعطف", "phonetic_ar": "لو مونتو" },
+          { "fr": "Les chaussures", "ar": "الأحذية", "phonetic_ar": "لي شوسور" },
+          { "fr": "Le foulard", "ar": "الحجاب / الوشاح", "phonetic_ar": "لو فولار" },
+          { "fr": "Les chaussettes", "ar": "الجوارب", "phonetic_ar": "لي شوسيت" },
+          { "fr": "Le sac", "ar": "الحقيبة", "phonetic_ar": "لو ساك" }
+        ]
+      },
+      {
+        "id": "numbers_fr",
+        "name": { "ar": "🔢 الأرقام", "fr": "🔢 Les Nombres" },
+        "words": [
+          { "fr": "Zéro - 0", "ar": "صفر", "phonetic_ar": "زيرو" },
+          { "fr": "Un - 1", "ar": "واحد", "phonetic_ar": "أن" },
+          { "fr": "Deux - 2", "ar": "اثنان", "phonetic_ar": "دو" },
+          { "fr": "Trois - 3", "ar": "ثلاثة", "phonetic_ar": "تروا" },
+          { "fr": "Quatre - 4", "ar": "أربعة", "phonetic_ar": "كاتر" },
+          { "fr": "Cinq - 5", "ar": "خمسة", "phonetic_ar": "سانك" },
+          { "fr": "Six - 6", "ar": "ستة", "phonetic_ar": "سيس" },
+          { "fr": "Sept - 7", "ar": "سبعة", "phonetic_ar": "سيت" },
+          { "fr": "Huit - 8", "ar": "ثمانية", "phonetic_ar": "ويت" },
+          { "fr": "Neuf - 9", "ar": "تسعة", "phonetic_ar": "نوف" },
+          { "fr": "Dix - 10", "ar": "عشرة", "phonetic_ar": "ديس" },
+          { "fr": "Vingt - 20", "ar": "عشرون", "phonetic_ar": "فان" },
+          { "fr": "Trente - 30", "ar": "ثلاثون", "phonetic_ar": "ترونت" },
+          { "fr": "Quarante - 40", "ar": "أربعون", "phonetic_ar": "كارونت" },
+          { "fr": "Cinquante - 50", "ar": "خمسون", "phonetic_ar": "سانكونت" },
+          { "fr": "Cent - 100", "ar": "مئة", "phonetic_ar": "سون" },
+          { "fr": "Mille - 1000", "ar": "ألف", "phonetic_ar": "ميل" }
+        ]
+      }
+    ]
+  },
+
+  "module_4_phrases": {
+    "title": { "ar": "جمل عملية بالفرنسية", "fr": "Phrases pratiques en français" },
+    "contexts": [
+      {
+        "id": "greetings_fr",
+        "name": { "ar": "🗣️ التحية", "fr": "🗣️ Salutations" },
+        "phrases": [
+          { "fr": "Bonjour", "ar": "صباح الخير", "phonetic_ar": "بونجور" },
+          { "fr": "Bonsoir", "ar": "مساء الخير", "phonetic_ar": "بونسوار" },
+          { "fr": "Au revoir", "ar": "مع السلامة", "phonetic_ar": "أو روفوار" },
+          { "fr": "Merci beaucoup", "ar": "شكراً جزيلاً", "phonetic_ar": "ميرسي بوكو" },
+          { "fr": "S'il vous plaît", "ar": "من فضلك", "phonetic_ar": "سيل فو بلي" },
+          { "fr": "Excusez-moi", "ar": "عفواً", "phonetic_ar": "إكسكوزي موا" },
+          { "fr": "Comment allez-vous ?", "ar": "كيف حالك؟", "phonetic_ar": "كومون تالي فو؟" },
+          { "fr": "Très bien, merci", "ar": "بخير، شكراً", "phonetic_ar": "تري بيان، ميرسي" },
+          { "fr": "Je m'appelle...", "ar": "اسمي...", "phonetic_ar": "جو مابيل..." },
+          { "fr": "Je ne comprends pas", "ar": "لم أفهم", "phonetic_ar": "جو نو كومبرون با" },
+          { "fr": "Parlez lentement SVP", "ar": "تحدث ببطء من فضلك", "phonetic_ar": "بارلي لونتمون سيل فو بلي" },
+          { "fr": "Oui / Non", "ar": "نعم / لا", "phonetic_ar": "وي / نون" }
+        ]
+      },
+      {
+        "id": "hospital_fr",
+        "name": { "ar": "🏥 في المستشفى", "fr": "🏥 À l'hôpital" },
+        "phrases": [
+          { "fr": "Je suis malade", "ar": "أنا مريضة", "phonetic_ar": "جو سوي مالاد" },
+          { "fr": "J'ai mal à la tête", "ar": "عندي صداع", "phonetic_ar": "جي مال آ لا تيت" },
+          { "fr": "J'ai mal au ventre", "ar": "عندي ألم في بطني", "phonetic_ar": "جي مال أو فونتر" },
+          { "fr": "J'ai mal au dos", "ar": "عندي ألم في ظهري", "phonetic_ar": "جي مال أو دو" },
+          { "fr": "J'ai de la fièvre", "ar": "عندي حمى", "phonetic_ar": "جي دو لا فييفر" },
+          { "fr": "Je suis enceinte", "ar": "أنا حامل", "phonetic_ar": "جو سوي أونسانت" },
+          { "fr": "J'ai besoin d'un médecin", "ar": "أحتاج طبيب", "phonetic_ar": "جي بوزوان دان ميدسان" },
+          { "fr": "Où est la pharmacie ?", "ar": "أين الصيدلية؟", "phonetic_ar": "أو إ لا فارماسي؟" },
+          { "fr": "Où sont les urgences ?", "ar": "أين قسم الطوارئ؟", "phonetic_ar": "أو سون ليز أورجونس؟" },
+          { "fr": "Mon enfant est malade", "ar": "طفلي مريض", "phonetic_ar": "مون أونفون إ مالاد" },
+          { "fr": "J'ai une allergie", "ar": "عندي حساسية", "phonetic_ar": "جي أون آليرجي" },
+          { "fr": "Combien de fois par jour ?", "ar": "كم مرة في اليوم؟", "phonetic_ar": "كومبيان دو فوا بار جور؟" }
+        ]
+      },
+      {
+        "id": "admin_fr",
+        "name": { "ar": "🏢 في الإدارة", "fr": "🏢 À l'administration" },
+        "phrases": [
+          { "fr": "Je voudrais un acte de naissance", "ar": "أريد شهادة ميلاد", "phonetic_ar": "جو فودري أن آكت دو نيسونس" },
+          { "fr": "Je voudrais un certificat de résidence", "ar": "أريد شهادة سكنى", "phonetic_ar": "جو فودري أن سيرتيفيكا دو ريزيدونس" },
+          { "fr": "Où est le bureau numéro...?", "ar": "أين المكتب رقم...؟", "phonetic_ar": "أو إ لو بورو نوميرو...؟" },
+          { "fr": "Quels documents faut-il ?", "ar": "ما هي الوثائق المطلوبة؟", "phonetic_ar": "كيل دوكومون فوتيل؟" },
+          { "fr": "Je ne sais pas lire", "ar": "لا أعرف القراءة", "phonetic_ar": "جو نو سي با لير" },
+          { "fr": "Pouvez-vous m'aider ?", "ar": "هل يمكنك مساعدتي؟", "phonetic_ar": "بوفي فو ميدي؟" },
+          { "fr": "Où est-ce que je signe ?", "ar": "أين أوقّع؟", "phonetic_ar": "أو إسكو جو سينيو؟" },
+          { "fr": "C'est gratuit ?", "ar": "هل هذا مجاني؟", "phonetic_ar": "سي ڭراتوي؟" },
+          { "fr": "Combien ça coûte ?", "ar": "بكم هذا؟", "phonetic_ar": "كومبيان سا كوت؟" },
+          { "fr": "Je reviendrai demain", "ar": "سأعود غداً", "phonetic_ar": "جو روفياندري دومان" }
+        ]
+      },
+      {
+        "id": "market_fr",
+        "name": { "ar": "🛒 في السوق", "fr": "🛒 Au marché" },
+        "phrases": [
+          { "fr": "Combien ça coûte ?", "ar": "بكم هذا؟", "phonetic_ar": "كومبيان سا كوت؟" },
+          { "fr": "C'est trop cher", "ar": "غالي بزاف", "phonetic_ar": "سي ترو شير" },
+          { "fr": "Je voudrais un kilo de...", "ar": "أريد كيلو من...", "phonetic_ar": "جو فودري أن كيلو دو..." },
+          { "fr": "Donnez-moi la monnaie", "ar": "أعطني الباقي", "phonetic_ar": "دوني موا لا مونّي" },
+          { "fr": "C'est frais ?", "ar": "هل هذا طازج؟", "phonetic_ar": "سي فري؟" },
+          { "fr": "Je ne veux pas ça", "ar": "لا أريد هذا", "phonetic_ar": "جو نو فو با سا" },
+          { "fr": "Combien le total ?", "ar": "كم المجموع؟", "phonetic_ar": "كومبيان لو توتال؟" },
+          { "fr": "Un sac, s'il vous plaît", "ar": "كيس من فضلك", "phonetic_ar": "أن ساك، سيل فو بلي" }
+        ]
+      },
+      {
+        "id": "daily_fr",
+        "name": { "ar": "🌞 الحياة اليومية", "fr": "🌞 La vie quotidienne" },
+        "phrases": [
+          { "fr": "Quelle heure est-il ?", "ar": "كم الساعة؟", "phonetic_ar": "كيل أور إتيل؟" },
+          { "fr": "Je cherche...", "ar": "أبحث عن...", "phonetic_ar": "جو شيرش..." },
+          { "fr": "Où est...?", "ar": "أين...؟", "phonetic_ar": "أو إ...؟" },
+          { "fr": "À droite", "ar": "على اليمين", "phonetic_ar": "آ دروات" },
+          { "fr": "À gauche", "ar": "على اليسار", "phonetic_ar": "آ ڭوش" },
+          { "fr": "Tout droit", "ar": "على طول", "phonetic_ar": "تو دروا" },
+          { "fr": "C'est loin ?", "ar": "هل هو بعيد؟", "phonetic_ar": "سي لوان؟" },
+          { "fr": "C'est près", "ar": "هو قريب", "phonetic_ar": "سي بري" },
+          { "fr": "J'ai besoin d'aide", "ar": "أحتاج مساعدة", "phonetic_ar": "جي بوزوان ديد" },
+          { "fr": "Je suis perdue", "ar": "أنا ضائعة", "phonetic_ar": "جو سوي بيردو" },
+          { "fr": "Appelez la police", "ar": "اتصلوا بالشرطة", "phonetic_ar": "آبولي لا بوليس" },
+          { "fr": "Au secours !", "ar": "النجدة!", "phonetic_ar": "أو سوكور!" }
+        ]
+      }
+    ]
+  }
+}

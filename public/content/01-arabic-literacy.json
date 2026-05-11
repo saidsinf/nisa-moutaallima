@@ -1,0 +1,807 @@
+{
+  "section_id": "arabic_literacy",
+  "title": {
+    "ar": "تعلّم القراءة والكتابة بالعربية",
+    "fr": "Apprendre à lire et écrire en arabe"
+  },
+  "description": {
+    "ar": "من الحروف إلى الجمل — تعلّمي القراءة والكتابة خطوة بخطوة",
+    "fr": "Des lettres aux phrases — apprenez à lire et écrire étape par étape"
+  },
+
+  "module_1_alphabet": {
+    "title": { "ar": "الحروف العربية", "fr": "L'alphabet arabe" },
+    "instruction": {
+      "ar": "اضغطي على كل حرف لسماع النطق ورؤية طريقة الكتابة",
+      "fr": "Cliquez sur chaque lettre pour entendre la prononciation et voir l'écriture"
+    },
+    "letters": [
+      {
+        "id": 1,
+        "letter": "ا",
+        "name": { "ar": "ألف", "fr": "Alif" },
+        "sound": "a",
+        "forms": { "isolated": "ا", "initial": "ا", "medial": "ـا", "final": "ـا" },
+        "example_word": { "ar": "أسد", "fr": "Lion" },
+        "example_image_keyword": "lion",
+        "mnemonic": { "ar": "ألف مثل العصا الطويلة", "fr": "Alif comme un bâton droit" },
+        "audio_text_ar": "ألف — أ أ أ — أسد"
+      },
+      {
+        "id": 2,
+        "letter": "ب",
+        "name": { "ar": "باء", "fr": "Ba" },
+        "sound": "b",
+        "forms": { "isolated": "ب", "initial": "بـ", "medial": "ـبـ", "final": "ـب" },
+        "example_word": { "ar": "بيت", "fr": "Maison" },
+        "example_image_keyword": "house",
+        "mnemonic": { "ar": "باء مثل الصحن تحته نقطة", "fr": "Ba comme une assiette avec un point en dessous" },
+        "audio_text_ar": "باء — بَ بِ بُ — بيت"
+      },
+      {
+        "id": 3,
+        "letter": "ت",
+        "name": { "ar": "تاء", "fr": "Ta" },
+        "sound": "t",
+        "forms": { "isolated": "ت", "initial": "تـ", "medial": "ـتـ", "final": "ـت" },
+        "example_word": { "ar": "تفاحة", "fr": "Pomme" },
+        "example_image_keyword": "apple",
+        "mnemonic": { "ar": "تاء مثل الصحن فوقه نقطتين", "fr": "Ta comme une assiette avec deux points dessus" },
+        "audio_text_ar": "تاء — تَ تِ تُ — تفاحة"
+      },
+      {
+        "id": 4,
+        "letter": "ث",
+        "name": { "ar": "ثاء", "fr": "Tha" },
+        "sound": "th (comme 'think' en anglais)",
+        "forms": { "isolated": "ث", "initial": "ثـ", "medial": "ـثـ", "final": "ـث" },
+        "example_word": { "ar": "ثعلب", "fr": "Renard" },
+        "example_image_keyword": "fox",
+        "mnemonic": { "ar": "ثاء مثل التاء لكن بثلاث نقط", "fr": "Tha comme Ta mais avec trois points" },
+        "audio_text_ar": "ثاء — ثَ ثِ ثُ — ثعلب"
+      },
+      {
+        "id": 5,
+        "letter": "ج",
+        "name": { "ar": "جيم", "fr": "Jim" },
+        "sound": "j",
+        "forms": { "isolated": "ج", "initial": "جـ", "medial": "ـجـ", "final": "ـج" },
+        "example_word": { "ar": "جمل", "fr": "Chameau" },
+        "example_image_keyword": "camel",
+        "mnemonic": { "ar": "جيم مثل الحوت المفتوح فمه وفيه نقطة", "fr": "Jim comme une bouche ouverte avec un point" },
+        "audio_text_ar": "جيم — جَ جِ جُ — جمل"
+      },
+      {
+        "id": 6,
+        "letter": "ح",
+        "name": { "ar": "حاء", "fr": "Ha" },
+        "sound": "h (aspiré, du fond de la gorge)",
+        "forms": { "isolated": "ح", "initial": "حـ", "medial": "ـحـ", "final": "ـح" },
+        "example_word": { "ar": "حصان", "fr": "Cheval" },
+        "example_image_keyword": "horse",
+        "mnemonic": { "ar": "حاء مثل الجيم بلا نقطة", "fr": "Ha comme Jim sans point" },
+        "audio_text_ar": "حاء — حَ حِ حُ — حصان"
+      },
+      {
+        "id": 7,
+        "letter": "خ",
+        "name": { "ar": "خاء", "fr": "Kha" },
+        "sound": "kh (comme la jota espagnole)",
+        "forms": { "isolated": "خ", "initial": "خـ", "medial": "ـخـ", "final": "ـخ" },
+        "example_word": { "ar": "خبز", "fr": "Pain" },
+        "example_image_keyword": "bread",
+        "mnemonic": { "ar": "خاء مثل الحاء لكن فوقها نقطة", "fr": "Kha comme Ha avec un point dessus" },
+        "audio_text_ar": "خاء — خَ خِ خُ — خبز"
+      },
+      {
+        "id": 8,
+        "letter": "د",
+        "name": { "ar": "دال", "fr": "Dal" },
+        "sound": "d",
+        "forms": { "isolated": "د", "initial": "د", "medial": "ـد", "final": "ـد" },
+        "example_word": { "ar": "دجاجة", "fr": "Poule" },
+        "example_image_keyword": "chicken",
+        "mnemonic": { "ar": "دال مثل الظهر المنحني", "fr": "Dal comme un dos courbé" },
+        "audio_text_ar": "دال — دَ دِ دُ — دجاجة"
+      },
+      {
+        "id": 9,
+        "letter": "ذ",
+        "name": { "ar": "ذال", "fr": "Dhal" },
+        "sound": "dh (comme 'the' en anglais)",
+        "forms": { "isolated": "ذ", "initial": "ذ", "medial": "ـذ", "final": "ـذ" },
+        "example_word": { "ar": "ذهب", "fr": "Or" },
+        "example_image_keyword": "gold",
+        "mnemonic": { "ar": "ذال مثل الدال لكن فوقها نقطة", "fr": "Dhal comme Dal avec un point" },
+        "audio_text_ar": "ذال — ذَ ذِ ذُ — ذهب"
+      },
+      {
+        "id": 10,
+        "letter": "ر",
+        "name": { "ar": "راء", "fr": "Ra" },
+        "sound": "r (roulé)",
+        "forms": { "isolated": "ر", "initial": "ر", "medial": "ـر", "final": "ـر" },
+        "example_word": { "ar": "رمان", "fr": "Grenade (fruit)" },
+        "example_image_keyword": "pomegranate",
+        "mnemonic": { "ar": "راء مثل الذراع الممدود", "fr": "Ra comme un bras tendu" },
+        "audio_text_ar": "راء — رَ رِ رُ — رمان"
+      },
+      {
+        "id": 11,
+        "letter": "ز",
+        "name": { "ar": "زاي", "fr": "Zay" },
+        "sound": "z",
+        "forms": { "isolated": "ز", "initial": "ز", "medial": "ـز", "final": "ـز" },
+        "example_word": { "ar": "زيتون", "fr": "Olives" },
+        "example_image_keyword": "olives",
+        "mnemonic": { "ar": "زاي مثل الراء لكن فوقها نقطة", "fr": "Zay comme Ra avec un point" },
+        "audio_text_ar": "زاي — زَ زِ زُ — زيتون"
+      },
+      {
+        "id": 12,
+        "letter": "س",
+        "name": { "ar": "سين", "fr": "Sin" },
+        "sound": "s",
+        "forms": { "isolated": "س", "initial": "سـ", "medial": "ـسـ", "final": "ـس" },
+        "example_word": { "ar": "سمك", "fr": "Poisson" },
+        "example_image_keyword": "fish",
+        "mnemonic": { "ar": "سين مثل الأسنان الثلاثة", "fr": "Sin comme trois dents" },
+        "audio_text_ar": "سين — سَ سِ سُ — سمك"
+      },
+      {
+        "id": 13,
+        "letter": "ش",
+        "name": { "ar": "شين", "fr": "Shin" },
+        "sound": "ch (comme 'chat')",
+        "forms": { "isolated": "ش", "initial": "شـ", "medial": "ـشـ", "final": "ـش" },
+        "example_word": { "ar": "شمس", "fr": "Soleil" },
+        "example_image_keyword": "sun",
+        "mnemonic": { "ar": "شين مثل السين مع ثلاث نقط فوقها", "fr": "Shin comme Sin avec trois points" },
+        "audio_text_ar": "شين — شَ شِ شُ — شمس"
+      },
+      {
+        "id": 14,
+        "letter": "ص",
+        "name": { "ar": "صاد", "fr": "Sad" },
+        "sound": "s (emphatique, lourd)",
+        "forms": { "isolated": "ص", "initial": "صـ", "medial": "ـصـ", "final": "ـص" },
+        "example_word": { "ar": "صقر", "fr": "Faucon" },
+        "example_image_keyword": "falcon",
+        "mnemonic": { "ar": "صاد مثل الدائرة مع ذيل", "fr": "Sad comme un cercle avec une queue" },
+        "audio_text_ar": "صاد — صَ صِ صُ — صقر"
+      },
+      {
+        "id": 15,
+        "letter": "ض",
+        "name": { "ar": "ضاد", "fr": "Dad" },
+        "sound": "d (emphatique, lourd)",
+        "forms": { "isolated": "ض", "initial": "ضـ", "medial": "ـضـ", "final": "ـض" },
+        "example_word": { "ar": "ضفدع", "fr": "Grenouille" },
+        "example_image_keyword": "frog",
+        "mnemonic": { "ar": "ضاد مثل الصاد مع نقطة — حرف العربية الفريد!", "fr": "Dad comme Sad avec un point — la lettre unique de l'arabe !" },
+        "audio_text_ar": "ضاد — ضَ ضِ ضُ — ضفدع"
+      },
+      {
+        "id": 16,
+        "letter": "ط",
+        "name": { "ar": "طاء", "fr": "Ta (emphatique)" },
+        "sound": "t (emphatique, lourd)",
+        "forms": { "isolated": "ط", "initial": "طـ", "medial": "ـطـ", "final": "ـط" },
+        "example_word": { "ar": "طائرة", "fr": "Avion" },
+        "example_image_keyword": "airplane",
+        "mnemonic": { "ar": "طاء مثل العصا على الدائرة", "fr": "Ta comme un bâton sur un cercle" },
+        "audio_text_ar": "طاء — طَ طِ طُ — طائرة"
+      },
+      {
+        "id": 17,
+        "letter": "ظ",
+        "name": { "ar": "ظاء", "fr": "Dha (emphatique)" },
+        "sound": "dh (emphatique)",
+        "forms": { "isolated": "ظ", "initial": "ظـ", "medial": "ـظـ", "final": "ـظ" },
+        "example_word": { "ar": "ظرف", "fr": "Enveloppe" },
+        "example_image_keyword": "envelope",
+        "mnemonic": { "ar": "ظاء مثل الطاء مع نقطة فوقها", "fr": "Dha comme Ta emphatique avec un point" },
+        "audio_text_ar": "ظاء — ظَ ظِ ظُ — ظرف"
+      },
+      {
+        "id": 18,
+        "letter": "ع",
+        "name": { "ar": "عين", "fr": "Ain" },
+        "sound": "3 (son guttural unique à l'arabe)",
+        "forms": { "isolated": "ع", "initial": "عـ", "medial": "ـعـ", "final": "ـع" },
+        "example_word": { "ar": "عنب", "fr": "Raisin" },
+        "example_image_keyword": "grapes",
+        "mnemonic": { "ar": "عين مثل العين المفتوحة", "fr": "Ain comme un œil ouvert" },
+        "audio_text_ar": "عين — عَ عِ عُ — عنب"
+      },
+      {
+        "id": 19,
+        "letter": "غ",
+        "name": { "ar": "غين", "fr": "Ghain" },
+        "sound": "gh (comme le R parisien)",
+        "forms": { "isolated": "غ", "initial": "غـ", "medial": "ـغـ", "final": "ـغ" },
+        "example_word": { "ar": "غزال", "fr": "Gazelle" },
+        "example_image_keyword": "gazelle",
+        "mnemonic": { "ar": "غين مثل العين مع نقطة فوقها", "fr": "Ghain comme Ain avec un point" },
+        "audio_text_ar": "غين — غَ غِ غُ — غزال"
+      },
+      {
+        "id": 20,
+        "letter": "ف",
+        "name": { "ar": "فاء", "fr": "Fa" },
+        "sound": "f",
+        "forms": { "isolated": "ف", "initial": "فـ", "medial": "ـفـ", "final": "ـف" },
+        "example_word": { "ar": "فراشة", "fr": "Papillon" },
+        "example_image_keyword": "butterfly",
+        "mnemonic": { "ar": "فاء مثل الملعقة فوقها نقطة", "fr": "Fa comme une cuillère avec un point" },
+        "audio_text_ar": "فاء — فَ فِ فُ — فراشة"
+      },
+      {
+        "id": 21,
+        "letter": "ق",
+        "name": { "ar": "قاف", "fr": "Qaf" },
+        "sound": "q (du fond de la gorge)",
+        "forms": { "isolated": "ق", "initial": "قـ", "medial": "ـقـ", "final": "ـق" },
+        "example_word": { "ar": "قمر", "fr": "Lune" },
+        "example_image_keyword": "moon",
+        "mnemonic": { "ar": "قاف مثل الفاء لكن بنقطتين", "fr": "Qaf comme Fa mais avec deux points" },
+        "audio_text_ar": "قاف — قَ قِ قُ — قمر"
+      },
+      {
+        "id": 22,
+        "letter": "ك",
+        "name": { "ar": "كاف", "fr": "Kaf" },
+        "sound": "k",
+        "forms": { "isolated": "ك", "initial": "كـ", "medial": "ـكـ", "final": "ـك" },
+        "example_word": { "ar": "كتاب", "fr": "Livre" },
+        "example_image_keyword": "book",
+        "mnemonic": { "ar": "كاف مثل اليد المفتوحة", "fr": "Kaf comme une main ouverte" },
+        "audio_text_ar": "كاف — كَ كِ كُ — كتاب"
+      },
+      {
+        "id": 23,
+        "letter": "ل",
+        "name": { "ar": "لام", "fr": "Lam" },
+        "sound": "l",
+        "forms": { "isolated": "ل", "initial": "لـ", "medial": "ـلـ", "final": "ـل" },
+        "example_word": { "ar": "ليمون", "fr": "Citron" },
+        "example_image_keyword": "lemon",
+        "mnemonic": { "ar": "لام مثل العصا المنحنية في الأعلى", "fr": "Lam comme un bâton courbé en haut" },
+        "audio_text_ar": "لام — لَ لِ لُ — ليمون"
+      },
+      {
+        "id": 24,
+        "letter": "م",
+        "name": { "ar": "ميم", "fr": "Mim" },
+        "sound": "m",
+        "forms": { "isolated": "م", "initial": "مـ", "medial": "ـمـ", "final": "ـم" },
+        "example_word": { "ar": "مدرسة", "fr": "École" },
+        "example_image_keyword": "school",
+        "mnemonic": { "ar": "ميم مثل الدائرة مع ذيل — مثل شكل الفم", "fr": "Mim comme un cercle avec une queue — forme de la bouche" },
+        "audio_text_ar": "ميم — مَ مِ مُ — مدرسة"
+      },
+      {
+        "id": 25,
+        "letter": "ن",
+        "name": { "ar": "نون", "fr": "Nun" },
+        "sound": "n",
+        "forms": { "isolated": "ن", "initial": "نـ", "medial": "ـنـ", "final": "ـن" },
+        "example_word": { "ar": "نجمة", "fr": "Étoile" },
+        "example_image_keyword": "star",
+        "mnemonic": { "ar": "نون مثل الصحن فوقه نقطة", "fr": "Nun comme un bol avec un point dessus" },
+        "audio_text_ar": "نون — نَ نِ نُ — نجمة"
+      },
+      {
+        "id": 26,
+        "letter": "ه",
+        "name": { "ar": "هاء", "fr": "Ha" },
+        "sound": "h (léger, comme expirer)",
+        "forms": { "isolated": "ه", "initial": "هـ", "medial": "ـهـ", "final": "ـه" },
+        "example_word": { "ar": "هلال", "fr": "Croissant de lune" },
+        "example_image_keyword": "crescent moon",
+        "mnemonic": { "ar": "هاء مثل النافذة المفتوحة", "fr": "Ha comme une fenêtre ouverte" },
+        "audio_text_ar": "هاء — هَ هِ هُ — هلال"
+      },
+      {
+        "id": 27,
+        "letter": "و",
+        "name": { "ar": "واو", "fr": "Waw" },
+        "sound": "w / ou",
+        "forms": { "isolated": "و", "initial": "و", "medial": "ـو", "final": "ـو" },
+        "example_word": { "ar": "وردة", "fr": "Rose (fleur)" },
+        "example_image_keyword": "rose flower",
+        "mnemonic": { "ar": "واو مثل الرقم 9 بالعربية", "fr": "Waw comme le chiffre 9 arabe" },
+        "audio_text_ar": "واو — وَ وِ وُ — وردة"
+      },
+      {
+        "id": 28,
+        "letter": "ي",
+        "name": { "ar": "ياء", "fr": "Ya" },
+        "sound": "y / i",
+        "forms": { "isolated": "ي", "initial": "يـ", "medial": "ـيـ", "final": "ـي" },
+        "example_word": { "ar": "يد", "fr": "Main" },
+        "example_image_keyword": "hand",
+        "mnemonic": { "ar": "ياء مثل الذراع مع نقطتين تحتها", "fr": "Ya comme un bras avec deux points en dessous" },
+        "audio_text_ar": "ياء — يَ يِ يُ — يد"
+      }
+    ]
+  },
+
+  "module_2_vowels": {
+    "title": { "ar": "الحركات (التشكيل)", "fr": "Les voyelles (diacritiques)" },
+    "instruction": {
+      "ar": "الحركات هي علامات صغيرة توضع فوق أو تحت الحرف لتغيير نطقه",
+      "fr": "Les voyelles sont de petits signes placés au-dessus ou en dessous des lettres pour changer la prononciation"
+    },
+    "vowels": [
+      {
+        "id": "fatha",
+        "symbol": "َ",
+        "name": { "ar": "فتحة", "fr": "Fatha" },
+        "position": { "ar": "فوق الحرف", "fr": "Au-dessus de la lettre" },
+        "sound": "a",
+        "example": { "ar": "بَ = ba", "fr": "بَ = ba" },
+        "full_example_word": { "ar": "بَاب (باب)", "fr": "بَاب (porte)" }
+      },
+      {
+        "id": "damma",
+        "symbol": "ُ",
+        "name": { "ar": "ضمة", "fr": "Damma" },
+        "position": { "ar": "فوق الحرف", "fr": "Au-dessus de la lettre" },
+        "sound": "ou",
+        "example": { "ar": "بُ = bou", "fr": "بُ = bou" },
+        "full_example_word": { "ar": "كُرة (كرة)", "fr": "كُرة (ballon)" }
+      },
+      {
+        "id": "kasra",
+        "symbol": "ِ",
+        "name": { "ar": "كسرة", "fr": "Kasra" },
+        "position": { "ar": "تحت الحرف", "fr": "En dessous de la lettre" },
+        "sound": "i",
+        "example": { "ar": "بِ = bi", "fr": "بِ = bi" },
+        "full_example_word": { "ar": "بِنت (بنت)", "fr": "بِنت (fille)" }
+      },
+      {
+        "id": "sukun",
+        "symbol": "ْ",
+        "name": { "ar": "سكون", "fr": "Sukun" },
+        "position": { "ar": "فوق الحرف", "fr": "Au-dessus de la lettre" },
+        "sound": { "ar": "الحرف ساكن (بدون حركة)", "fr": "La lettre est muette (pas de voyelle)" },
+        "example": { "ar": "بْ = b (ساكن)", "fr": "بْ = b (muet)" },
+        "full_example_word": { "ar": "بَيْت (بيت)", "fr": "بَيْت (maison)" }
+      },
+      {
+        "id": "shadda",
+        "symbol": "ّ",
+        "name": { "ar": "شدة", "fr": "Shadda" },
+        "position": { "ar": "فوق الحرف", "fr": "Au-dessus de la lettre" },
+        "sound": { "ar": "الحرف مضاعف (ينطق مرتين)", "fr": "La lettre est doublée (prononcée deux fois)" },
+        "example": { "ar": "بّ = bb", "fr": "بّ = bb" },
+        "full_example_word": { "ar": "قِطّة (قطة)", "fr": "قِطّة (chat)" }
+      },
+      {
+        "id": "tanwin_fath",
+        "symbol": "ً",
+        "name": { "ar": "تنوين فتح", "fr": "Tanwin Fatha" },
+        "sound": "an",
+        "example": { "ar": "بً = ban", "fr": "بً = ban" },
+        "full_example_word": { "ar": "كِتَاباً", "fr": "kitaban" }
+      },
+      {
+        "id": "tanwin_damm",
+        "symbol": "ٌ",
+        "name": { "ar": "تنوين ضم", "fr": "Tanwin Damma" },
+        "sound": "oun",
+        "example": { "ar": "بٌ = boun", "fr": "بٌ = boun" },
+        "full_example_word": { "ar": "كِتَابٌ", "fr": "kitaboun" }
+      },
+      {
+        "id": "tanwin_kasr",
+        "symbol": "ٍ",
+        "name": { "ar": "تنوين كسر", "fr": "Tanwin Kasra" },
+        "sound": "in",
+        "example": { "ar": "بٍ = bin", "fr": "بٍ = bin" },
+        "full_example_word": { "ar": "كِتَابٍ", "fr": "kitabin" }
+      }
+    ]
+  },
+
+  "module_3_syllables": {
+    "title": { "ar": "المقاطع الصوتية", "fr": "Les syllabes" },
+    "instruction": {
+      "ar": "الآن نجمع الحرف مع الحركة لنكوّن مقاطع — وهي أساس القراءة",
+      "fr": "Maintenant, combinons les lettres avec les voyelles pour former des syllabes — la base de la lecture"
+    },
+    "syllable_groups": [
+      {
+        "letter": "ب",
+        "syllables": ["بَ", "بِ", "بُ", "بَا", "بِي", "بُو"],
+        "pronunciation": ["ba", "bi", "bou", "baa", "bee", "boo"]
+      },
+      {
+        "letter": "ت",
+        "syllables": ["تَ", "تِ", "تُ", "تَا", "تِي", "تُو"],
+        "pronunciation": ["ta", "ti", "tou", "taa", "tee", "too"]
+      },
+      {
+        "letter": "ك",
+        "syllables": ["كَ", "كِ", "كُ", "كَا", "كِي", "كُو"],
+        "pronunciation": ["ka", "ki", "kou", "kaa", "kee", "koo"]
+      },
+      {
+        "letter": "م",
+        "syllables": ["مَ", "مِ", "مُ", "مَا", "مِي", "مُو"],
+        "pronunciation": ["ma", "mi", "mou", "maa", "mee", "moo"]
+      },
+      {
+        "letter": "ن",
+        "syllables": ["نَ", "نِ", "نُ", "نَا", "نِي", "نُو"],
+        "pronunciation": ["na", "ni", "nou", "naa", "nee", "noo"]
+      },
+      {
+        "letter": "ل",
+        "syllables": ["لَ", "لِ", "لُ", "لَا", "لِي", "لُو"],
+        "pronunciation": ["la", "li", "lou", "laa", "lee", "loo"]
+      },
+      {
+        "letter": "ر",
+        "syllables": ["رَ", "رِ", "رُ", "رَا", "رِي", "رُو"],
+        "pronunciation": ["ra", "ri", "rou", "raa", "ree", "roo"]
+      },
+      {
+        "letter": "س",
+        "syllables": ["سَ", "سِ", "سُ", "سَا", "سِي", "سُو"],
+        "pronunciation": ["sa", "si", "sou", "saa", "see", "soo"]
+      }
+    ],
+    "word_building_exercises": [
+      { "syllables": ["بَ", "ا", "ب"], "word": "باب", "meaning": { "ar": "باب", "fr": "Porte" } },
+      { "syllables": ["كِ", "تَ", "ا", "ب"], "word": "كتاب", "meaning": { "ar": "كتاب", "fr": "Livre" } },
+      { "syllables": ["مَ", "كْ", "تَ", "ب"], "word": "مكتب", "meaning": { "ar": "مكتب", "fr": "Bureau" } },
+      { "syllables": ["مَ", "دْ", "رَ", "سَ", "ة"], "word": "مدرسة", "meaning": { "ar": "مدرسة", "fr": "École" } },
+      { "syllables": ["سَ", "مَ", "ك"], "word": "سمك", "meaning": { "ar": "سمك", "fr": "Poisson" } }
+    ]
+  },
+
+  "module_4_vocabulary": {
+    "title": { "ar": "كلمات الحياة اليومية", "fr": "Vocabulaire du quotidien" },
+    "categories": [
+      {
+        "id": "home",
+        "name": { "ar": "🏠 البيت", "fr": "🏠 La Maison" },
+        "words": [
+          { "ar": "باب", "fr": "Porte", "darija": "باب", "image_keyword": "door" },
+          { "ar": "نافذة", "fr": "Fenêtre", "darija": "شرجم / سرجم", "image_keyword": "window" },
+          { "ar": "مطبخ", "fr": "Cuisine", "darija": "كوزينة", "image_keyword": "kitchen" },
+          { "ar": "غرفة", "fr": "Chambre", "darija": "بيت", "image_keyword": "bedroom" },
+          { "ar": "حمام", "fr": "Salle de bain", "darija": "بيت الما", "image_keyword": "bathroom" },
+          { "ar": "سطح", "fr": "Terrasse / Toit", "darija": "سطح", "image_keyword": "rooftop" },
+          { "ar": "سلالم", "fr": "Escalier", "darija": "دروج", "image_keyword": "stairs" },
+          { "ar": "كرسي", "fr": "Chaise", "darija": "كرسي", "image_keyword": "chair" },
+          { "ar": "طاولة", "fr": "Table", "darija": "طبلة", "image_keyword": "table" },
+          { "ar": "سرير", "fr": "Lit", "darija": "ناموسية / فراش", "image_keyword": "bed" },
+          { "ar": "مفتاح", "fr": "Clé", "darija": "سارو", "image_keyword": "key" },
+          { "ar": "ماء", "fr": "Eau", "darija": "لما", "image_keyword": "water glass" },
+          { "ar": "مرآة", "fr": "Miroir", "darija": "مراية", "image_keyword": "mirror" },
+          { "ar": "صابون", "fr": "Savon", "darija": "صابون", "image_keyword": "soap" },
+          { "ar": "مكنسة", "fr": "Balai", "darija": "شطابة", "image_keyword": "broom" },
+          { "ar": "ثلاجة", "fr": "Réfrigérateur", "darija": "فريجيدير", "image_keyword": "refrigerator" },
+          { "ar": "فرن", "fr": "Four", "darija": "فران / كوشة", "image_keyword": "oven" },
+          { "ar": "قدر", "fr": "Marmite", "darija": "كوكوت", "image_keyword": "cooking pot" },
+          { "ar": "صحن", "fr": "Assiette", "darija": "طبسيل", "image_keyword": "plate" },
+          { "ar": "كأس", "fr": "Verre", "darija": "كاس", "image_keyword": "glass" }
+        ]
+      },
+      {
+        "id": "market",
+        "name": { "ar": "🛒 السوق", "fr": "🛒 Le Marché" },
+        "words": [
+          { "ar": "خبز", "fr": "Pain", "darija": "خبز", "image_keyword": "moroccan bread" },
+          { "ar": "حليب", "fr": "Lait", "darija": "حليب", "image_keyword": "milk" },
+          { "ar": "لحم", "fr": "Viande", "darija": "لحم", "image_keyword": "meat" },
+          { "ar": "دجاج", "fr": "Poulet", "darija": "دجاج", "image_keyword": "chicken meat" },
+          { "ar": "سمك", "fr": "Poisson", "darija": "حوت", "image_keyword": "fish" },
+          { "ar": "بيض", "fr": "Œufs", "darija": "لعضام", "image_keyword": "eggs" },
+          { "ar": "أرز", "fr": "Riz", "darija": "روز", "image_keyword": "rice" },
+          { "ar": "عدس", "fr": "Lentilles", "darija": "عدس", "image_keyword": "lentils" },
+          { "ar": "طماطم", "fr": "Tomates", "darija": "ماطيشة", "image_keyword": "tomatoes" },
+          { "ar": "بصل", "fr": "Oignons", "darija": "بصلة", "image_keyword": "onions" },
+          { "ar": "بطاطس", "fr": "Pommes de terre", "darija": "بطاطا", "image_keyword": "potatoes" },
+          { "ar": "جزر", "fr": "Carottes", "darija": "خيزو", "image_keyword": "carrots" },
+          { "ar": "فلفل", "fr": "Poivron", "darija": "فلفلة", "image_keyword": "pepper" },
+          { "ar": "خيار", "fr": "Concombre", "darija": "خيار", "image_keyword": "cucumber" },
+          { "ar": "برتقال", "fr": "Oranges", "darija": "ليمون", "image_keyword": "oranges" },
+          { "ar": "تفاح", "fr": "Pommes", "darija": "تفاح", "image_keyword": "apples" },
+          { "ar": "موز", "fr": "Bananes", "darija": "بنان", "image_keyword": "bananas" },
+          { "ar": "زيت", "fr": "Huile", "darija": "زيت", "image_keyword": "olive oil" },
+          { "ar": "سكر", "fr": "Sucre", "darija": "سكر", "image_keyword": "sugar" },
+          { "ar": "ملح", "fr": "Sel", "darija": "ملحة", "image_keyword": "salt" },
+          { "ar": "دقيق", "fr": "Farine", "darija": "دقيق / فارينة", "image_keyword": "flour" },
+          { "ar": "شاي", "fr": "Thé", "darija": "أتاي", "image_keyword": "moroccan tea" },
+          { "ar": "قهوة", "fr": "Café", "darija": "قهوة", "image_keyword": "coffee" },
+          { "ar": "ثمن", "fr": "Prix", "darija": "تمن", "image_keyword": "price tag" },
+          { "ar": "ميزان", "fr": "Balance", "darija": "ميزان", "image_keyword": "scale" }
+        ]
+      },
+      {
+        "id": "health",
+        "name": { "ar": "🏥 الصحة", "fr": "🏥 La Santé" },
+        "words": [
+          { "ar": "طبيب", "fr": "Médecin", "darija": "طبيب", "image_keyword": "doctor" },
+          { "ar": "طبيبة", "fr": "Médecin (femme)", "darija": "طبيبة", "image_keyword": "female doctor" },
+          { "ar": "مستشفى", "fr": "Hôpital", "darija": "سبيطار", "image_keyword": "hospital" },
+          { "ar": "مستوصف", "fr": "Dispensaire", "darija": "ديسبونصير", "image_keyword": "clinic" },
+          { "ar": "صيدلية", "fr": "Pharmacie", "darija": "فارماسيان", "image_keyword": "pharmacy" },
+          { "ar": "دواء", "fr": "Médicament", "darija": "دوا", "image_keyword": "medicine" },
+          { "ar": "حبة", "fr": "Comprimé", "darija": "حبة", "image_keyword": "pill" },
+          { "ar": "إبرة", "fr": "Piqûre", "darija": "بيقورة", "image_keyword": "injection" },
+          { "ar": "ألم", "fr": "Douleur", "darija": "وجع", "image_keyword": "pain" },
+          { "ar": "حمى", "fr": "Fièvre", "darija": "سخانة", "image_keyword": "fever" },
+          { "ar": "سعال", "fr": "Toux", "darija": "كحة / سعلة", "image_keyword": "cough" },
+          { "ar": "صداع", "fr": "Mal de tête", "darija": "صداع", "image_keyword": "headache" },
+          { "ar": "رأس", "fr": "Tête", "darija": "راس", "image_keyword": "head" },
+          { "ar": "بطن", "fr": "Ventre", "darija": "كرش", "image_keyword": "stomach" },
+          { "ar": "ظهر", "fr": "Dos", "darija": "ضهر", "image_keyword": "back" },
+          { "ar": "حامل", "fr": "Enceinte", "darija": "حاملة", "image_keyword": "pregnant" },
+          { "ar": "تلقيح", "fr": "Vaccination", "darija": "تلقيح", "image_keyword": "vaccine" },
+          { "ar": "تحليل", "fr": "Analyse", "darija": "تحليل / أناليز", "image_keyword": "blood test" },
+          { "ar": "وصفة طبية", "fr": "Ordonnance", "darija": "أوردونونس", "image_keyword": "prescription" },
+          { "ar": "سيارة إسعاف", "fr": "Ambulance", "darija": "لامبولانس", "image_keyword": "ambulance" }
+        ]
+      },
+      {
+        "id": "family",
+        "name": { "ar": "👨‍👩‍👧‍👦 العائلة", "fr": "👨‍👩‍👧‍👦 La Famille" },
+        "words": [
+          { "ar": "أم", "fr": "Mère", "darija": "ماما / لواليدة / مّي", "image_keyword": "mother" },
+          { "ar": "أب", "fr": "Père", "darija": "بابا / لواليد / بّا", "image_keyword": "father" },
+          { "ar": "ابن", "fr": "Fils", "darija": "ولد", "image_keyword": "son" },
+          { "ar": "بنت", "fr": "Fille", "darija": "بنت", "image_keyword": "daughter" },
+          { "ar": "أخ", "fr": "Frère", "darija": "خو", "image_keyword": "brother" },
+          { "ar": "أخت", "fr": "Sœur", "darija": "خت", "image_keyword": "sister" },
+          { "ar": "زوج", "fr": "Mari", "darija": "راجل", "image_keyword": "husband" },
+          { "ar": "زوجة", "fr": "Épouse", "darija": "مرا / مرات", "image_keyword": "wife" },
+          { "ar": "جد", "fr": "Grand-père", "darija": "جدّ / با", "image_keyword": "grandfather" },
+          { "ar": "جدة", "fr": "Grand-mère", "darija": "جدّة / مّا", "image_keyword": "grandmother" },
+          { "ar": "عم", "fr": "Oncle paternel", "darija": "عمّي", "image_keyword": "uncle" },
+          { "ar": "عمة", "fr": "Tante paternelle", "darija": "عمّتي", "image_keyword": "aunt" },
+          { "ar": "خال", "fr": "Oncle maternel", "darija": "خالي", "image_keyword": "uncle" },
+          { "ar": "خالة", "fr": "Tante maternelle", "darija": "خالتي", "image_keyword": "aunt" },
+          { "ar": "طفل", "fr": "Enfant", "darija": "درّي", "image_keyword": "child" },
+          { "ar": "رضيع", "fr": "Bébé", "darija": "بيبي / صغيّر", "image_keyword": "baby" },
+          { "ar": "جار", "fr": "Voisin", "darija": "جار", "image_keyword": "neighbor" },
+          { "ar": "عائلة", "fr": "Famille", "darija": "عائلة / فاميلة", "image_keyword": "family" }
+        ]
+      },
+      {
+        "id": "school",
+        "name": { "ar": "🏫 المدرسة", "fr": "🏫 L'École" },
+        "words": [
+          { "ar": "مدرسة", "fr": "École", "darija": "مدراسة / ليكول", "image_keyword": "school building" },
+          { "ar": "معلم", "fr": "Professeur (H)", "darija": "لموعاليم", "image_keyword": "teacher" },
+          { "ar": "معلمة", "fr": "Professeure (F)", "darija": "لموعاليمة", "image_keyword": "female teacher" },
+          { "ar": "تلميذ", "fr": "Élève (H)", "darija": "تلميذ", "image_keyword": "student boy" },
+          { "ar": "تلميذة", "fr": "Élève (F)", "darija": "تلميذة", "image_keyword": "student girl" },
+          { "ar": "كتاب", "fr": "Livre", "darija": "كتاب", "image_keyword": "book" },
+          { "ar": "دفتر", "fr": "Cahier", "darija": "كاييي / دفتر", "image_keyword": "notebook" },
+          { "ar": "قلم", "fr": "Stylo", "darija": "ستيلو", "image_keyword": "pen" },
+          { "ar": "محفظة", "fr": "Cartable", "darija": "كارطابل", "image_keyword": "backpack" },
+          { "ar": "واجب", "fr": "Devoir", "darija": "ديفوار", "image_keyword": "homework" },
+          { "ar": "امتحان", "fr": "Examen", "darija": "ليكزامي", "image_keyword": "exam" },
+          { "ar": "نتيجة", "fr": "Résultat", "darija": "نتيجة", "image_keyword": "results" }
+        ]
+      },
+      {
+        "id": "numbers_time",
+        "name": { "ar": "🔢 الأرقام والوقت", "fr": "🔢 Nombres et Temps" },
+        "words": [
+          { "ar": "واحد ١", "fr": "Un / 1", "darija": "واحد" },
+          { "ar": "اثنان ٢", "fr": "Deux / 2", "darija": "جوج" },
+          { "ar": "ثلاثة ٣", "fr": "Trois / 3", "darija": "تلاتة" },
+          { "ar": "أربعة ٤", "fr": "Quatre / 4", "darija": "ربعة" },
+          { "ar": "خمسة ٥", "fr": "Cinq / 5", "darija": "خمسة" },
+          { "ar": "ستة ٦", "fr": "Six / 6", "darija": "ستة" },
+          { "ar": "سبعة ٧", "fr": "Sept / 7", "darija": "سبعة" },
+          { "ar": "ثمانية ٨", "fr": "Huit / 8", "darija": "تمنية" },
+          { "ar": "تسعة ٩", "fr": "Neuf / 9", "darija": "تسعود" },
+          { "ar": "عشرة ١٠", "fr": "Dix / 10", "darija": "عشرة" },
+          { "ar": "عشرون ٢٠", "fr": "Vingt / 20", "darija": "عشرين" },
+          { "ar": "خمسون ٥٠", "fr": "Cinquante / 50", "darija": "خمسين" },
+          { "ar": "مئة ١٠٠", "fr": "Cent / 100", "darija": "مية" },
+          { "ar": "ألف ١٠٠٠", "fr": "Mille / 1000", "darija": "ألف" },
+          { "ar": "اليوم", "fr": "Aujourd'hui", "darija": "ليوم" },
+          { "ar": "غداً", "fr": "Demain", "darija": "غدا" },
+          { "ar": "أمس", "fr": "Hier", "darija": "لبارح" },
+          { "ar": "صباح", "fr": "Matin", "darija": "صباح" },
+          { "ar": "مساء", "fr": "Soir", "darija": "لعشية" },
+          { "ar": "ساعة", "fr": "Heure", "darija": "ساعة" }
+        ]
+      },
+      {
+        "id": "days_months",
+        "name": { "ar": "📅 الأيام والشهور", "fr": "📅 Jours et Mois" },
+        "words": [
+          { "ar": "الاثنين", "fr": "Lundi", "darija": "تنين" },
+          { "ar": "الثلاثاء", "fr": "Mardi", "darija": "تلات" },
+          { "ar": "الأربعاء", "fr": "Mercredi", "darija": "لاربع" },
+          { "ar": "الخميس", "fr": "Jeudi", "darija": "لخميس" },
+          { "ar": "الجمعة", "fr": "Vendredi", "darija": "الجمعة" },
+          { "ar": "السبت", "fr": "Samedi", "darija": "سبت" },
+          { "ar": "الأحد", "fr": "Dimanche", "darija": "الحد" },
+          { "ar": "يناير", "fr": "Janvier", "darija": "يناير" },
+          { "ar": "فبراير", "fr": "Février", "darija": "فبراير" },
+          { "ar": "مارس", "fr": "Mars", "darija": "مارس" },
+          { "ar": "أبريل", "fr": "Avril", "darija": "أبريل" },
+          { "ar": "ماي", "fr": "Mai", "darija": "ماي" },
+          { "ar": "يونيو", "fr": "Juin", "darija": "يونيو" },
+          { "ar": "يوليوز", "fr": "Juillet", "darija": "يوليوز" },
+          { "ar": "غشت", "fr": "Août", "darija": "غشت" },
+          { "ar": "شتنبر", "fr": "Septembre", "darija": "شتنبر" },
+          { "ar": "أكتوبر", "fr": "Octobre", "darija": "أكتوبر" },
+          { "ar": "نونبر", "fr": "Novembre", "darija": "نونبر" },
+          { "ar": "دجنبر", "fr": "Décembre", "darija": "دجنبر" }
+        ]
+      },
+      {
+        "id": "money",
+        "name": { "ar": "💰 النقود والتسوق", "fr": "💰 L'Argent et les Achats" },
+        "words": [
+          { "ar": "درهم", "fr": "Dirham", "darija": "درهم" },
+          { "ar": "ريال (5 سنتيم)", "fr": "Rial (5 centimes)", "darija": "ريال" },
+          { "ar": "فرنك (1 سنتيم)", "fr": "Franc (1 centime)", "darija": "فرنك" },
+          { "ar": "غالي", "fr": "Cher", "darija": "غالي" },
+          { "ar": "رخيص", "fr": "Pas cher", "darija": "رخيص" },
+          { "ar": "فلوس", "fr": "Argent", "darija": "فلوس" },
+          { "ar": "باقي", "fr": "Monnaie (rendu)", "darija": "صرف / باقي" },
+          { "ar": "فاتورة", "fr": "Facture", "darija": "فاكتورة" },
+          { "ar": "كيلو", "fr": "Kilo", "darija": "كيلو" },
+          { "ar": "نصف كيلو", "fr": "Demi-kilo", "darija": "نص كيلو" }
+        ]
+      }
+    ]
+  },
+
+  "module_5_sentences": {
+    "title": { "ar": "جمل مفيدة", "fr": "Phrases utiles" },
+    "contexts": [
+      {
+        "id": "greetings",
+        "name": { "ar": "🗣️ التحية والتواصل", "fr": "🗣️ Salutations et communication" },
+        "sentences": [
+          { "ar": "السلام عليكم", "fr": "Bonjour (Que la paix soit sur vous)", "darija": "السلام عليكم", "context": "greeting" },
+          { "ar": "وعليكم السلام", "fr": "Bonjour (réponse)", "darija": "وعليكم السلام", "context": "greeting" },
+          { "ar": "صباح الخير", "fr": "Bonjour (matin)", "darija": "صباح الخير", "context": "greeting" },
+          { "ar": "مساء الخير", "fr": "Bonsoir", "darija": "مسا الخير", "context": "greeting" },
+          { "ar": "كيف حالك؟", "fr": "Comment allez-vous ?", "darija": "كيداير/ة؟ لاباس؟", "context": "greeting" },
+          { "ar": "الحمد لله بخير", "fr": "Bien, grâce à Dieu", "darija": "الحمد لله لاباس", "context": "greeting" },
+          { "ar": "شكراً جزيلاً", "fr": "Merci beaucoup", "darija": "الله يخليك / بارك الله فيك", "context": "thanks" },
+          { "ar": "من فضلك / لو سمحت", "fr": "S'il vous plaît", "darija": "عافاك", "context": "polite" },
+          { "ar": "عفواً / سمحلي", "fr": "Excusez-moi / Pardon", "darija": "سمحلي", "context": "polite" },
+          { "ar": "مع السلامة", "fr": "Au revoir", "darija": "بسلامة", "context": "goodbye" },
+          { "ar": "إن شاء الله", "fr": "Si Dieu le veut", "darija": "إن شاء الله", "context": "common" },
+          { "ar": "الله يبارك فيك", "fr": "Que Dieu te bénisse", "darija": "الله يبارك فيك", "context": "common" }
+        ]
+      },
+      {
+        "id": "hospital",
+        "name": { "ar": "🏥 في المستشفى", "fr": "🏥 À l'hôpital" },
+        "sentences": [
+          { "ar": "أنا مريضة", "fr": "Je suis malade", "darija": "أنا مريضة" },
+          { "ar": "عندي ألم في رأسي", "fr": "J'ai mal à la tête", "darija": "كيضرّني راسي" },
+          { "ar": "عندي ألم في بطني", "fr": "J'ai mal au ventre", "darija": "كيضرّني كرشي" },
+          { "ar": "عندي ألم في ظهري", "fr": "J'ai mal au dos", "darija": "كيضرّني ضهري" },
+          { "ar": "عندي حمى / سخونة", "fr": "J'ai de la fièvre", "darija": "عندي سخانة" },
+          { "ar": "أريد طبيباً", "fr": "Je veux voir un médecin", "darija": "بغيت طبيب" },
+          { "ar": "أريد طبيبة", "fr": "Je veux voir une femme médecin", "darija": "بغيت طبيبة" },
+          { "ar": "أين الصيدلية؟", "fr": "Où est la pharmacie ?", "darija": "فين فارماسيان؟" },
+          { "ar": "أين قسم الطوارئ؟", "fr": "Où sont les urgences ?", "darija": "فين لورجونس؟" },
+          { "ar": "أنا حامل", "fr": "Je suis enceinte", "darija": "أنا حاملة" },
+          { "ar": "ابني / بنتي مريض(ة)", "fr": "Mon fils / ma fille est malade", "darija": "ولدي / بنتي مريض(ة)" },
+          { "ar": "هل هذا الدواء خطير؟", "fr": "Ce médicament est-il dangereux ?", "darija": "واش هاد الدوا خطير؟" },
+          { "ar": "كم مرة آخذ الدواء؟", "fr": "Combien de fois prendre le médicament ?", "darija": "شحال من مرة ناخد الدوا؟" },
+          { "ar": "عندي حساسية", "fr": "J'ai une allergie", "darija": "عندي حساسية / لالرجي" }
+        ]
+      },
+      {
+        "id": "administration",
+        "name": { "ar": "🏢 في الإدارة", "fr": "🏢 À l'administration" },
+        "sentences": [
+          { "ar": "أريد شهادة الميلاد", "fr": "Je veux un acte de naissance", "darija": "بغيت رسم لولادة" },
+          { "ar": "أريد شهادة السكنى", "fr": "Je veux un certificat de résidence", "darija": "بغيت شهادة السكنى" },
+          { "ar": "أريد تصحيح الإمضاء", "fr": "Je veux une légalisation de signature", "darija": "بغيت نصحح الإمضاء" },
+          { "ar": "أين المكتب رقم...؟", "fr": "Où est le bureau numéro... ?", "darija": "فين البيرو نمرو...؟" },
+          { "ar": "أحتاج نسخة من...", "fr": "J'ai besoin d'une copie de...", "darija": "خصني كوبي ديال..." },
+          { "ar": "هل يمكنني الانتظار هنا؟", "fr": "Puis-je attendre ici ?", "darija": "واش نقدر نتسنا هنا؟" },
+          { "ar": "ما هي الوثائق المطلوبة؟", "fr": "Quels documents faut-il ?", "darija": "شنو لوراق اللي خاصني؟" },
+          { "ar": "متى يفتح المكتب؟", "fr": "Quand ouvre le bureau ?", "darija": "إمتا كيحل البيرو؟" },
+          { "ar": "هل يمكن المساعدة من فضلك؟", "fr": "Pouvez-vous m'aider SVP ?", "darija": "واش يمكن تعاوني عافاك؟" },
+          { "ar": "أنا لا أعرف القراءة", "fr": "Je ne sais pas lire", "darija": "ما كنعرفش نقرا" },
+          { "ar": "أين أضع البصمة؟", "fr": "Où mettre l'empreinte ?", "darija": "فين نحط الصبع؟" },
+          { "ar": "شكراً على المساعدة", "fr": "Merci pour l'aide", "darija": "الله يخليك، شكراً" }
+        ]
+      },
+      {
+        "id": "market_shopping",
+        "name": { "ar": "🛒 في السوق", "fr": "🛒 Au marché" },
+        "sentences": [
+          { "ar": "بكم هذا؟", "fr": "Combien ça coûte ?", "darija": "بشحال هادا/هادي؟" },
+          { "ar": "غالي جداً", "fr": "C'est trop cher", "darija": "غالي بزاف" },
+          { "ar": "هل يمكن تخفيض الثمن؟", "fr": "Pouvez-vous baisser le prix ?", "darija": "ما يمكنش تنقص شوية؟" },
+          { "ar": "أعطني كيلو من...", "fr": "Donnez-moi un kilo de...", "darija": "عطيني كيلو ديال..." },
+          { "ar": "أعطني نصف كيلو", "fr": "Donnez-moi un demi-kilo", "darija": "عطيني نص كيلو" },
+          { "ar": "أعطني الباقي", "fr": "Rendez-moi la monnaie", "darija": "عطيني الباقي / الصرف" },
+          { "ar": "هل هذا طازج؟", "fr": "C'est frais ?", "darija": "واش هادا طري / فريسكو؟" },
+          { "ar": "لا أريد هذا", "fr": "Je ne veux pas ça", "darija": "ما بغيتش هادا" },
+          { "ar": "أين محل الخضر؟", "fr": "Où est le marchand de légumes ?", "darija": "فين مول الخضرة؟" },
+          { "ar": "كم المجموع؟", "fr": "Combien le total ?", "darija": "شحال الجمع / الكونت؟" }
+        ]
+      },
+      {
+        "id": "school_children",
+        "name": { "ar": "🏫 مع المدرسة", "fr": "🏫 Avec l'école" },
+        "sentences": [
+          { "ar": "أريد تسجيل ابني / بنتي", "fr": "Je veux inscrire mon fils / ma fille", "darija": "بغيت نسجّل ولدي / بنتي" },
+          { "ar": "ما هي الوثائق المطلوبة للتسجيل؟", "fr": "Quels documents pour l'inscription ?", "darija": "شنو لوراق ديال التسجيل؟" },
+          { "ar": "متى يبدأ الدخول المدرسي؟", "fr": "Quand commence la rentrée ?", "darija": "إمتا الدخول المدرسي؟" },
+          { "ar": "كيف حال ابني/بنتي في الدراسة؟", "fr": "Comment va mon enfant à l'école ?", "darija": "كيفاش ولدي/بنتي في القراية؟" },
+          { "ar": "هل هناك اجتماع مع الآباء؟", "fr": "Y a-t-il une réunion parents ?", "darija": "واش كاين اجتماع مع الآباء؟" },
+          { "ar": "ابني يجد صعوبة في...", "fr": "Mon fils a des difficultés en...", "darija": "ولدي كيلقا صعوبة في..." }
+        ]
+      },
+      {
+        "id": "phone_emergency",
+        "name": { "ar": "📞 الهاتف والطوارئ", "fr": "📞 Téléphone et urgences" },
+        "sentences": [
+          { "ar": "ألو، السلام عليكم", "fr": "Allô, bonjour", "darija": "ألو، السلام" },
+          { "ar": "من معي؟", "fr": "Qui est à l'appareil ?", "darija": "شكون معايا؟" },
+          { "ar": "أريد أن أتصل بـ...", "fr": "Je veux appeler...", "darija": "بغيت نعيط ل..." },
+          { "ar": "النجدة! ساعدوني!", "fr": "À l'aide ! Aidez-moi !", "darija": "عاونوني!" },
+          { "ar": "اتصلوا بالإسعاف", "fr": "Appelez l'ambulance", "darija": "عيطو ل لامبولانس" },
+          { "ar": "اتصلوا بالشرطة", "fr": "Appelez la police", "darija": "عيطو ل البوليس" },
+          { "ar": "هناك حريق", "fr": "Il y a un incendie", "darija": "كاينة لعافية" },
+          { "ar": "هناك حادثة", "fr": "Il y a un accident", "darija": "كاينة أكسيدة" }
+        ]
+      }
+    ]
+  },
+
+  "module_6_reading_real_documents": {
+    "title": { "ar": "قراءة الوثائق الحقيقية", "fr": "Lire des documents réels" },
+    "documents": [
+      {
+        "type": { "ar": "وصفة طبية", "fr": "Ordonnance médicale" },
+        "key_words": [
+          { "word": "قرص", "meaning": { "ar": "حبة دواء", "fr": "Comprimé" } },
+          { "word": "مرتين في اليوم", "meaning": { "ar": "صباحاً ومساءً", "fr": "Matin et soir" } },
+          { "word": "قبل الأكل", "meaning": { "ar": "قبل ما تاكلي", "fr": "Avant le repas" } },
+          { "word": "بعد الأكل", "meaning": { "ar": "بعد ما تاكلي", "fr": "Après le repas" } },
+          { "word": "شراب", "meaning": { "ar": "دواء سائل", "fr": "Sirop" } },
+          { "word": "ملعقة صغيرة", "meaning": { "ar": "ملعقة قهوة", "fr": "Cuillère à café" } },
+          { "word": "ملعقة كبيرة", "meaning": { "ar": "ملعقة شوربة", "fr": "Cuillère à soupe" } }
+        ]
+      },
+      {
+        "type": { "ar": "فاتورة الماء والكهرباء", "fr": "Facture eau/électricité" },
+        "key_words": [
+          { "word": "المبلغ الواجب أداؤه", "meaning": { "ar": "الشحال اللي خاصك تخلصي", "fr": "Le montant à payer" } },
+          { "word": "تاريخ الأداء", "meaning": { "ar": "آخر يوم للخلاص", "fr": "Date limite de paiement" } },
+          { "word": "رقم الزبون", "meaning": { "ar": "الرقم ديالك", "fr": "Votre numéro client" } },
+          { "word": "الاستهلاك", "meaning": { "ar": "الشحال استعملتي", "fr": "Votre consommation" } }
+        ]
+      },
+      {
+        "type": { "ar": "لافتات وعلامات الطريق", "fr": "Panneaux et signalisation" },
+        "key_words": [
+          { "word": "قف", "meaning": { "ar": "وقفي", "fr": "Stop" } },
+          { "word": "ممنوع الدخول", "meaning": { "ar": "ما يمكنش تدخلي", "fr": "Entrée interdite" } },
+          { "word": "مخرج", "meaning": { "ar": "باب الخروج", "fr": "Sortie" } },
+          { "word": "مدخل", "meaning": { "ar": "باب الدخول", "fr": "Entrée" } },
+          { "word": "طوارئ", "meaning": { "ar": "لورجونس", "fr": "Urgences" } },
+          { "word": "رجال / نساء", "meaning": { "ar": "حمام الرجال / النساء", "fr": "Hommes / Femmes (toilettes)" } },
+          { "word": "ممنوع التدخين", "meaning": { "ar": "ما يمكنش تكمي هنا", "fr": "Interdit de fumer" } },
+          { "word": "احذر", "meaning": { "ar": "ردّي بالك", "fr": "Attention / Danger" } }
+        ]
+      }
+    ]
+  }
+}
