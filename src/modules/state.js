@@ -7,7 +7,8 @@ const cache = {};
 export async function loadContent(filename) {
   if (cache[filename]) return cache[filename];
   try {
-    const res = await fetch(`/content/${filename}`);
+    const baseUrl = import.meta.env.BASE_URL || '/';
+    const res = await fetch(`${baseUrl}content/${filename}`);
     const data = await res.json();
     cache[filename] = data;
     return data;
